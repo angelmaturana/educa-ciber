@@ -1,0 +1,24 @@
+# {{site_name}}
+
+> {{site_description}}
+
+## About
+
+- **Name:** {{site_name}}
+- **Website:** {{site_url}}/
+
+## Main sections
+
+- **Aprende:** formación en ciberseguridad para todos.
+- **Recursos:** guías y herramientas prácticas.
+- **Empresas:** formación y concienciación para organizaciones.
+- **Sobre EDUCA CIBER:** propósito y metodología.
+
+## Pages
+
+{{llms_pages}}
+
+## Machine-readable files
+
+- **sitemap.xml:** {{site_url}}/sitemap.xml
+- **robots.txt:** {{site_url}}/robots.txt

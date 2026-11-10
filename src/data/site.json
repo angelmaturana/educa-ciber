@@ -1,0 +1,66 @@
+{
+  "site_url": "https://educaciber.com",
+  "site_name": "EDUCA CIBER",
+  "language": "es",
+  "site_description": "Formación y recursos gratuitos de ciberseguridad, explicados de forma sencilla y práctica para que cualquier persona pueda aprender a proteger su vida digital.",
+  "theme_color": "#FFFFFF",
+  "contact_email": "hello@example.com",
+  "phone_e164": "+34600111222",
+  "whatsapp_message": "Hola, quisiera información sobre EDUCA CIBER.",
+  "city": "",
+  "region": "",
+  "country_code": "ES",
+  "legal_name": "Your legal name",
+  "legal_tax_id": "Your registration number",
+  "legal_address": "Your registered address",
+  "legal_jurisdiction": "Your jurisdiction",
+  "nav": [
+    {
+      "label": "Inicio",
+      "url": "/"
+    },
+    {
+      "label": "Aprende",
+      "url": "/aprende/"
+    },
+    {
+      "label": "Recursos",
+      "url": "/recursos/"
+    },
+    {
+      "label": "Buscar",
+      "url": "/buscar/"
+    },
+    {
+      "label": "Empresas",
+      "url": "/empresas/"
+    },
+    {
+      "label": "Sobre EDUCA CIBER",
+      "url": "/sobre-educaciber/"
+    },
+    {
+      "label": "Contacto",
+      "url": "/contact/",
+      "action": true
+    }
+  ],
+  "legal_nav": [
+    {
+      "label": "Aviso legal",
+      "url": "/legal-notice/"
+    },
+    {
+      "label": "Privacidad",
+      "url": "/privacy-policy/"
+    },
+    {
+      "label": "Cookies",
+      "url": "/cookie-policy/"
+    },
+    {
+      "label": "Fuentes y metodología",
+      "url": "/fuentes-metodologia/"
+    }
+  ]
+}

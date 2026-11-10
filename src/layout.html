@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{lang}}" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="{{theme_color}}">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="author" content="{{site_name}}">
+    <meta name="description" content="{{description}}">
+    <meta name="robots" content="{{robots}}">
+    {{canonical}}
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml" sizes="any">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <meta property="og:locale" content="{{og_locale}}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{site_name}}">
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:description" content="{{description}}">
+    {{og_url}}
+    <meta property="og:image" content="{{site_url}}/images/og-image.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="{{og_image_width}}">
+    <meta property="og:image:height" content="{{og_image_height}}">
+    <meta property="og:image:alt" content="{{site_name}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:description" content="{{description}}">
+    <meta name="twitter:image" content="{{site_url}}/images/og-image.png">
+    <title>{{title}}</title>
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    {{jsonld}}
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">{{ui_skip_to_content}}</a>
+{{header}}
+{{content}}
+{{footer}}
+
+
+</body>
+</html>
