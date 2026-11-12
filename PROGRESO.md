@@ -123,3 +123,15 @@
 **Hecho cuando:** 4 lecciones reales, tests OK, build sin avisos, prelaunch OK.
 
 ---
+
+## FASE 9 · Redes sociales y mensajería II (4 lecciones + cierre de hub) (COMPLETADA)
+
+- [x] 1. `whatsapp` — verificación en dos pasos, privacidad foto/info/visto, grupos, copias cifradas, bloqueo
+- [x] 2. `instagram-tiktok` — cuenta privada, 2FA, historias, etiquetas, DMs, contactos, anuncios, descarga datos
+- [x] 3. `facebook-linkedin` — audiencia publicaciones, perfil, 2FA, apps, anuncios, visibilidad profesional, spear phishing
+- [x] 4. `robo-cuenta-social` — señales, recuperación paso a paso, avisar contactos, denunciar, blindar tras recuperar
+- [x] Cierre de hub (`/aprende/redes-sociales-y-mensajeria/`): quitar noindex, ruta completa (8 lecciones)
+
+**Hecho cuando:** 8 lecciones reales, hub indexable, tests OK, build sin avisos, prelaunch OK.
+
+---
