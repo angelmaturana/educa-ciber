@@ -755,6 +755,110 @@
     ]
   },
   {
+    "title": "Privacidad y datos personales",
+    "url": "/aprende/privacidad-e-identidad/privacidad-y-datos-personales/",
+    "description": "Qué es un dato personal; categorías especiales (salud, biometría) con protección reforzada. Tu derecho a decidir quién usa tu información y para qué.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "privacidad",
+      "datos personales",
+      "categorias especiales",
+      "salud",
+      "biometria",
+      "origen racial",
+      "opiniones politicas",
+      "religion",
+      "vida sexual",
+      "rgpd",
+      "derecho a decidir",
+      "consentimiento"
+    ]
+  },
+  {
+    "title": "Identidad digital: cómo se construye tu perfil",
+    "url": "/aprende/privacidad-e-identidad/identidad-digital/",
+    "description": "Tu identidad digital es la suma de lo que haces, dices y dejas en Internet. Quién la usa, para qué, y cómo influir en ella.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "identidad digital",
+      "perfil digital",
+      "huella digital",
+      "brokers de datos",
+      "algoritmos",
+      "inferencias",
+      "scoring",
+      "egosurfing",
+      "opt-out",
+      "alertas google"
+    ]
+  },
+  {
+    "title": "Huella digital y reputación: egosurfing, doxing, exposición",
+    "url": "/aprende/privacidad-e-identidad/huella-digital-y-reputacion/",
+    "description": "Egosurfing (buscarte a ti mismo) para detectar exposición. Qué es el doxing y cómo reducir riesgo. Tu reputación online se gestiona.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "huella digital",
+      "reputacion online",
+      "egosurfing",
+      "doxing",
+      "buscarte a ti mismo",
+      "exposicion",
+      "perfiles privados",
+      "alertas google",
+      "derecho al olvido",
+      "denuncia aepd"
+    ]
+  },
+  {
+    "title": "Metadatos: EXIF en fotos, documentos y cómo limpiarlos",
+    "url": "/aprende/privacidad-e-identidad/metadatos/",
+    "description": "Datos ocultos en fotos (ubicación EXIF) y documentos; cómo revisarlos y limpiarlos antes de compartir.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "metadatos",
+      "exif",
+      "fotos",
+      "gps",
+      "ubicacion",
+      "dispositivo",
+      "hora",
+      "miniatura",
+      "documentos",
+      "pdf",
+      "word",
+      "autor",
+      "empresa",
+      "tiempo edicion",
+      "exiftool",
+      "mat2",
+      "print to pdf",
+      "limpiar metadatos"
+    ]
+  },
+  {
+    "title": "Tus derechos sobre tus datos: acceso, rectificación, supresión, olvido",
+    "url": "/aprende/privacidad-e-identidad/tus-derechos-sobre-tus-datos/",
+    "description": "Derechos de acceso, rectificación y supresión (olvido) y cómo ejercerlos. Rol de la AEPD. Mención a eIDAS 2 solo con estado verificado.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "derechos rgpd",
+      "acceso",
+      "rectificacion",
+      "supresion",
+      "olvido",
+      "limitacion",
+      "portabilidad",
+      "oposicion",
+      "decisiones automatizadas",
+      "aepd",
+      "reclamacion",
+      "eidas 2",
+      "cartera identidad digital",
+      "plantillas"
+    ]
+  },
+  {
     "title": "Redes sociales y mensajería",
     "url": "/aprende/redes-sociales-y-mensajeria/",
     "description": "Disfruta de las plataformas y aplicaciones de mensajería con más control sobre tu privacidad y tus contactos.",

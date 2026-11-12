@@ -100,4 +100,17 @@
 
 ---
 
-## FASE 7 · Privacidad e identidad digital (5 lecciones + cierre de hub)
+## FASE 7 · Privacidad e identidad digital (5 lecciones + cierre de hub) (COMPLETADA)
+
+- [x] 1. `privacidad-y-datos-personales` — qué es un dato personal; categorías especiales (salud, biometría) con protección reforzada
+- [x] 2. `identidad-digital` — cómo se construye el perfil digital
+- [x] 3. `huella-digital-y-reputacion` — egosurfing (buscarte a ti mismo) para detectar exposición; qué es el doxing y cómo reducir riesgo
+- [x] 4. `metadatos` — datos ocultos en fotos (ubicación EXIF) y documentos; cómo revisarlos y limpiarlos antes de compartir
+- [x] 5. `tus-derechos-sobre-tus-datos` — derechos de acceso, rectificación y supresión ("olvido") y cómo ejercerlos; rol de la AEPD; mención a la cartera de identidad digital europea (eIDAS 2) solo con estado verificado
+- [x] Cierre de hub (`/aprende/privacidad-e-identidad/`): fundir los temas del hub (8 → 5) y enlazar "Permisos y privacidad" con la lección de Dispositivos
+
+**Hecho cuando:** 5 lecciones reales, hub indexable, tests OK, build sin avisos.
+
+---
+
+## FASE 8 · Redes sociales y mensajería I (4 lecciones)
