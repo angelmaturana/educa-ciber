@@ -1,0 +1,132 @@
+{
+  "titulo": "Qué es la IA generativa",
+  "slug": "que-es-la-ia-generativa",
+  "hub": "IA y nuevas tecnologías",
+  "descripcion": "Entiende qué es la inteligencia artificial generativa, cómo funciona y qué riesgos conlleva para tu privacidad y seguridad.",
+  "nivel": "básico",
+  "duracion": "5 min · Lo esencial",
+  "publico": "todos",
+  "idea_clave": "La IA generativa crea contenido nuevo a partir de patrones aprendidos; no «piensa» ni tiene intenciones, pero puede filtrar datos que le des.",
+  "esencial": "La inteligencia artificial generativa (IA generativa) es un tipo de IA que produce texto, imágenes, código, audio o vídeo a partir de una instrucción (prompt). A diferencia de la IA tradicional, que clasifica o predice, esta *genera* contenido nuevo combinando patrones que aprendió de enormes cantidades de datos durante su entrenamiento. Modelos como GPT, Gemini o Claude son ejemplos de IA generativa de texto; Midjourney o DALL·E generan imágenes. Lo importante: no «piensan», no tienen conciencia ni acceso a tu información privada salvo que se la des en la conversación. Trátalas como una herramienta potente pero poco fiable: verifica siempre lo crítico.",
+  "secciones": [
+    {
+      "tipo": "signal-grid",
+      "id": "senales",
+      "titulo": "¿Qué señales deberían hacerte parar?",
+      "contenido": [
+        {
+          "titulo": "Te pide datos personales o sensibles",
+          "descripcion": "Ningún modelo legítimo necesita tu DNI, contraseñas, tarjetas, historial médico o claves de empresa para funcionar."
+        },
+        {
+          "titulo": "Respuestas demasiado perfectas o convincentes",
+          "descripcion": "La IA puede alucinar (inventar datos) con mucha seguridad aparente. Si algo suena demasiado bien, verifica en fuente oficial."
+        },
+        {
+          "titulo": "Uso en decisiones de alto riesgo sin supervisión",
+          "descripcion": "Diagnósticos médicos, asesoría legal, inversiones o código crítico requieren validación humana experta."
+        },
+        {
+          "titulo": "Prometen anonimato total o «borrado inmediato»",
+          "descripcion": "Muchos servicios guardan conversaciones para mejorar el modelo. Lee su política de privacidad antes de compartir algo sensible."
+        }
+      ]
+    },
+    {
+      "tipo": "fake-message",
+      "id": "ejemplo",
+      "titulo": "Un ejemplo: situación cotidiana",
+      "avatar": "I",
+      "entidad": "Asistente IA Ejemplo",
+      "asunto": "Ayuda con informe confidencial",
+      "texto": "Hola, soy tu asistente de IA. Para redactar el informe financiero de tu empresa, pégame aquí los datos de facturación, nóminas y previsiones del próximo trimestre. Lo tendrás listo en segundos.",
+      "boton": "Enviar datos",
+      "nota": "EJEMPLO FICTICIO. Nunca pegues datos reales de tu empresa en un chat de IA pública.",
+      "preguntas": "¿Qué riesgo hay en enviar datos financieros reales a una IA pública? Que queden almacenados en servidores de terceros, puedan usarse para entrenar futuros modelos y expongan información confidencial de tu organización."
+    },
+    {
+      "tipo": "steps-list",
+      "id": "aprende",
+      "titulo": "15 MIN · Aprende a usarla con criterio",
+      "intro": "Sigue estos pasos para aprovechar la IA generativa sin comprometer tu privacidad ni seguridad:",
+      "contenido": [
+        {
+          "titulo": "Clasifica la información antes de usarla",
+          "descripcion": "Separa lo público (ideas generales, textos publicados) de lo privado (datos personales, secretos de empresa, credenciales). Solo usa lo público en chats de IA abierta."
+        },
+        {
+          "titulo": "Elige el entorno adecuado",
+          "descripcion": "Para datos sensibles, usa modelos locales (ej. Ollama, LM Studio) o soluciones empresariales con garantías contractuales (Microsoft 365 Copilot, Google Vertex AI, ChatGPT Enterprise). Evita chats públicos gratuitos."
+        },
+        {
+          "titulo": "Configura la privacidad si el servicio lo permite",
+          "descripcion": "En ChatGPT: desactiva «Chat history & training» en ajustes. En Claude: las conversaciones no se usan para entrenamiento por defecto. Revisa cada proveedor."
+        },
+        {
+          "titulo": "Verifica toda salida crítica",
+          "descripcion": "La IA alucina. Contrasta cifras, citas legales, código y pasos técnicos con fuentes primarias antes de actuar."
+        },
+        {
+          "titulo": "Borra el historial cuando termines",
+          "descripcion": "Aunque el proveedor diga que no entrena con tus datos, elimina conversaciones sensibles desde la interfaz y solicita su purga si el servicio lo permite."
+        }
+      ]
+    },
+    {
+      "tipo": "callout-warn",
+      "id": "error-frecuente",
+      "titulo": "Error frecuente: confiar ciegamente en la IA",
+      "contenido": "La IA generativa no razona: predice la siguiente palabra probable. Puede inventar leyes inexistentes, citar papers falsos o generar código con vulnerabilidades. Úsala como borrador o inspiración, nunca como fuente de verdad única."
+    }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Vas a pedir a una IA pública que revise el código de una función que gestiona contraseñas de usuarios. ¿Qué haces?",
+      "respuesta": "No envíes el código real. Crea una versión anonimizada con la misma estructura pero sin secretos ni lógica de negocio real, o usa un modelo local/empresarial con garantías de privacidad."
+    },
+    {
+      "pregunta": "Una IA te da una cita legal exacta con número de artículo y todo. ¿Te fías?",
+      "respuesta": "No. Verifica la cita en el BOE, Diario Oficial de la UE o la web del organismo correspondiente. La IA alucina referencias legales con mucha frecuencia."
+    }
+  ],
+  "faq": [
+    {
+      "pregunta": "¿La IA generativa aprende de lo que le escribo en el chat?",
+      "respuesta": "Depende del proveedor y la configuración. En chats gratuitos públicos (ChatGPT free, Gemini free, etc.) suele usarse para mejorar el modelo salvo que desactives la opción. En planes Enterprise o con «Chat history» desactivado, normalmente no. Lee siempre la política de privacidad del servicio que uses."
+    },
+    {
+      "pregunta": "¿Puedo usar IA generativa para trabajar con datos de mi empresa?",
+      "respuesta": "Solo si tu organización tiene un acuerdo contractual con el proveedor que garantice confidencialidad, no uso para entrenamiento y cumplimiento normativo (RGPD, etc.). Para uso personal o pruebas: anonimiza todo dato sensible antes de enviarlo."
+    },
+    {
+      "pregunta": "¿Qué es una «alucinación» de la IA?",
+      "respuesta": "Es cuando el modelo genera información falsa, inventada o inexacta presentándola con total seguridad. Ocurre porque predice palabras probables, no porque «sepa» la verdad. Afecta a citas, datos numéricos, código, referencias legales y hechos históricos."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "INCIBE — Inteligencia artificial y ciberseguridad",
+      "url": "https://www.incibe.es/protege-tu-empresa/tecnologias-emergentes/inteligencia-artificial"
+    },
+    {
+      "titulo": "AEPD — Guía sobre tratamientos de IA",
+      "url": "https://www.aepd.es/es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-guia-tratamientos-ia"
+    },
+    {
+      "titulo": "ENISA — AI Threat Landscape",
+      "url": "https://www.enisa.europa.eu/publications/ai-threat-landscape"
+    }
+  ],
+  "relacionadas": [
+    {
+      "slug": "que-informacion-no-compartir",
+      "texto": "Qué información no compartir con una IA",
+      "hub": "IA y nuevas tecnologías"
+    },
+    {
+      "slug": "privacidad-e-ia",
+      "texto": "Privacidad e IA: qué sucede con tus datos",
+      "hub": "IA y nuevas tecnologías"
+    }
+  ]
+}
