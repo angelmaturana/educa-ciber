@@ -1,0 +1,75 @@
+---
+title: Qué significa HTTPS: el candado explicado | EDUCA CIBER
+description: Certificados TLS/SSL en lenguaje llano: qué verifican y qué NO. El candado cifra la conexión, no garantiza que la web sea legítima.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Qué significa HTTPS: el candado explicado | EDUCA CIBER",
+  "description": "Certificados TLS/SSL en lenguaje llano: qué verifican y qué NO. El candado cifra la conexión, no garantiza que la web sea legítima.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/dispositivos-seguros/">Dispositivos seguros</a><span>/</span><span>Qué significa HTTPS</span></nav>
+ <p class="eyebrow">Dispositivos seguros · Contenido piloto</p><h1>Qué significa HTTPS: <span class="text-blue">el candado explicado.</span></h1>
+ <p class="lead">Ver el candado te da tranquilidad, pero ¿sabes qué de verdad protege? HTTPS cifra tu conexión, NO certifica quién está al otro lado. Una web fraudulenta también tiene candado.</p>
+ <div class="meta-row"><span class="meta-pill">Nivel básico</span><span class="meta-pill">Para todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>HTTPS (candado) = tu conexión viaja cifrada. NO = la web es segura o legítima. Verifica SIEMPRE el dominio antes de confiar.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p><strong>HTTPS</strong> (HyperText Transfer Protocol Secure) es HTTP + <strong>TLS/SSL</strong> (Transport Layer Security / Secure Sockets Layer). Cuando ves el candado en la barra de direcciones:</p>
+  <ul>
+   <li>La conexión entre TU navegador y EL servidor está CIFRADA. Nadie en la red (WiFi, ISP, atacante) ve QUÉ envías/recibes (contraseñas, tarjetas, mensajes, búsquedas).</li>
+   <li>El servidor presenta un <strong>certificado digital</strong> firmado por una <strong>Autoridad de Certificación (CA)</strong> de confianza (DigiCert, Let's Encrypt, GlobalSign, Sectigo...). El navegador verifica: firma válida, no expirado, dominio coincide, CA de confianza.</li>
+  </ul>
+  <p>PERO el certificado SOLO prueba que quien controla el dominio (ej. banco-falso.com) pidió el certificado. NO verifica que "Banco Falso" sea el banco real.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>HTTPS (candado) = tu conexión viaja cifrada. NO = la web es segura o legítima. Verifica SIEMPRE el dominio antes de confiar.</p></div>
+  <h2 id="verifica">Qué SÍ y qué NO verifica el candado</h2>
+  <div class="compare-grid">
+   <div><strong>SÍ verifica (el candado)</strong><p>• Conexión cifrada (TLS 1.2/1.3)<br>• Integridad: datos no modificados en tránsito<br>• Autenticación del SERVIDOR: el certificado pertenece a ese dominio (banco-falso.com)<br>• CA de confianza firmó el certificado<br>• No expirado, no revocado</p></div>
+   <div><strong>NO verifica (el candado)</strong><p>• Identidad REAL de la organización (¿es TU banco?)<br>• Legitimidad del negocio (¿es estafa?)<br>• Seguridad del sitio (¿tiene malware? ¿phishing?)<br>• Buenas prácticas (¿guardan pass en claro? ¿venden datos?)<br>• Que el dominio no sea typosquatting (banco.com vs banco-seguridad.com)</p></div>
+  </div>
+  <h2 id="tipos">Tipos de certificados (y qué significan)</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>DV (Domain Validated) - El común</strong><p>La CA verifica SOLO que controlas el dominio (email a admin@ / DNS / archivo web). Gratis (Let's Encrypt) o barato. Candado estándar. NO verifica organización.</p></div>
+   <div><b>02</b><strong>OV (Organization Validated)</strong><p>La CA verifica dominio + existencia legal de la organización (registro mercantil, teléfono, dirección). Muestra nombre org en detalles del certificado. Más caro. Navegadores NO muestran nombre en barra.</p></div>
+   <div><b>03</b><strong>EV (Extended Validation) - El antiguo "verde"</strong><p>Verificación exhaustiva (OV + más). ANTES: navegadores mostraban nombre org en BARRA VERDE. AHORA (Chrome 77+, Firefox 70+, Safari 13+): NO se muestra en barra. Solo en detalles del certificado. Caro, lento.</p></div>
+   <div><b>04</b><strong>Let's Encrypt / Gratis = ¿menos seguro?</strong><p>NO. Misma criptografía (RSA 2048 / ECDSA P-256, TLS 1.3). Diferencia: solo DV (valida dominio), vida corta (90 días → renovación automática). Ideal para web personal, blog, PYME. No para banco (que usa OV/EV por regulación).</p></div>
+   <div><b>05</b><strong>Autofirmado (Self-signed)</strong><p>Tú firmas tu certificado. Navegador avisa "No es seguro / Conexión no privada". Útil para desarrollo local, intranet. NUNCA en web pública.</p></div>
+  </div>
+  <h2 id="aprende">15 MIN · Verifica ANTES de confiar</h2>
+  <ol class="steps-list"><li><strong>Lee el DOMINIO completo (no solo el candado)</strong><p>¿Es exactamente el oficial? banco.com ✓ | banco-seguridad.com ✗ | seguridad.banco.com.phishing.com ✗ (subdominio del atacante). Truco: busca la "eTLD+1" (banco.com) antes de la primera /.</p></li><li><strong>Cuidado con typosquatting / homógrafos</strong><p>g00gle.com, paypa1.com, amaz0n.es, рaypal.com (cirílico 'р' vs latino 'p'). Copia y pega en bloc de notas para ver código real.</p></li><li><strong>Verifica por canal INDEPENDIENTE</strong><p>¿Email de "banco" con enlace? NO cliques. Abre app bancaria / teclea banco.com manual / llama al teléfono de tu tarjeta. El enlace del email puede ir a clon con HTTPS.</p></li><li><strong>Herramientas de reputación</strong><p>Extensiones: uBlock Origin, Malwarebytes Browser Guard, Bitdefender TrafficLight. Servicios: VirusTotal (URL), URLVoid, Google Safe Browsing (navegador lo usa solo).</p></li><li><strong>HTTPS-Only Mode (navegador)</strong><p>Fuerza HTTPS en todo. Chrome/Edge: chrome://flags > HTTPS-First. Firefox: about:config > dom.security.https_first. Safari iOS 15+: Ajustes > Safari > Requerir HTTPS.</p></li></ol>
+  <h2 id="ejemplo">Un ejemplo: web clonada CON candado</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">B</span><div><strong>Banco Seguro XYZ</strong><small>https://banco-xyz-clientes.com</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Entrar en https://banco-xyz-clientes.com → Candado VERDE/GRIS ✓<br>Certificado: Let's Encrypt, válido, dominio coincide (banco-xyz-clientes.com) ✓<br>¿Es el banco real? NO. El dominio oficial es banco-xyz.com. El atacante registró "banco-xyz-clientes.com", pidió certificado gratis (controla el dominio), clonó la web.</p><div class="fake-button">CANDADO SÍ. BANCO NO.</div><small class="fake-foot">El certificado valida QUE CONTROLAN EL DOMINIO, no QUIÉN ES LA ORGANIZACIÓN.</small></div>
+  <div class="flow-steps"><span>VES CANDADO</span><b>→</b><span>CONFIAS (ERROR)</span><b>→</b><span>INTRODUCES CREDENCIALES</span><b>→</b><span>ROBO DE CUENTA</span><b>→</b><span>VERIFICA DOMINIO ANTES</span></div>
+  <h2 id="que-hacer">Y si ya introdujiste datos en web con candado pero falsa</h2>
+  <p>1. Cambia contraseña YA desde app/web OFICIAL (teclea dominio manual).<br>2. Activa 2FA (app/llave) si no la tenías.<br>3. Revisa movimientos / sesiones activas / dispositivos de confianza.<br>4. Si diste tarjeta: llama a banco > anula tarjeta > pide nueva.<br>5. Denuncia a Policía / Guardia Civil + INCIBE (017).</p>
+  <a class="button primary" href="/aprende/dispositivos-seguros/navegadores-y-seguridad/">Navegadores y seguridad: modo incógnito, extensiones →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Recibes email de "tu banco" con enlace a https://banco-seguridad-online.com (tiene candado). El email dice: "Verifica tu identidad para evitar bloqueo". ¿Entrar?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>NO. El dominio banco-seguridad-online.com NO es de tu banco. Tiene HTTPS (candado) porque el atacante controla ese dominio y pidió certificado gratis. Abre tu app bancaria o teclea el dominio oficial que YA conoces.</strong><p>El candado solo dice "conexión cifrada con ESTE dominio". No dice "este dominio es tu banco".</p></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Navegas y ves "Conexión no privada / NET::ERR_CERT_AUTHORITY_INVALID" en una web que usas habitualmente. ¿Continuar?</h3><details><summary>¿Qué harías en este caso?</summary><div class="answer"><strong>NO continúes. El certificado tiene problemas: expirado, autofirmado, CA no confiable, dominio no coincide. Puede ser ataque MITM (te interceptan) o error de config del sitio. Espera o contacta al sitio por otro canal. Si es tu banco/empresa: avisa a IT.</strong><p>El aviso del navegador es tu protección. Ignorarlo anula el beneficio de HTTPS.</p></div></details></div>
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Si el candado es gris (no verde), es menos seguro?</h3>
+  <p>El color del candado (gris/negro) es diseño del navegador. Chrome/Firefox/Safari/Edge ya no usan verde para EV. Gris = TLS válido. Lo importante: ¿dominio correcto? ¿HTTPS forzado?</p>
+  <h3>¿HTTP/2 y HTTP/3 requieren HTTPS?</h3>
+  <p>Sí. HTTP/2 (h2) y HTTP/3 (QUIC) en navegadores SÓLO funcionan sobre TLS. Si ves h2/h3 en herramientas de desarrollo, SÍ hay cifrado. HTTP/1.1 puede ser con o sin TLS.</p>
+  <h3>¿Qué es HSTS (HTTP Strict Transport Security)?</h3>
+  <p>Cabecera que el servidor envía: "Solo acepto HTTPS por X tiempo". Navegador recuerda y fuerza HTTPS aunque escribas http:// o cliques enlace HTTP. Previene SSL stripping (degradar a HTTP). Lista HSTS preload (Google, bancos, GitHub...) = forzado en todos los navegadores.</p>
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI, Mozilla (CA Certificate Program), Let's Encrypt, CA/Browser Forum, Google (Chrome Security), Apple (Platform Security), RFC 8446 (TLS 1.3). Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links"><li><a href="https://www.incibe.es/aprendeciberseguridad/https" target="_blank" rel="noopener">INCIBE · Qué es HTTPS</a></li><li><a href="https://letsencrypt.org/how-it-works/" target="_blank" rel="noopener">Let's Encrypt · How it works</a></li><li><a href="https://cabforum.org/" target="_blank" rel="noopener">CA/Browser Forum · Baseline Requirements</a></li></ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#verifica">Qué verifica el candado</a><a href="#tipos">Tipos de certificados</a><a href="#aprende">Verifica antes de confiar</a><a href="#ejemplo">Ejemplo: clon con candado</a><a href="#que-hacer">Si ya diste datos</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/dispositivos-seguros/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>Regla de oro</strong><p>Candado = conexión cifrada. Dominio = identidad. Verifica AMBOS.</p><a href="/aprende/fraudes/webs-falsas/">Webs falsas: el candado no basta →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p><a href="/aprende/dispositivos-seguros/perdida-o-robo-del-movil/">Pérdida o robo del móvil</a><a href="/aprende/dispositivos-seguros/navegadores-y-seguridad/">Navegadores y seguridad</a><a href="/aprende/fraudes/webs-falsas/">Webs falsas</a></div></aside>
+</section></main>

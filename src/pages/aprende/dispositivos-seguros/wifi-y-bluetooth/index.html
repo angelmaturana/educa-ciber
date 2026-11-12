@@ -1,0 +1,90 @@
+---
+title: Wi-Fi y Bluetooth: redes públicas, VPN | EDUCA CIBER
+description: Riesgos de redes públicas (ataques MITM explicados sin jerga). Qué es una VPN y cuándo ayuda (y cuándo no). Bluetooth: riesgos y ajustes.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Wi-Fi y Bluetooth: redes públicas, VPN | EDUCA CIBER",
+  "description": "Riesgos de redes públicas (ataques MITM explicados sin jerga). Qué es una VPN y cuándo ayuda (y cuándo no). Bluetooth: riesgos y ajustes.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/dispositivos-seguros/">Dispositivos seguros</a><span>/</span><span>Wi-Fi y Bluetooth</span></nav>
+ <p class="eyebrow">Dispositivos seguros · Contenido piloto</p><h1>Wi-Fi y Bluetooth: <span class="text-blue">redes públicas, VPN, riesgos.</span></h1>
+ <p class="lead">El WiFi del café, el aeropuerto, el alojamiento: cómodo pero arriesgado. Entiende el "hombre en el medio", cuándo usar VPN y cómo gestionar Bluetooth.</p>p>
+ <div class="meta-row"><span class="meta-pill">Nivel básico</span><span class="meta-pill">Para todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>En WiFi público, cualquiera en la misma red puede ver tu tráfico sin cifrar. Usa HTTPS siempre, VPN de confianza para lo sensible, y apaga WiFi/Bluetooth cuando no los uses.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Cuando te conectas a una red WiFi pública (café, aeropuerto, alojamiento, biblioteca), compartes el "medio" con desconocidos. Los riesgos principales:</p>
+  <ul>
+   <li><strong>Sniffing / escucha pasiva</strong>: tu tráfico sin cifrar (HTTP, DNS, apps sin TLS) viaja en claro. Cualquiera con modo monitor lo captura.</li>
+   <li><strong>Ataque Man-in-the-Middle (MITM / "hombre en el medio")</strong>: el atacante se interpone entre tú y el router. Ve y puede MODIFICAR tu tráfico: inyecta malware, redirige a phishing, roba sesiones (cookies), degrada HTTPS a HTTP (SSL stripping).</li>
+   <li><strong>Punto de acceso malicioso (Evil Twin)</strong>: crean red "Cafe_Free_WiFi" idéntica a la real. Te conectas a ella, todo tu tráfico pasa por su equipo.</li>
+  </ul>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>En WiFi público, cualquiera en la misma red puede ver tu tráfico sin cifrar. Usa HTTPS siempre, VPN de confianza para lo sensible, y apaga WiFi/Bluetooth cuando no los uses.</p></div>
+  <h2 id="wifi">WiFi público: cómo protegerte</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>HTTPS en todo (obligatorio)</strong><p>Solo entra en webs con candado. Navegadores modernos fuerzan HTTPS (HTTPS-Only Mode). Si una web no tiene HTTPS, NO la uses en público.</p></div>
+   <div><b>02</b><strong>VPN de confianza (para lo sensible)</strong><p>Cifra todo tu tráfico (DNS incluido) hasta el servidor VPN. El ISP/café/atacante solo ve "tráfico cifrado a IP de VPN". Elige: sin logs, auditoría, sede en país con buena privacidad (Mullvad, Proton, IVPN, Windscribe). Evita VPN gratis (venden tus datos).</p></div>
+   <div><b>03</b><strong>No hagas banca / correo / 2FA en público SIN VPN</strong><p>Si necesitas entrar al banco, correo, gestor contraseñas: usa datos móviles (4G/5G) o espera a red de confianza. Si no hay otra: VPN obligatoria.</p></div>
+   <div><b>04</b><strong>Olvida la red al irte</strong><p>iOS: Ajustes > WiFi > (i) > Olvidar esta red. Android: Ajustes > Redes > Guardadas > Olvidar. Evita reconexión automática a Evil Twin.</p></div>
+   <div><b>05</b><strong>Apaga WiFi y Bluetooth cuando no uses</strong><p>Ahorra batería Y evita tracking (MAC address randomization ayuda, pero no es perfecto) y conexiones no deseadas (BlueBorne, BlueJacking).</p></div>
+  </div>
+  <h2 id="vpn">VPN: qué SÍ y qué NO hace</h2>
+  <div class="compare-grid">
+   <div><strong>SÍ protege</strong><p>• Tu tráfico del WiFi local (café, aeropuerto, alojamiento)<br>• Tu IP real de las webs que visitas (ven IP de VPN)<br>• DNS (consultas de dominios) de tu ISP/red local<br>• Metadatos de apps que no usan TLS propio</p></div>
+   <div><strong>NO protege</strong><p>• De la propia VPN (ven tu tráfico entrante/saliente). Elige "no logs" auditado.<br>• De malware ya instalado en tu dispositivo (keylogger, spyware).<br>• De phishing (tú sigues clicando enlaces falsos).<br>• De fugas WebRTC / IPv6 / DNS si la VPN no las bloquea (prueba en ipleak.net).</p></div>
+  </div>
+  <h2 id="aprende">15 MIN · Configura tu defensa en red</h2>
+  <ol class="steps-list"><li><strong>HTTPS-Only Mode en navegador</strong><p>Chrome/Edge: chrome://flags > "HTTPS-First Mode" > Enabled. Firefox: about:config > dom.security.https_first > true. Safari: Ajustes > Safari > "Requerir HTTPS" (iOS 15+). Fuerza HTTPS en todo.</p></li><li><strong>Elige e instala VPN de confianza</strong><p>Pago (Mullvad, Proton, IVPN, Windscribe, Surfshark) > Gratis. Criterios: sin logs (auditado), WireGuard/OpenVPN, kill switch, sede privacidad, pagos anónimos (cripto, efectivo). Instala app oficial, no perfiles de configuración.</p></li><li><strong>Kill Switch ON</strong><p>Si la VPN se cae, corta Internet. Evita fuga de tráfico real. En app VPN: "Kill Switch" / "Bloquear red sin VPN" > ON.</p></li><li><strong>Datos móviles > WiFi público para lo crítico</strong><p>Tu 4G/5G es tu red: cifrada entre tú y la torre, no compartida. Úsala para banca, correo, 2FA, gestor contraseñas. Si no hay cobertura: VPN + HTTPS.</p></li><li><strong>Apaga WiFi/Bluetooth al salir de casa/trabajo</strong><p>Acceso rápido (Centro de control iOS / Panel rápido Android) o automatiza (Shortcuts / Tasker / Bixby Routines: "Al desconectar WiFi de casa > Apagar WiFi y Bluetooth").</p></li></ol>
+  <h2 id="bluetooth">Bluetooth: riesgos y ajustes</h2>
+  <p>Bluetooth (Classic y BLE) tiene vulnerabilidades históricas (BlueBorne, BlueJacking, BlueSnarf, KNOBI, BIAS). Permiten: ejecución remota sin interacción, robo de contactos/archivos, suplantación de dispositivos, downgrade de cifrado.</p>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Apaga si no usas</strong><p>Centro de control / Panel rápido. Menos superficie de ataque, más batería.</p></div>
+   <div><b>02</b><strong>No "Visible para todos" / "Descubrible"</strong><p>Solo "Visible mientras ajustes abierto" o "Solo dispositivos emparejados".</p></div>
+   <div><b>03</b><strong>Olvida dispositivos viejos</strong><p>Auriculares rotos, coche viejo, altavoz prestado. Ajustes > Bluetooth > (i) > Olvidar.</p></div>
+   <div><b>04</b><strong>Actualiza firmware de accesorios</strong><p>Auriculares, reloj, teclado, ratón: app del fabricante > Actualizar. Parchean vulnerabilidades Bluetooth.</p></div>
+   <div><b>05</b><strong>AirDrop / Nearby Share / Quick Share: "Solo contactos"</strong><p>Evita recibir archivos de desconocidos (spam, malware, fotos no deseadas).</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: café con WiFi "Cafe_Clientes" (sin contraseña)</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">W</span><div><strong>Router Café (legítimo)</strong><small>Abierto / Portal cautivo</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Te conectas. Atacante en la mesa de al lado:<br>1. Pone su tarjeta WiFi en modo monitor<br>2. Captura todo tu tráfico HTTP, DNS, cookies HTTP<br>3. Ve: qué webs visitas, qué buscas, sesión de web sin HTTPS<br>4. Si usas app sin TLS: ve contraseñas, mensajes, tokens<br>5. Si haces login en web HTTP: ve user+pass en claro</p><div class="fake-button">TÚ NO LO VES. EL ATACANTE SÍ.</div><small class="fake-foot">Con VPN: el atacante solo ve "tráfico cifrado a IP de VPN". Con HTTPS: ve dominio (ej. banco.com) pero NO user/pass/datos. Con datos móviles: no está en la red del café.</small></div>
+  <div class="flow-steps"><span>CONECTAS A WIFI PÚBLICO</span><b>→</b><span>COMPARTES MEDIO CON DESCONOCIDOS</span><b>→</b><span>SNIFING / MITM / EVIL TWIN</span><b>→</b><span>TU TRÁFICO SIN CIFRAR EXPUESTO</span><b>→</b><span>VPN / HTTPS / DATOS MÓVILES = PROTECCIÓN</span></div>
+  <h2 id="que-hacer">Router de casa: lo básico</h2>
+  <ul>
+   <li>Contraseña WiFi fuerte (WPA3 si hay, si no WPA2-AES). Nada de WEP/WPA-TKIP.</li>
+   <li>Cambia admin/admin del router. Acceso remoto (WAN) = OFF.</li>
+   <li>Red de invitados para visitas / IoT (aisla de tu red principal).</li>
+   <li>Firmware al día (mensual). WPS = OFF.</li>
+   <li>DNS seguro (NextDNS, AdGuard, Cloudflare 1.1.1.1) en router o dispositivos.</li>
+  </ul>
+  <a class="button primary" href="/aprende/dispositivos-seguros/perdida-o-robo-del-movil/">Pérdida o robo del móvil: IMEI vs borrado →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Estás en un alojamiento. El WiFi pide usuario/contraseña (portal cautivo). Necesitas entrar a tu banco. ¿Qué haces?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Usa datos móviles (4G/5G) para el banco. Si no tienes cobertura: conecta al WiFi, activa VPN (kill switch ON), entra al banco (HTTPS), haz lo necesario, desconecta VPN. Evita entrar sin VPN en portal cautivo: el alojamiento ve todo tu tráfico.</strong><p>El portal cautivo NO cifra tu tráfico; solo autentica. El alojamiento/ISP ve dominios, volumen, horas.</p></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Te regalan unos auriculares Bluetooth baratos "marca desconocida". Los emparejas. Una semana después, tu móvil se comporta raro. ¿Relación?</h3><details><summary>¿Qué harías en este caso?</summary><div class="answer"><strong>POSIBLE. Accesorios Bluetooth baratos / sin marca pueden tener firmware malicioso (BlueBorne, inyección de comandos AT, robo de contactos/archivos). Olvida el dispositivo, actualiza móvil, pasa antivirus. Compra accesorios de marcas con soporte de firmware (Sony, Bose, Sennheiser, Jabra, Apple, Samsung, Xiaomi, QCY, Anker).</strong><p>El firmware del accesorio se ejecuta en el chip Bluetooth del móvil. Vulnerabilidades en el accesorio = puerta a tu móvil.</p></div></details></div>
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿VPN gratis sirve?</h3>
+  <p>NO recomendadas. Necesitan monetizar: venden tu ancho de banda (Hola VPN), inyectan anuncios, registran tu tráfico, tienen malware. Si no pagas por el producto, TÚ eres el producto. Opciones baratas: Mullvad (5€/mes), Proton (gratis limitado, pago 5€), Windscribe (10GB/mes gratis verificado).</p>
+  <h3>¿El modo avión apaga Bluetooth?</h3>
+  <p>En iOS/Android moderno: modo avión apaga WiFi, datos, Bluetooth. Pero puedes reactivar Bluetooth manualmente tras activar modo avión (para auriculares en vuelo). Verifica: icono Bluetooth en barra = encendido.</p>
+  <h3>¿MAC address randomization protege mi privacidad?</h3>
+  <p>Sí, iOS 14+ / Android 10+ randomizan MAC al escanear redes (no al conectar). El café no te trackea por MAC entre visitas. Pero al CONECTAR, usas tu MAC real (o una por red). No es anonimato total. Apagar WiFi cuando no uses = mejor.</p>
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI, NCSC, EFF (VPN, HTTPS Everywhere), Google (Android WiFi/Bluetooth), Apple (Platform Security), Mullvad/Proton/IVPN (políticas VPN). Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links"><li><a href="https://www.incibe.es/aprendeciberseguridad/wifi-publico" target="_blank" rel="noopener">INCIBE · WiFi público</a></li><li><a href="https://www.eff.org/https-everywhere" target="_blank" rel="noopener">EFF · HTTPS Everywhere</a></li><li><a href="https://www.ncsc.gov.uk/collection/vpn/virtual-private-networks" target="_blank" rel="noopener">NCSC · Virtual Private Networks</a></li></ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#wifi">WiFi público</a><a href="#vpn">VPN: sí y no</a><a href="#aprende">Configura defensa</a><a href="#bluetooth">Bluetooth</a><a href="#ejemplo">Ejemplo: café</a><a href="#que-hacer">Router casa</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/dispositivos-seguros/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>Hazlo ahora</strong><p>Instala VPN de confianza. Activa HTTPS-Only. Apaga WiFi/Bluetooth al salir.</p><a href="/aprende/dispositivos-seguros/perdida-o-robo-del-movil/">Pérdida o robo →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p><a href="/aprende/dispositivos-seguros/bloqueo-y-autenticacion/">Bloqueo y autenticación</a><a href="/aprende/dispositivos-seguros/proteger-tu-movil/">Proteger tu móvil</a><a href="/aprende/dispositivos-seguros/perdida-o-robo-del-movil/">Pérdida o robo</a></div></aside>
+</section></main>

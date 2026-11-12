@@ -409,6 +409,113 @@
     ]
   },
   {
+    "title": "Bloqueo y autenticación: PIN vs biometría",
+    "url": "/aprende/dispositivos-seguros/bloqueo-y-autenticacion/",
+    "description": "PIN vs biometría: ventajas y límites de cada uno. Bloqueo automático. Qué elegir según tu contexto.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "bloqueo pantalla",
+      "pin",
+      "biometria",
+      "face id",
+      "touch id",
+      "huella",
+      "bloqueo automatico",
+      "modo lockdown",
+      "pin vs biometria",
+      "autenticacion",
+      "seguridad movil"
+    ]
+  },
+  {
+    "title": "Wi-Fi y Bluetooth: redes públicas, VPN, riesgos",
+    "url": "/aprende/dispositivos-seguros/wifi-y-bluetooth/",
+    "description": "Riesgos de redes públicas (ataques MITM explicados sin jerga). Qué es una VPN y cuándo ayuda (y cuándo no). Bluetooth: riesgos y ajustes.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "wifi publico",
+      "red publica",
+      "man in the middle",
+      "mitm",
+      "sniffing",
+      "evil twin",
+      "vpn",
+      "vpn gratis",
+      "bluetooth",
+      "blueborne",
+      "airdrop",
+      "nearby share",
+      "mac randomization"
+    ]
+  },
+  {
+    "title": "Pérdida o robo del móvil: IMEI vs borrado remoto",
+    "url": "/aprende/dispositivos-seguros/perdida-o-robo-del-movil/",
+    "description": "Bloqueo por operadora (IMEI) ≠ borrado remoto de datos. Antes: localizar, cifrar, copia, guardar IMEI. Después: pasos inmediatos.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "perdida movil",
+      "robo movil",
+      "imei",
+      "borrado remoto",
+      "buscar mi dispositivo",
+      "find my iphone",
+      "find my device",
+      "bloqueo imei",
+      "bloqueo sim",
+      "modo perdido",
+      "denuncia policia",
+      "backup"
+    ]
+  },
+  {
+    "title": "Qué significa HTTPS: el candado explicado",
+    "url": "/aprende/dispositivos-seguros/que-significa-https/",
+    "description": "Certificados TLS/SSL en lenguaje llano: qué verifican y qué NO. El candado cifra la conexión, no garantiza que la web sea legítima.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "https",
+      "candado",
+      "tls",
+      "ssl",
+      "certificado digital",
+      "autoridad certificacion",
+      "dv ov ev",
+      "lets encrypt",
+      "mixed content",
+      "hsts",
+      "http2",
+      "http3",
+      "ssl stripping",
+      "verificar dominio"
+    ]
+  },
+  {
+    "title": "Navegadores y seguridad: modo incógnito, extensiones, avisos",
+    "url": "/aprende/dispositivos-seguros/navegadores-y-seguridad/",
+    "description": "Mito del modo incógnito: solo evita historial local, no te hace invisible. Extensiones de seguridad, avisos del navegador, gestor de contraseñas integrado.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "navegador",
+      "modo incognito",
+      "privado",
+      "uBlock Origin",
+      "HTTPS-Only",
+      "gestor contrasenas",
+      "bitwarden",
+      "1password",
+      "privacy badger",
+      "fingerprinting",
+      "safe browsing",
+      "smartscreen",
+      "mixed content",
+      "doh",
+      "tor browser",
+      "brave",
+      "mullvad browser"
+    ]
+  },
+  {
     "title": "Proteger tu ordenador: cuenta estándar, antivirus, copias",
     "url": "/aprende/dispositivos-seguros/proteger-tu-ordenador/",
     "description": "Principio de menor privilegio: cuenta estándar a diario, administrador solo para instalar; antivirus integrado, cortafuegos, copias de seguridad.",

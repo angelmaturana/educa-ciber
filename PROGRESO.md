@@ -74,4 +74,17 @@
 
 ---
 
-## FASE 5 · Dispositivos II + Navega I (5 lecciones + cierre hub Dispositivos)
+## FASE 5 · Dispositivos II + Navega I (5 lecciones + cierre hub Dispositivos) (COMPLETADA)
+
+- [x] 1. `bloqueo-y-autenticacion` — PIN vs biometría: ventajas y límites; bloqueo automático
+- [x] 2. `wifi-y-bluetooth` — riesgos de redes públicas (MITM explicado sin jerga); VPN cuándo ayuda y cuándo no; Bluetooth
+- [x] 3. `perdida-o-robo-del-movil` — IMEI ≠ borrado remoto; antes (localizar, cifrar, copia, IMEI) y después
+- [x] 4. `que-significa-https` — certificados TLS/SSL en llano: qué verifican y qué no; candado ≠ web fiable
+- [x] 5. `navegadores-y-seguridad` — mito modo incógnito; extensiones, avisos, gestor integrado
+- [x] Cierre de hub (`/aprende/dispositivos-seguros/`): quitar noindex, ruta completa (9 lecciones)
+
+**Hecho cuando:** 5 lecciones reales, hub indexable (9 lecciones totales), tests OK, build sin avisos.
+
+---
+
+## FASE 6 · Navega y compra seguro II (5 lecciones + cierre de hub)
