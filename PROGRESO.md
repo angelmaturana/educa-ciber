@@ -63,23 +63,15 @@
 
 ---
 
-## Fases pendientes
-- FASE 4 · Dispositivos seguros I (4 lecciones)
-- FASE 5 · Dispositivos II + Navega I (5 lecciones + cierre hub Dispositivos)
-- FASE 6 · Navega y compra seguro II (5 lecciones + cierre de hub)
-- FASE 7 · Privacidad e identidad digital (5 lecciones + cierre de hub)
-- FASE 8 · Redes sociales y mensajería I (4 lecciones)
-- FASE 9 · Redes sociales y mensajería II (3 lecciones + cierre de hub)
-- FASE 10 · Protege tu información I (4 lecciones)
-- FASE 11 · Protege II + Trabajo I (4 lecciones + cierre hub Protege)
-- FASE 12 · Ciberseguridad en el trabajo II (4 lecciones + cierre de hub)
-- FASE 13 · Familias y menores I (4 lecciones)
-- FASE 14 · Familias y menores II (3 lecciones + cierre de hub)
-- FASE 15 · IA y nuevas tecnologías (5 lecciones + cierre de hub) — Hito A
-- FASE 16 · Recursos I (5 recursos + reescribir `/recursos/`)
-- FASE 17 · Recursos II (5 recursos)
-- FASE 18 · Glosario ⭐ (1 página, ~40 términos)
-- FASE 19 · Píldoras (índice + 7)
-- FASE 20 · Rutas + home ⭐
-- FASE 21 · Empresas y confianza
-- FASE 22 · Cierre y auditoría global ⭐
+## FASE 4 · Dispositivos seguros I (COMPLETADA)
+
+- [x] 1. `proteger-tu-ordenador` — principio de menor privilegio: cuenta estándar, antivirus integrado, cortafuegos, copias
+- [x] 2. `proteger-tu-movil` — cifrado, bloqueo automático, orígenes desconocidos desactivados, ajustes a revisar
+- [x] 3. `actualizaciones` — parches de seguridad vs mejoras estéticas; automáticas; qué pasa con dispositivos sin soporte
+- [x] 4. `instalacion-segura-de-aplicaciones-y-permisos` — tiendas oficiales, reseñas, revisión crítica de permisos
+
+**Hecho cuando:** 4 lecciones reales, tests OK, build sin avisos.
+
+---
+
+## FASE 5 · Dispositivos II + Navega I (5 lecciones + cierre hub Dispositivos)

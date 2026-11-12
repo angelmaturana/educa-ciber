@@ -409,6 +409,89 @@
     ]
   },
   {
+    "title": "Proteger tu ordenador: cuenta estándar, antivirus, copias",
+    "url": "/aprende/dispositivos-seguros/proteger-tu-ordenador/",
+    "description": "Principio de menor privilegio: cuenta estándar a diario, administrador solo para instalar; antivirus integrado, cortafuegos, copias de seguridad.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "proteger ordenador",
+      "cuenta estandar",
+      "menor privilegio",
+      "administrador",
+      "antivirus integrado",
+      "cortafuegos",
+      "firewall",
+      "copias seguridad",
+      "3-2-1",
+      "windows defender",
+      "ransomware",
+      "malware"
+    ]
+  },
+  {
+    "title": "Proteger tu móvil: cifrado, bloqueo, orígenes, permisos",
+    "url": "/aprende/dispositivos-seguros/proteger-tu-movil/",
+    "description": "Cifrado, bloqueo automático, orígenes desconocidos desactivados, ajustes de privacidad y seguridad a revisar en Android e iOS.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "proteger movil",
+      "cifrado",
+      "bloqueo automatico",
+      "origenes desconocidos",
+      "permisos",
+      "privacidad",
+      "buscar mi dispositivo",
+      "borrado remoto",
+      "pin",
+      "biometria",
+      "face id",
+      "touch id",
+      "actualizaciones"
+    ]
+  },
+  {
+    "title": "Actualizaciones: parches de seguridad vs mejoras estéticas",
+    "url": "/aprende/dispositivos-seguros/actualizaciones/",
+    "description": "Diferencia entre parches de seguridad y mejoras estéticas. Actualizaciones automáticas. Qué pasa con dispositivos sin soporte oficial.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "actualizaciones",
+      "parches seguridad",
+      "security patch",
+      "cve",
+      "patch tuesday",
+      "rapid security response",
+      "funciones vs seguridad",
+      "automaticas",
+      "sin soporte",
+      "eol",
+      "navegador",
+      "chrome",
+      "firefox"
+    ]
+  },
+  {
+    "title": "Instalación segura de apps y permisos: tiendas, reseñas, revisión crítica",
+    "url": "/aprende/dispositivos-seguros/instalacion-segura-de-aplicaciones-y-permisos/",
+    "description": "Tiendas oficiales, reseñas, revisión crítica de permisos (por qué una linterna pide contactos). Cómo evaluar una app antes de instalar.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "instalacion apps",
+      "tiendas oficiales",
+      "play store",
+      "app store",
+      "permisos",
+      "linterna contactos",
+      "revision permisos",
+      "apk",
+      "mods",
+      "malware",
+      "spyware",
+      "reseñas",
+      "desarrollador"
+    ]
+  },
+  {
     "title": "Navega y compra seguro",
     "url": "/aprende/navega-y-compra-seguro/",
     "description": "Aprende a moverte por Internet, descargar y comprar sin confiarte por la apariencia de una página.",

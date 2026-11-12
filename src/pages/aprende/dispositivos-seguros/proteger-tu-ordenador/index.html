@@ -1,0 +1,70 @@
+---
+title: Proteger tu ordenador: cuenta estándar | EDUCA CIBER
+description: Principio de menor privilegio: cuenta estándar a diario, administrador solo para instalar; antivirus integrado, cortafuegos, copias de seguridad.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Proteger tu ordenador: cuenta estándar | EDUCA CIBER",
+  "description": "Principio de menor privilegio: cuenta estándar a diario, administrador solo para instalar; antivirus integrado, cortafuegos, copias de seguridad.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/dispositivos-seguros/">Dispositivos seguros</a><span>/</span><span>Proteger tu ordenador</span></nav>
+ <p class="eyebrow">Dispositivos seguros · Contenido piloto</p><h1>Proteger tu ordenador: <span class="text-blue">cuenta estándar, antivirus, copias.</span></h1>
+ <p class="lead">La mayoría de infecciones ocurren porque usamos cuenta de administrador para todo. Cambia a cuenta estándar y reduce el impacto de cualquier malware.</p>
+ <div class="meta-row"><span class="meta-pill">Nivel básico</span><span class="meta-pill">Para todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Usa cuenta estándar para el día a día. Solo usa administrador para instalar software de confianza. El antivirus integrado + cortafuegos + copias cubren lo básico.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>El <strong>principio de menor privilegio</strong> dice: dale a cada usuario (y a ti mismo) solo los permisos mínimos que necesita. En Windows, macOS y Linux, eso significa:</p>
+  <ul>
+   <li><strong>Cuenta estándar (usuario)</strong> para uso diario: navegar, correo, documentos, apps. No puede instalar software del sistema, cambiar ajustes críticos, tocar archivos de otros usuarios.</li>
+   <li><strong>Cuenta administrador</strong> solo para: instalar programas de confianza, actualizar drivers, cambiar configuración de red/seguridad, gestionar otros usuarios.</li>
+  </ul>
+  <p>Si malware entra mientras usas cuenta estándar, no puede instalarse en el sistema, ni modificar el arranque, ni desactivar el antivirus. El daño se limita a tus archivos (por eso importan las copias).</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Usa cuenta estándar para el día a día. Solo usa administrador para instalar software de confianza. El antivirus integrado + cortafuegos + copias cubren lo básico.</p></div>
+  <h2 id="senales">Qué configurar hoy mismo</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Crea cuenta estándar</strong><p>Windows: Configuración > Cuentas > Otros usuarios > Agregar > "No tengo datos de inicio de sesión" > Usuario sin cuenta Microsoft. macOS: Preferencias > Usuarios > + > Estándar.</p></div>
+   <div><b>02</b><strong>Usa la estándar a diario</strong><p>Inicia sesión con la estándar. Cuando pida contraseña de admin, introdúcela conscientemente (tú la pediste para instalar algo).</p></div>
+   <div><b>03</b><strong>Antivirus integrado activo</strong><p>Windows Defender (Microsoft Defender), XProtect (macOS), ClamAV/integrado (Linux). No hace falta pagar por uno extra; el integrado está certificado y es ligero.</p></div>
+   <div><b>04</b><strong>Cortafuegos (firewall) encendido</strong><p>Bloquea conexiones entrantes no solicitadas. Windows: Defender Firewall. macOS: Cortafuegos en Preferencias > Seguridad. Linux: ufw/firewalld.</p></div>
+   <div><b>05</b><strong>Copias de seguridad automáticas</strong><p>Regla 3-2-1: 3 copias, 2 soportes, 1 fuera (nube/USB en otro sitio). Windows: Historial de archivos / Copia de seguridad. macOS: Time Machine. Linux: rsync/Borg/TimeShift.</p></div>
+  </div>
+  <h2 id="aprende">15 MIN · Pasos para configurar tu ordenador seguro</h2>
+  <ol class="steps-list"><li><strong>Crea la cuenta estándar</strong><p>Si ya eres admin, crea un usuario nuevo "Estándar" y pásate a él. Deja la cuenta admin solo para mantenimiento.</p></li><li><strong>Verifica antivirus + firewall</strong><p>Windows: Seguridad de Windows > Protección contra virus > Administrar configuración (todo ON). Firewall: redes pública/privada ON.</p></li><li><strong>Configura copias automáticas</strong><p>Conecta disco USB o configura nube (OneDrive, Google Drive, iCloud, Nextcloud). Programa: diaria para documentos, semanal para sistema.</p></li><li><strong>Actualizaciones automáticas</strong><p>Windows Update / App Store / gestor de paquetes: automáticas. Incluye: sistema, navegador, Office, drivers, firmware.</p></li><li><strong>Desactiva lo innecesario</strong><p>Servicios que no uses (compartir archivos, escritorio remoto, Bluetooth si no lo usas). Menos superficie de ataque.</p></li></ol>
+  <h2 id="ejemplo">Un ejemplo: ransomware en cuenta admin vs estándar</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">M</span><div><strong>Malware (script)</strong><small>Intenta cifrar sistema</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p><strong>Cuenta ADMIN:</strong> Malware se ejecuta con privilegios totales → cifra C:\Windows, desactiva Defender, borra copias de sombra, instala rootkit → PC inutilizable.<br><br><strong>Cuenta ESTÁNDAR:</strong> Malware se ejecuta con privilegios de usuario → cifra SOLO tus documentos (Escritorio, Descargas, Documentos) → NO toca sistema, NO desactiva Defender, NO borra copias de sombra → Restauración desde copia = 15 min.</p><div class="fake-button">LA DIFERENCIA: PRIVILEGIOS</div><small class="fake-foot">Tus archivos personales se cifran en ambos casos (por eso importan las copias). Pero en cuenta estándar, el SISTEMA sobrevive.</small></div>
+  <div class="flow-steps"><span>MALWARE ENTRA</span><b>→</b><span>CUENTA ADMIN: CONTROL TOTAL</span><b>→</b><span>SISTEMA DESTRUIDO</span><b>→</b><span>CUENTA ESTÁNDAR: SOLO ARCHIVOS USER</span><b>→</b><span>SISTEMA INTACTO</span></div>
+  <h2 id="que-hacer">Y si ya usas cuenta admin para todo</h2>
+  <p>No formatees. Crea usuario estándar nuevo, pásate a él, y usa la vieja solo cuando el sistema pida contraseña de administrador. En Windows: Configuración > Cuentas > Cambiar tipo de cuenta > Estándar (para tu usuario actual) — pero mejor crear uno limpio.</p>
+  <a class="button primary" href="/aprende/empieza-por-aqui/habitos-basicos-de-seguridad-digital/">Hábitos básicos: copias, actualizaciones, permisos →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Descargas un instalador de "actualización de driver" de una web rara. Te pide contraseña de administrador. ¿Se la das?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>NO. Si estás en cuenta estándar, el sistema te pide la contraseña de admin. Eso es una señal: ¿por qué un driver necesita permisos de sistema? Cancela. Descarga drivers solo de la web oficial del fabricante (NVIDIA, AMD, Intel, web del portátil).</strong><p>La petición de contraseña de admin es tu momento para parar y pensar.</p></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tu antivirus (Windows Defender) salta con una alerta: "Amenaza detectada: Trojan:Win32/...". ¿Qué haces?</h3><details><summary>¿Qué harías en este caso?</summary><div class="answer"><strong>Deja que lo ponga en cuarentena/elimine. No lo restaures. Pasa un análisis completo (Windows Defender > Análisis completo). Cambia contraseñas desde otro dispositivo si la alerta era de spyware/keylogger.</strong><p>Defender actúa solo. La alerta significa que LO DETECTÓ y LO BLOQUEÓ. No entres en pánico, pero toma en serio el análisis completo.</p></div></details></div>
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Puedo seguir instalando programas si uso cuenta estándar?</h3>
+  <p>Sí. Cuando el instalador pide permisos, Windows/macOS/Linux te muestra un diálogo pidiendo la contraseña de la cuenta administrador. La introduces, el programa se instala, y vuelves a tu cuenta estándar. Es un paso extra de 5 segundos que te protege.</p>
+  <h3>¿El antivirus integrado (Defender/XProtect) es suficiente?</h3>
+  <p>Para la inmensa mayoría de usuarios, SÍ. Defender puntúa top en tests independientes (AV-TEST, AV-Comparatives), es gratis, ligero, sin publicidad, y se actualiza solo. Los antivirus de pago añaden funciones extra (VPN, gestor contraseñas, control parental) que ya tienes en otras herramientas.</p>
+  <h3>¿Qué pasa con Linux? ¿Necesita antivirus?</h3>
+  <p>Linux de escritorio tiene menos malware, pero no es inmune. ClamAV para escaneos puntuales, pero lo importante es: actualizaciones automáticas (unattended-upgrades), firewall (ufw), no root para uso diario, solo repositorios oficiales, permisos mínimos. El principio de menor privilegio es nativo en Linux.</p>
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI, NCSC, Microsoft, Apple y distribuciones Linux. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links"><li><a href="https://www.incibe.es/aprendeciberseguridad/proteccion-ordenador" target="_blank" rel="noopener">INCIBE · Protección del ordenador</a></li><li><a href="https://support.microsoft.com/es-es/windows/proteja-su-pc-con-seguridad-de-windows-3e9c7a6a-8b3c-4f6c-9e7b-8c8b8b8b8b8b" target="_blank" rel="noopener">Microsoft · Seguridad de Windows</a></li><li><a href="https://support.apple.com/es-es/guide/mac-help/mchlp1068/mac" target="_blank" rel="noopener">Apple · Proteger tu Mac</a></li></ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Qué configurar</a><a href="#aprende">Pasos de configuración</a><a href="#ejemplo">Ejemplo: admin vs estándar</a><a href="#que-hacer">Si ya usas admin</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/dispositivos-seguros/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>Hazlo ahora</strong><p>Crea tu cuenta estándar en 2 minutos.</p><a href="/aprende/contrasenas-y-cuentas/buenas-contrasenas/">Contraseña para la cuenta admin →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p><a href="/aprende/dispositivos-seguros/proteger-tu-movil/">Proteger tu móvil</a><a href="/aprende/dispositivos-seguros/actualizaciones/">Actualizaciones</a><a href="/aprende/empieza-por-aqui/habitos-basicos-de-seguridad-digital/">Hábitos básicos: copias, actualizaciones, permisos</a></div></aside>
+</section></main>

@@ -1,0 +1,82 @@
+---
+title: Instalación segura de apps: tiendas y permisos | EDUCA CIBER
+description: Tiendas oficiales, reseñas, revisión crítica de permisos ("¿por qué una linterna pide contactos?"). Cómo evaluar una app antes de instalar.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Instalación segura de apps: tiendas y permisos | EDUCA CIBER",
+  "description": "Tiendas oficiales, reseñas, revisión crítica de permisos (por qué una linterna pide contactos). Cómo evaluar una app antes de instalar.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/dispositivos-seguros/">Dispositivos seguros</a><span>/</span><span>Instalación segura de apps</span></nav>
+ <p class="eyebrow">Dispositivos seguros · Contenido piloto</p><h1>Instalación segura de apps: <span class="text-blue">tiendas, reseñas, permisos.</span></h1>
+ <p class="lead">Cada app es una puerta a tus datos. Instala solo de tiendas oficiales, lee reseñas reales, y pregunta: ¿por qué esta app necesita ESTE permiso?</p>
+ <div class="meta-row"><span class="meta-pill">Nivel básico</span><span class="meta-pill">Para todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Solo tiendas oficiales (Play Store, App Store, Microsoft Store, repositorio Linux). Revisa permisos ANTES de instalar: si no tiene sentido, no la instales. Menos apps = menos riesgo.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>El malware móvil entra mayormente por apps instaladas voluntariamente. La cadena:</p>
+  <ol>
+   <li>Ves app "gratis", "pro", "mod", "trucos" en web, WhatsApp, APK, tienda alternativa.</li>
+   <li>La instalas (activas "orígenes desconocidos" o descargas perfil de configuración).</li>
+   <li>La app pide permisos: contactos, ubicación, micrófono, almacenamiento, SMS, llamadas.</li>
+   <li>Aceptas sin leer. La app sube tus datos a servidores de terceros (brokers, atacantes).</li>
+  </ol>
+  <p>Romper la cadena es fácil: <strong>solo tiendas oficiales + revisión de permisos</strong>.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Solo tiendas oficiales (Play Store, App Store, Microsoft Store, repositorio Linux). Revisa permisos ANTES de instalar: si no tiene sentido, no la instales. Menos apps = menos riesgo.</p></div>
+  <h2 id="tiendas">Por qué SOLO tiendas oficiales</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Play Store (Android) / App Store (iOS)</strong><p>Revisión automática (Play Protect / App Review) + revisión humana + certificado de desarrollador + revocación remota si detectan malware.</p></div>
+   <div><b>02</b><strong>Microsoft Store / Mac App Store</strong><p>Mismo modelo: sandbox, permisos declarados, actualizaciones gestionadas, revocación.</p></div>
+   <div><b>03</b><strong>Repositorios Linux (apt, dnf, pacman, Flatpak, Snap)</strong><p>Paquetes firmados por la distro / Flathub / Snapcraft. Código abierto auditable. Actualizaciones centralizadas.</p></div>
+   <div><b>04</b><strong>Tiendas alternativas / APKs / Webs</strong><p>SIN revisión garantizada. APK puede ser modificado (reempaquetado con malware). Perfiles de configuración iOS (MDM) dan control total al atacante. "Mods" (GBWhatsApp, YouTube Vanced, Spotify mod) roban datos.</p></div>
+   <div><b>05</b><strong>F-Droid / Aurora Store (Android)</strong><p>Solo apps open source, compiladas de forma reproducible. Más transparencia, pero tú verificas: ¿el código fuente coincide con el binario? Útil para usuarios avanzados.</p></div>
+  </div>
+  <h2 id="permisos">Revisión CRÍTICA de permisos (antes de instalar)</h2>
+  <p>En la ficha de la app (Play Store > "Información de la app" > Permisos / App Store > "Privacidad de la app"), pregúntate por CADA permiso:</p>
+  <ol class="steps-list"><li><strong>¿Tiene sentido para la función de la app?</strong><p>Linterna → Cámara (flash) = SÍ. Contactos / Ubicación / Micrófono = NO.</p></li><li><strong>¿Es "mientras uso la app" o "siempre"?</strong><p>Ubicación: "Mientras uso" = OK para mapas. "Siempre" = SOLO si es tracker familiar / antirrobo / navegación continua.</p></li><li><strong>¿Puedo denegar y la app sigue funcionando?</strong><p>Android 10+ / iOS 13+: permisos en tiempo de ejecución. Deniega lo innecesario; si la app falla, decides si vale la pena.</p></li><li><strong>Permisos de alto riesgo (deniega por defecto)</strong><p>SMS (leer/enviar), Llamadas (registro/hacer), Contactos, Ubicación precisa, Micrófono, Cámara, Archivos multimedia, Accesibilidad (control total pantalla), Administración de dispositivo (borrado remoto), Instalar apps desconocidas.</p></li></ol>
+  <h2 id="ejemplo">Un ejemplo: app "PDF Scanner" que pide SMS, contactos, micrófono</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">P</span><div><strong>Escáner PDF Pro - Gratis</strong><small>4.8★ - 10M+ descargas</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Permisos que pide:<br>✅ Cámara (escanear) — LÓGICO<br>✅ Archivos (guardar PDF) — LÓGICO<br>❌ SMS (leer/enviar) — ¿POR QUÉ?<br>❌ Contactos (leer) — ¿POR QUÉ?<br>❌ Micrófono (grabar audio) — ¿POR QUÉ?<br>❌ Ubicación precisa — ¿POR QUÉ?</p><div class="fake-button">INSTALAR (NO)</div><small class="fake-foot">Este escáner roba contactos (para spam/phishing), SMS (para interceptar 2FA bancario), micrófono (espionaje). Las 4.8★ son compradas/bots. 10M descargas = 10M víctimas.</small></div>
+  <div class="flow-steps"><span>APP POPULAR CON PERMISOS EXCESIVOS</span><b>→</b><span>USUARIO ACEPTA SIN LEER</span><b>→</b><span>APP SUBE DATOS A SERVIDOR</span><b>→</b><span>CONTACTOS → SPAM / PHISHING</span><b>→</b><span>SMS → INTERCEPTA 2FA BANCO</span></div>
+  <h2 id="aprende">15 MIN · Checklist antes de instalar CUALQUIER app</h2>
+  <ol class="steps-list"><li><strong>¿La necesito REALMENTE?</strong><p>La web hace lo mismo (Twitter, YouTube, Reddit, mapas, correo, banca). Menos apps = menos superficie de ataque. Desinstala lo que no uses.</p></li><li><strong>¿Está en tienda oficial?</strong><p>Play Store / App Store / Microsoft Store / Repositorio Linux. NO APK de web, NO WhatsApp/Telegram, NO "mods", NO tiendas alternativas.</p></li><li><strong>¿Desarrollador conocido / verificado?</strong><p>Nombre real, web oficial, otras apps legítimas. "Google LLC", "Microsoft Corporation", "WhatsApp LLC", "Signal Foundation". Desconfía de "John Doe", "Dev Studio", nombres genéricos.</p></li><li><strong>¿Reseñas REALES?</strong><p>Ignora 5★ genéricos ("buena app", "me gusta"). Busca 1-3★: "pide permisos raros", "me robaron contactos", "publicidad agresiva", "no funciona". Ordena por "Más recientes".</p></li><li><strong>¿Permisos coherentes?</strong><p>Lee TODOS. Si uno no tiene sentido → NO instales. Busca alternativa que respete privacidad (ej. linterna sin permisos, scanner offline).</p></li><li><strong>¿Actualizaciones recientes?</strong><p>App abandonada (última actualización > 1-2 años) = vulnerabilidades sin parchear. Busca alternativa activa.</p></li></ol>
+  <h2 id="que-hacer">Gestión continua de permisos (mensual)</h2>
+  <p>Android: Ajustes > Privacidad > Gestor de permisos. iOS: Ajustes > Privacidad y seguridad. Revisa cada categoría:</p>
+  <ul>
+   <li>Ubicación: apps con "Siempre" → cámbialas a "Mientras uso" o deniega.</li>
+   <li>Micrófono / Cámara: apps que no las necesitan → deniega.</li>
+   <li>Contactos / SMS / Llamadas: solo apps de mensajería/dialer legítimas.</li>
+   <li>Accesibilidad / Administración de dispositivo: SOLO apps de confianza (antirrobo, control parental, automatización).</li>
+   <li>Notificaciones: apps que spammean → desactiva o restringe.</li>
+  </ul>
+  <a class="button primary" href="/aprende/empieza-por-aqui/habitos-basicos-de-seguridad-digital/">Hábitos básicos: permisos, privacidad →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Buscas "editor de fotos gratis" en Play Store. La primera tiene 100M descargas, 4.7★, pero pide: contactos, ubicación precisa, micrófono, SMS, administrador de dispositivo. ¿La instalas?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>NO. Un editor de fotos SOLO necesita: cámara, archivos (guardar), quizás micrófono (para video). Contactos, SMS, admin de dispositivo = spyware. Busca alternativa: Snapseed (Google), Lightroom (Adobe), Photopea (web), apps open source (OpenCamera, Markor).</strong><p>Las descargas y estrellas se compran. Los permisos dicen la verdad.</p></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tu hijo quiere instalar "Robux Gratis - Generador 2024" que vio en TikTok. La app pide accesibilidad, superposición, contactos, SMS. ¿Qué le dices?</h3><details><summary>¿Qué harías en este caso?</summary><div class="answer"><strong>NO existe generador de Robux gratis. Es estafa: roba cuenta de Roblox, contactos, SMS (2FA), y accesibilidad/superposición le da control total de la pantalla (ve contraseñas, clics). Explícale: "Si es gratis, TÚ eres el producto". Enséñale a revisar permisos juntos.</strong><p>Apps de "generadores", "trucos", "hacks" para juegos son 100% malware/estafa.</p></div></details></div>
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Puedo instalar APKs de webs de confianza (APKMirror, APKPure, GitHub releases)?</h3>
+  <p>APKMirror verifica firmas y hashes; es "relativamente seguro" para usuarios avanzados que verifican la firma del desarrollador. APKPure tuvo malware en su app oficial (2021). GitHub releases del desarrollador original = OK si verificas la firma. Para usuario general: NO, usa tienda oficial.</p>
+  <h3>¿Qué son los "permisos peligrosos" en Android?</h3>
+  <p>Grupo de permisos que acceden a datos sensibles o afectan al sistema: Calendario, Cámara, Contactos, Ubicación, Micrófono, Teléfono (SMS, llamadas), Sensores corporales, Almacenamiento. Requieren consentimiento explícito en tiempo de ejecución (Android 6+).</p>
+  <h3>¿iOS es más seguro que Android en permisos?</h3>
+  <p>iOS es más restrictivo por defecto: no permite "orígenes desconocidos", sandbox más estricto, permisos más granulares (Precisa vs Aproximada), "Rastreo entre apps" (ATTransparency). Android ha mejorado mucho (Scoped Storage, Permisos en tiempo de ejecución, Play Protect). Ambos son seguros SI usas tiendas oficiales y revisas permisos.</p>
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de Google (Play Protect, Android Permissions), Apple (App Store Review, Privacy), INCIBE, OSI, NCSC, F-Droid. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links"><li><a href="https://developer.android.com/guide/topics/permissions/overview" target="_blank" rel="noopener">Android · Permissions Overview</a></li><li><a href="https://developer.apple.com/app-store/review/guidelines/" target="_blank" rel="noopener">Apple · App Store Review Guidelines</a></li><li><a href="https://www.incibe.es/aprendeciberseguridad/permisos-apps" target="_blank" rel="noopener">INCIBE · Permisos de aplicaciones</a></li></ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#tiendas">Por qué tiendas oficiales</a><a href="#permisos">Revisión de permisos</a><a href="#ejemplo">Ejemplo: escáner PDF</a><a href="#aprende">Checklist antes de instalar</a><a href="#que-hacer">Gestión continua</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/dispositivos-seguros/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>Limpieza rápida</strong><p>Desinstala 3 apps que no usas. Revisa permisos de 5 que sí usas.</p><a href="/aprende/dispositivos-seguros/proteger-tu-movil/">Proteger tu móvil →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p><a href="/aprende/dispositivos-seguros/proteger-tu-movil/">Proteger tu móvil</a><a href="/aprende/dispositivos-seguros/actualizaciones/">Actualizaciones</a><a href="/aprende/empieza-por-aqui/habitos-basicos-de-seguridad-digital/">Hábitos básicos: permisos, privacidad</a></div></aside>
+</section></main>
