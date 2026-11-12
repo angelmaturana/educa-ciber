@@ -49,24 +49,14 @@
 
 ---
 
-## Fases pendientes
-- FASE 3 · Empieza por aquí ⭐ (6 lecciones + cierre de hub)
-- FASE 4 · Dispositivos seguros I (4 lecciones)
-- FASE 5 · Dispositivos II + Navega I (5 lecciones + cierre hub Dispositivos)
-- FASE 6 · Navega y compra seguro II (5 lecciones + cierre de hub)
-- FASE 7 · Privacidad e identidad digital (5 lecciones + cierre de hub)
-- FASE 8 · Redes sociales y mensajería I (4 lecciones)
-- FASE 9 · Redes sociales y mensajería II (3 lecciones + cierre de hub)
-- FASE 10 · Protege tu información I (4 lecciones)
-- FASE 11 · Protege II + Trabajo I (4 lecciones + cierre hub Protege)
-- FASE 12 · Ciberseguridad en el trabajo II (4 lecciones + cierre de hub)
-- FASE 13 · Familias y menores I (4 lecciones)
-- FASE 14 · Familias y menores II (3 lecciones + cierre de hub)
-- FASE 15 · IA y nuevas tecnologías (5 lecciones + cierre de hub) — Hito A
-- FASE 16 · Recursos I (5 recursos + reescribir `/recursos/`)
-- FASE 17 · Recursos II (5 recursos)
-- FASE 18 · Glosario ⭐ (1 página, ~40 términos)
-- FASE 19 · Píldoras (índice + 7)
-- FASE 20 · Rutas + home ⭐
-- FASE 21 · Empresas y confianza
-- FASE 22 · Cierre y auditoría global ⭐
+## FASE 3 · Empieza por aquí ⭐ (EN PROGRESO)
+
+- [ ] 1. `que-es-la-ciberseguridad` — qué protegemos: dinero, identidad, datos, cuentas, dispositivos
+- [ ] 2. `amenaza-vulnerabilidad-y-riesgo` — analogía doméstica: ladrón, puerta abierta, probabilidad × daño
+- [ ] 3. `por-que-pueden-atacarme` — cibercrimen automatizado, botnets, superar "no tengo nada interesante"
+- [ ] 4. `el-factor-humano` — seguridad sin culpa: prisas, cansancio, confianza
+- [ ] 5. `malware-explicado-sencillo` — virus, troyano, spyware, adware, ransomware; no pagar rescate
+- [ ] 6. `habitos-basicos-de-seguridad-digital` — decálogo de supervivencia digital enlazado a todas las áreas
+- [ ] Cierre de hub (`/aprende/empieza-por-aqui/`): quitar noindex, destacar hábitos y qué es ciberseguridad como inicio
+
+**Hecho cuando:** 6 lecciones reales, hub indexable, tests OK, build sin avisos.

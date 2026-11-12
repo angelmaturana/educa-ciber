@@ -37,6 +37,133 @@
     ]
   },
   {
+    "title": "Qué es la ciberseguridad",
+    "url": "/aprende/empieza-por-aqui/que-es-la-ciberseguridad/",
+    "description": "Entiende qué protegemos: dinero, identidad, datos, cuentas, dispositivos. La ciberseguridad no es solo técnica, es cuidar tu vida digital.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "ciberseguridad",
+      "que es ciberseguridad",
+      "qué es ciberseguridad",
+      "seguridad digital",
+      "vida digital",
+      "activos digitales",
+      "dinero",
+      "identidad",
+      "datos",
+      "cuentas",
+      "dispositivos",
+      "proteger",
+      "aprender"
+    ]
+  },
+  {
+    "title": "Amenaza, vulnerabilidad y riesgo",
+    "url": "/aprende/empieza-por-aqui/amenaza-vulnerabilidad-y-riesgo/",
+    "description": "Entiende la diferencia con una analogía doméstica: ladrón (amenaza), puerta abierta (vulnerabilidad), probabilidad × daño (riesgo).",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "amenaza",
+      "vulnerabilidad",
+      "riesgo",
+      "threat",
+      "vulnerability",
+      "risk",
+      "analogia casa",
+      "ladron",
+      "puerta abierta",
+      "probabilidad",
+      "impacto",
+      "gestion riesgos",
+      "defensa en profundidad"
+    ]
+  },
+  {
+    "title": "Por qué pueden atacarme",
+    "url": "/aprende/empieza-por-aqui/por-que-pueden-atacarme/",
+    "description": "Supera el \"no tengo nada interesante\". Cibercrimen automatizado (no te eligen, barren a todos) y botnets con dispositivos domésticos.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "por que me atacan",
+      "cibercrimen automatizado",
+      "botnet",
+      "no tengo nada interesante",
+      "credential stuffing",
+      "ataque masivo",
+      "dispositivos iot",
+      "router botnet",
+      "mirai",
+      "valor identidad"
+    ]
+  },
+  {
+    "title": "El factor humano: seguridad sin culpa",
+    "url": "/aprende/empieza-por-aqui/el-factor-humano/",
+    "description": "La seguridad no es solo técnica. Prisas, cansancio, confianza, rutina: el factor humano es el eslabón más atacado y el más fuerte si lo entiendes.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "factor humano",
+      "seguridad sin culpa",
+      "prisas",
+      "cansancio",
+      "confianza",
+      "rutina",
+      "sistema 1 sistema 2",
+      "kahneman",
+      "pausa 3 segundos",
+      "verificar",
+      "ingenieria social",
+      "culpa victima"
+    ]
+  },
+  {
+    "title": "Malware explicado sencillo",
+    "url": "/aprende/empieza-por-aqui/malware-explicado-sencillo/",
+    "description": "Virus, troyano, spyware, adware, ransomware (cifrado extorsivo). Advertencia: no pagar rescate según autoridades. Qué hacer y a quién acudir.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "malware",
+      "virus",
+      "troyano",
+      "trojan",
+      "spyware",
+      "adware",
+      "ransomware",
+      "cifrado extorsivo",
+      "no pagar rescate",
+      "nomoreransom",
+      "copias seguridad",
+      "3-2-1",
+      "keylogger",
+      "backdoor"
+    ]
+  },
+  {
+    "title": "Hábitos básicos de seguridad digital",
+    "url": "/aprende/empieza-por-aqui/habitos-basicos-de-seguridad-digital/",
+    "description": "Decálogo de supervivencia digital enlazado a todas las áreas. Verificar, pausar, actualizar, contraseñas únicas, 2FA, copias, permisos, privacidad, formación, denunciar.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "habitos seguridad",
+      "decalogo",
+      "supervivencia digital",
+      "verificar",
+      "pausa 3 segundos",
+      "gestor contrasenas",
+      "2fa",
+      "actualizaciones",
+      "copias seguridad",
+      "3-2-1",
+      "permisos",
+      "privacidad",
+      "wifi",
+      "vpn",
+      "egosurfing",
+      "denuncia",
+      "017"
+    ]
+  },
+  {
     "title": "Fraudes y engaños",
     "url": "/aprende/fraudes-y-enganos/",
     "description": "Aprende a reconocer los intentos de engaño, comprobar comunicaciones y reaccionar si algo no ha ido bien.",
