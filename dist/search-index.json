@@ -1498,5 +1498,432 @@
       "INCIBE-CERT",
       "NIS2"
     ]
+  },
+  {
+    "title": "Primeros pasos digitales en familia",
+    "url": "/aprende/familias-y-menores/primeros-pasos-y-acompanamiento/",
+    "description": "Cómo acompañar a niños y adolescentes en su vida digital: hablar antes que prohibir, combinar normas y orientación y acordar un pacto familiar.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "mediación parental",
+      "acompañar a mis hijos en internet",
+      "pacto familiar",
+      "normas de uso del móvil en casa",
+      "cuándo darle el móvil a mi hijo",
+      "mi hijo y las pantallas",
+      "educación digital en familia",
+      "IS4K",
+      "primer móvil",
+      "hablar con mi hijo de internet"
+    ]
+  },
+  {
+    "title": "Privacidad y redes sociales de menores",
+    "url": "/aprende/familias-y-menores/privacidad-y-redes-sociales-menores/",
+    "description": "Qué dice la AEPD sobre la edad para consentir el uso de datos, cómo evitar el sharenting y cómo ayudar a tus hijos a cuidar su privacidad en redes.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "sharenting",
+      "subir fotos de mis hijos a redes",
+      "fotos de menores en internet",
+      "edad para tener redes sociales",
+      "14 años consentimiento datos",
+      "16 años redes sociales ley",
+      "privacidad de los niños",
+      "huella digital de mis hijos",
+      "cuenta privada adolescentes",
+      "AEPD menores"
+    ]
+  },
+  {
+    "title": "Mensajería y videojuegos en familia",
+    "url": "/aprende/familias-y-menores/mensajeria-y-videojuegos/",
+    "description": "Chats y juegos en línea: cómo vigilar con quién hablan tus hijos, las cajas de botín y las compras, el tiempo de juego y la clasificación PEGI.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "videojuegos y menores",
+      "cajas de botín",
+      "loot boxes",
+      "compras dentro del juego",
+      "microtransacciones",
+      "mi hijo juega demasiado",
+      "PEGI",
+      "chat con desconocidos en juegos",
+      "hablar con desconocidos en línea",
+      "uso excesivo del móvil",
+      "factura sorpresa compras en el juego"
+    ]
+  },
+  {
+    "title": "Control parental: herramientas y límites",
+    "url": "/aprende/familias-y-menores/control-parental/",
+    "description": "Qué es el control parental, qué funciones ofrecen las herramientas, por qué no bastan por sí solas y cómo ajustarlas a la edad sin perder la confianza.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "control parental",
+      "herramientas de control parental",
+      "limitar el tiempo de pantalla",
+      "filtrar contenidos a mis hijos",
+      "espiar el móvil de mi hijo",
+      "supervisión de menores",
+      "geolocalizar a mi hijo",
+      "bloquear compras en el móvil",
+      "ajustes de control parental",
+      "controles parentales adolescentes"
+    ]
+  },
+  {
+    "title": "Dónde pedir ayuda por un problema en Internet",
+    "url": "/aprende/familias-y-menores/donde-pedir-ayuda/",
+    "description": "Qué ofrece el 017 de INCIBE, cuándo sirve el Canal Prioritario de la AEPD y cuándo denunciar: un mapa para familias ante acoso o imágenes íntimas.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "dónde pedir ayuda",
+      "017",
+      "línea de ayuda INCIBE",
+      "Canal Prioritario AEPD",
+      "retirar fotos íntimas",
+      "me chantajean con fotos",
+      "denunciar ciberacoso",
+      "a quién llamo si acosan a mi hijo",
+      "denuncia Policía Guardia Civil",
+      "ayuda con acoso en internet"
+    ]
+  },
+  {
+    "title": "Grooming y sexting: señales y qué hacer",
+    "url": "/aprende/familias-y-menores/grooming-y-sexting/",
+    "description": "Qué es el grooming y el sexting, qué señales de alerta pueden ver los adultos y cómo actuar con calma, guardando pruebas y sin culpar nunca al menor.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "grooming",
+      "sexting",
+      "sextorsión",
+      "extorsión con fotos",
+      "un adulto habla con mi hijo",
+      "me piden fotos",
+      "señales de abuso en internet",
+      "qué hacer si difunden una foto íntima",
+      "chantaje con fotos",
+      "hablar con mi hijo de sexting"
+    ]
+  },
+  {
+    "title": "Ciberacoso: cómo reconocerlo y actuar",
+    "url": "/aprende/familias-y-menores/ciberacoso/",
+    "description": "Qué es el ciberacoso, qué señales puede mostrar un menor y cómo actuar en familia: escuchar, guardar pruebas, bloquear, avisar al centro y pedir ayuda.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "ciberacoso",
+      "ciberbullying",
+      "acoso escolar en internet",
+      "se meten con mi hijo por el móvil",
+      "insultos por whatsapp",
+      "bullying online",
+      "qué hacer si acosan a mi hijo",
+      "guardar pruebas acoso",
+      "acoso en redes sociales",
+      "acoso por videojuegos"
+    ]
+  },
+  {
+    "title": "Qué es la IA generativa y sus errores",
+    "url": "/aprende/ia-y-nuevas-tecnologias/que-es-la-ia-generativa/",
+    "description": "Entiende en llano qué es la IA generativa, cómo produce sus respuestas, qué son las alucinaciones y cómo comprobar lo que dice antes de fiarte.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "IA generativa",
+      "inteligencia artificial",
+      "alucinaciones",
+      "modelo de lenguaje",
+      "prompt",
+      "la IA se inventa cosas",
+      "chatbot",
+      "asistente de IA",
+      "puedo fiarme de la IA",
+      "respuestas falsas de la IA"
+    ]
+  },
+  {
+    "title": "Qué no compartir con una IA",
+    "url": "/aprende/ia-y-nuevas-tecnologias/que-no-compartir-con-una-ia/",
+    "description": "Qué datos personales, sensibles o de terceros no conviene escribir en un asistente de IA, y qué ajustes y hábitos reducen el riesgo para tu privacidad.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "qué no compartir con una IA",
+      "privacidad en la IA",
+      "datos personales en chatbots",
+      "pegar datos en un asistente de IA",
+      "prompt con datos personales",
+      "borrar historial de la IA",
+      "es seguro contar cosas a una IA",
+      "IA y privacidad"
+    ]
+  },
+  {
+    "title": "IA en el trabajo: con criterio y permiso",
+    "url": "/aprende/ia-y-nuevas-tecnologias/ia-en-el-trabajo/",
+    "description": "Cómo usar herramientas de IA en el trabajo sin exponer datos de clientes: política de tu empresa, revisión humana real y transparencia sobre su uso.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "IA en el trabajo",
+      "datos de clientes en una IA",
+      "política de uso de IA",
+      "revisión humana",
+      "IA en la oficina",
+      "puedo usar IA en mi trabajo",
+      "información confidencial en un asistente de IA"
+    ]
+  },
+  {
+    "title": "Deepfakes y suplantación de voz",
+    "url": "/aprende/ia-y-nuevas-tecnologias/deepfakes-y-suplantacion-de-voz/",
+    "description": "Qué son los deepfakes, cómo se usan para suplantar caras y voces en fraudes y acoso, y qué hacer: verificar por otro canal y pedir ayuda.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "deepfake",
+      "clonación de voz",
+      "suplantación de voz",
+      "voz clonada con IA",
+      "me han clonado la voz",
+      "vídeo falso con IA",
+      "estafa del familiar con voz clonada",
+      "palabra de seguridad familiar",
+      "imagen manipulada con IA",
+      "videollamada falsa"
+    ]
+  },
+  {
+    "title": "Dispositivos conectados (IoT) en casa",
+    "url": "/aprende/ia-y-nuevas-tecnologias/dispositivos-conectados-iot/",
+    "description": "Cámaras, altavoces o bombillas conectados: por qué cambiar la contraseña de fábrica, separar la red y actualizar protege tu hogar y tu privacidad.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "IoT",
+      "internet de las cosas",
+      "cámara wifi",
+      "altavoz inteligente",
+      "hogar inteligente",
+      "contraseña por defecto de la cámara",
+      "red de invitados",
+      "me espían por la cámara",
+      "dispositivos conectados",
+      "seguridad domótica"
+    ]
+  },
+  {
+    "title": "Me han robado una cuenta: qué hacer ahora",
+    "url": "/recursos/me-han-robado-una-cuenta-que-hacer/",
+    "description": "Pasos en orden para recuperar una cuenta robada, cerrar sesiones, avisar a tus contactos y limitar el daño. Versión imprimible.",
+    "type": "Guía práctica",
+    "keywords": [
+      "me han robado la cuenta",
+      "me han hackeado",
+      "no puedo entrar en mi cuenta",
+      "cuenta robada",
+      "recuperar cuenta",
+      "cambiar contraseña",
+      "cerrar sesiones",
+      "suplantan mi cuenta",
+      "me han robado el instagram",
+      "me han robado el whatsapp",
+      "que hago"
+    ]
+  },
+  {
+    "title": "He perdido el móvil: qué hacer, en orden",
+    "url": "/recursos/he-perdido-el-movil-que-hacer/",
+    "description": "Guía imprimible para actuar si pierdes o te roban el móvil: localizar, bloquear, avisar a la operadora, denunciar y proteger tus cuentas.",
+    "type": "Guía práctica",
+    "keywords": [
+      "he perdido el movil",
+      "me han robado el movil",
+      "movil robado",
+      "bloquear sim",
+      "imei",
+      "localizar movil",
+      "borrar movil a distancia",
+      "bloquear telefono perdido",
+      "que hago si pierdo el telefono"
+    ]
+  },
+  {
+    "title": "Checklist para comprar online con seguridad",
+    "url": "/recursos/checklist-comprar-online-seguro/",
+    "description": "Comprueba quién vende, cuánto pagarás, cómo pagar y cómo reclamar antes de comprar por Internet. Lista imprimible de 12 puntos.",
+    "type": "Checklist",
+    "keywords": [
+      "comprar online",
+      "comprar por internet",
+      "tienda falsa",
+      "checklist compra",
+      "lista comprobacion tienda",
+      "pagar con tarjeta",
+      "tienda fiable",
+      "oferta sospechosa",
+      "black friday"
+    ]
+  },
+  {
+    "title": "Checklist de contraseñas y cuentas (15 min)",
+    "url": "/recursos/checklist-contrasenas-y-cuentas/",
+    "description": "Revisa en 15 minutos tus cuentas más importantes: contraseña única, segundo paso, sesiones abiertas y datos de recuperación.",
+    "type": "Checklist",
+    "keywords": [
+      "revisar contraseñas",
+      "checklist cuentas",
+      "seguridad del correo",
+      "segundo paso",
+      "verificacion en dos pasos",
+      "cerrar sesiones",
+      "datos de recuperacion",
+      "proteger mis cuentas",
+      "15 minutos"
+    ]
+  },
+  {
+    "title": "Checklist para proteger tu móvil",
+    "url": "/recursos/checklist-proteger-tu-movil/",
+    "description": "Cinco ajustes y varios hábitos para dejar tu móvil bien protegido: bloqueo, cifrado, actualizaciones, copia y localización.",
+    "type": "Checklist",
+    "keywords": [
+      "proteger el movil",
+      "seguridad del movil",
+      "checklist movil",
+      "cifrado del movil",
+      "actualizar movil",
+      "bloqueo de pantalla",
+      "orígenes desconocidos",
+      "copia de seguridad movil",
+      "configurar movil"
+    ]
+  },
+  {
+    "title": "Me han estafado: qué hacer, paso a paso",
+    "url": "/recursos/me-han-estafado-que-hacer/",
+    "description": "Protocolo en orden si te han estafado: avisar al banco, cortar la conexión, guardar pruebas, pedir orientación al 017 y denunciar.",
+    "type": "Guía práctica",
+    "keywords": [
+      "me han estafado",
+      "he sido victima de una estafa",
+      "me han timado",
+      "estafa online",
+      "estafa bancaria",
+      "he perdido dinero",
+      "denunciar estafa",
+      "bloquear tarjeta",
+      "017",
+      "que hago si me estafan"
+    ]
+  },
+  {
+    "title": "Checklist de teletrabajo seguro",
+    "url": "/recursos/checklist-teletrabajo-seguro/",
+    "description": "Revisa tu router, tu red, tu puesto y tus hábitos para teletrabajar sin poner en riesgo los datos de tu empresa. Lista imprimible.",
+    "type": "Checklist",
+    "keywords": [
+      "teletrabajo",
+      "trabajar desde casa",
+      "vpn",
+      "router",
+      "wifi publica",
+      "checklist teletrabajo",
+      "trabajo remoto",
+      "seguridad en casa"
+    ]
+  },
+  {
+    "title": "Checklist de privacidad en redes sociales",
+    "url": "/recursos/checklist-privacidad-en-redes-sociales/",
+    "description": "Repasa en unos minutos quién ve tu perfil, quién te etiqueta, tu ubicación y las apps vinculadas, y refuerza la seguridad de tu cuenta.",
+    "type": "Checklist",
+    "keywords": [
+      "privacidad redes sociales",
+      "configurar privacidad",
+      "perfil privado",
+      "etiquetas",
+      "instagram privacidad",
+      "facebook privacidad",
+      "tiktok privacidad",
+      "checklist redes",
+      "quien ve mi perfil"
+    ]
+  },
+  {
+    "title": "Plan de copias de seguridad en familia",
+    "url": "/recursos/plan-de-copias-de-seguridad-en-familia/",
+    "description": "Plantilla imprimible de la regla 3-2-1 para que tu familia no pierda fotos ni documentos: qué guardar, dónde, cuándo y cómo probarlo.",
+    "type": "Plantilla",
+    "keywords": [
+      "copia de seguridad",
+      "backup",
+      "regla 3-2-1",
+      "plantilla copias",
+      "no perder fotos",
+      "proteger fotos familia",
+      "disco externo",
+      "nube",
+      "ransomware"
+    ]
+  },
+  {
+    "title": "Acuerdo familiar de uso digital",
+    "url": "/recursos/acuerdo-familiar-de-uso-digital/",
+    "description": "Modelo para conversar en familia sobre móviles, juegos y redes: pocas normas claras y pactadas. No es un contrato legal; es una conversación.",
+    "type": "Plantilla",
+    "keywords": [
+      "acuerdo familiar",
+      "pacto familiar",
+      "normas moviles hijos",
+      "tiempo de pantalla",
+      "uso del movil en familia",
+      "hablar con mis hijos",
+      "mediacion parental",
+      "plantilla familia"
+    ]
+  },
+  {
+    "title": "Glosario de ciberseguridad",
+    "url": "/recursos/glosario/",
+    "description": "Glosario de ciberseguridad con 40 términos en lenguaje llano: ransomware, phishing, passkey, VPN, RGPD y más, con enlace a la lección de cada uno.",
+    "type": "Glosario",
+    "keywords": [
+      "glosario",
+      "diccionario",
+      "significado",
+      "que es",
+      "definiciones",
+      "terminos",
+      "2fa",
+      "mfa",
+      "autenticacion de dos factores",
+      "virus",
+      "troyano",
+      "spyware",
+      "adware",
+      "keylogger",
+      "exploit",
+      "botnet",
+      "quishing",
+      "ransomware",
+      "eidas",
+      "nis2",
+      "rgpd",
+      "vpn",
+      "cortafuegos",
+      "firewall",
+      "parche",
+      "passkey",
+      "deepfake",
+      "iot",
+      "byod",
+      "metadatos",
+      "cookie",
+      "https",
+      "dominio",
+      "biometria",
+      "cifrado de extremo a extremo",
+      "relleno de credenciales"
+    ]
   }
 ]
