@@ -1,0 +1,140 @@
+{
+  "titulo": "Privacidad y redes sociales",
+  "slug": "privacidad-redes-sociales",
+  "hub": "Familias y menores",
+  "descripcion": "Configura la privacidad en perfiles de menores: qué compartir, quién ve sus publicaciones y cómo reducir su exposición online.",
+  "nivel": "básico",
+  "duracion": "5 min · Lo esencial",
+  "publico": "familias",
+  "idea_clave": "Un perfil de menor debe ser privado por defecto. Revisa juntos cada ajuste: quién ve publicaciones, quién puede contactar, qué datos son visibles y qué metadatos llevan las fotos.",
+  "esencial": "Las redes sociales (Instagram, TikTok, Snapchat, YouTube, Twitch) son el espacio público donde los menores construyen su identidad digital. Lo que publican hoy puede verse dentro de años. Configuración esencial paso a paso: 1) Cuenta privada: solo seguidores aprobados ven contenido. 2) Quién puede etiquetar/mencionar: solo seguidores o nadie. 3) Quién puede enviar mensajes/DMs: solo seguidores o nadie (evita contactos de desconocidos). 4) Comentarios: filtra ofensivos, limita a seguidores. 5) Ubicación: desactiva «añadir ubicación» en publicaciones y historias. 6) Metadatos en fotos: revisa que la app quite EXIF (ubicación, dispositivo, hora) al subir; si no, quítalos antes con herramientas como ExifCleaner o «Imprimir en PDF» en móvil. 7) Descarga de datos: enséñales a solicitar su archivo (RGPD) para ver qué guarda la plataforma. 8) Revisión trimestral: sientate 10 min y comprueba que nada ha cambiado tras actualizaciones de la app. La clave: hazlo *con* ellos, no *por* ellos. Que entiendan por qué cada ajuste importa.",
+  "secciones": [
+    {
+      "tipo": "signal-grid",
+      "id": "senales",
+      "titulo": "Riesgos de un perfil mal configurado",
+      "contenido": [
+        {
+          "titulo": "Perfil público: cualquiera ve fotos, rutinas, centro educativo",
+          "descripcion": "Un extraño puede reconstruir horarios, rutas, amigos, aficiones. Riesgo de acoso, grooming, robo de identidad."
+        },
+        {
+          "titulo": "DMs abiertos: cualquiera puede escribirles",
+          "descripcion": "Reciben mensajes de adultos haciéndose pasar por menores, estafas, enlaces maliciosos, solicitudes de fotos."
+        },
+        {
+          "titulo": "Ubicación activa en historias/publicaciones",
+          "descripcion": "«En el parque X», «en el cole Y» revela dónde están en tiempo real o patrones de movimiento."
+        },
+        {
+          "titulo": "Fotos con EXIF: coordenadas GPS incrustadas",
+          "descripcion": "Una foto del salón de casa puede dar la dirección exacta. Las apps no siempre limpian metadatos al subir."
+        }
+      ]
+    },
+    {
+      "tipo": "fake-message",
+      "id": "ejemplo",
+      "titulo": "Un ejemplo: revisión conjunta en Instagram",
+      "avatar": "M",
+      "entidad": "Madre/Padre",
+      "asunto": "Configuración de privacidad",
+      "texto": "Vamos a revisar tu Instagram 5 min. Perfil: ¿es privado? Sí. ¿Quién te puede etiquetar? Solo seguidores. ¿Quién te puede escribir? Solo seguidores. ¿Comentarios? Filtro anti-ofensivos activado. Ubicación en historias: desactivada. Fotos: ¿sabes que el móvil guarda dónde la tomaste? Vamos a ver cómo quitar eso antes de subir. ¿Te parece bien?",
+      "boton": "Guardar cambios",
+      "nota": "EJEMPLO FICTICIO. Diálogo realista de revisión compartida.",
+      "preguntas": "¿Por qué hacerlo juntos? Porque aprenden a hacerlo solos, entienden los riesgos y no lo viven como imposición."
+    },
+    {
+      "tipo": "steps-list",
+      "id": "aprende",
+      "titulo": "15 MIN · Checklist de privacidad en redes (hacedlo juntos)",
+      "intro": "Abre la app, ve a Ajustes → Privacidad y marca cada punto:",
+      "contenido": [
+        {
+          "titulo": "Cuenta privada activada",
+          "descripcion": "Instagram: Privacidad → Cuenta privada. TikTok: Privacidad → Cuenta privada. Snapchat: Configuración → Quién puede... → Solo amigos."
+        },
+        {
+          "titulo": "Etiquetas y menciones: solo seguidores / nadie",
+          "descripcion": "Evita que desconocidos te mencionen en contenido inadecuado o te etiqueten en fotos sin consentimiento."
+        },
+        {
+          "titulo": "Mensajes directos: solo seguidores / nadie",
+          "descripcion": "Bloquea contactos de extraños. Si necesitan recibir mensajes de alguien nuevo, que te lo pidan y lo añadáis como seguidor temporal."
+        },
+        {
+          "titulo": "Comentarios: filtro ofensivos + limitar a seguidores",
+          "descripcion": "Reduce ciberacoso y spam. Revisa carpetas «Ocultos» y «Solicitudes» semanalmente."
+        },
+        {
+          "titulo": "Ubicación: nunca en publicaciones ni historias",
+          "descripcion": "Desactiva «Añadir ubicación» al crear contenido. Revisa que no haya mapas de stories públicos (Snap Map, Mapa de Instagram)."
+        },
+        {
+          "titulo": "Limpia metadatos antes de subir fotos",
+          "descripcion": "Móvil: Galería → Seleccionar → Compartir → «Eliminar datos de ubicación» (Android) / «Opciones» → Desactivar «Ubicación» (iOS). O usa ExifCleaner / mat2 en PC."
+        },
+        {
+          "titulo": "Descarga tu archivo de datos (RGPD)",
+          "descripcion": "Instagram: Tu actividad → Descargar información. TikTok: Privacidad → Descargar datos. Ver juntos qué guarda la plataforma."
+        }
+      ]
+    },
+    {
+      "tipo": "callout-warn",
+      "id": "error-frecuente",
+      "titulo": "Error frecuente: «mi hijo/a no sube fotos, solo mira»",
+      "contenido": "Incluso sin publicar, el algoritmo aprende de lo que ven, likean, guardan, comparten por DM, tiempo de visualización. Ese perfil de intereses se usa para publicidad, recomendaciones y puede filtrarse en brechas. Cuenta privada y ajustes mínimos siguen siendo necesarios."
+    }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Tu hija de 12 años quiere hacer un Reel bailando en su habitación. La foto del fondo muestra un certificado con su nombre y apellidos en la pared. ¿Qué haces?",
+      "respuesta": "No lo publiques tal cual. Opciones: 1) Quita el certificado de la pared. 2) Tapa/tacha los datos en edición (Instagram tiene herramienta de texto/dibujo). 3) Graba en otro ángulo. 4) Si ya subido: borra y vuelve a subir sin datos visibles. Enséñale a revisar el fondo *antes* de grabar."
+    },
+    {
+      "pregunta": "Un desconocido sigue a tu hijo de 14 años en TikTok y le comenta todos los vídeos. El perfil del desconocido no tiene foto ni vídeos. ¿Qué haces?",
+      "respuesta": "Bloquea y denuncia la cuenta (TikTok: perfil → Compartir → Denunciar → Acoso). Revisa seguidores: elimina cuentas sospechosas (sin foto, sin contenido, muchos seguidos/pocos seguidores). Habla con tu hijo: «¿Te ha escrito por DM? ¿Te ha pedido algo?». Refuerza: nunca aceptes seguidores que no conozcas en persona."
+    }
+  ],
+  "faq": [
+    {
+      "pregunta": "¿A qué edad pueden tener redes sociales propias?",
+      "respuesta": "Edad mínima legal en UE/EE.UU.: 13 años (RGPD/COPPA). En España, LOPDGDD permite 14 años sin consentimiento paternal; 13-13 con consentimiento. Plataformas exigen 13+. Recomendación: espera a que tengan madurez para gestionar privacidad, ciberacoso y presión social. Si ya la tienen: configura todo privado y acompáñales activamente."
+    },
+    {
+      "pregunta": "¿Debo seguirles en sus redes?",
+      "respuesta": "Sí, al principio. Pacta: «Te sigo yo y tú me sigues a mí. No comento ni doy like a todo, solo estoy por si hay problema». Con el tiempo (14-15 años), negocia dejar de seguirles a cambio de que mantengan cuenta privada y te avisen si algo va mal. La confianza se gana demostrando que no vas a «espiar» ni avergonzarles."
+    },
+    {
+      "pregunta": "¿Cómo quito la ubicación de fotos ya subidas?",
+      "respuesta": "En Instagram: Perfil → Menú → Tu actividad → Fotos y vídeos → Seleccionar → Editar → Ubicación → Eliminar. En TikTok: no se puede editar tras subir; hay que borrar y volver a subir sin ubicación. En Facebook: similar a Instagram. Mejor prevenir: desactiva ubicación en cámara y revisa antes de subir."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "INCIBE — Privacidad en redes sociales para menores",
+      "url": "https://www.incibe.es/protege-tu-familia/redes-sociales"
+    },
+    {
+      "titulo": "AEPD — Guía de privacidad en redes sociales",
+      "url": "https://www.aepd.es/es/areas-actuacion/redes-sociales"
+    },
+    {
+      "titulo": "Meta — Centro de seguridad familiar",
+      "url": "https://familycenter.instagram.com/"
+    }
+  ],
+  "relacionadas": [
+    {
+      "slug": "acompanamiento",
+      "texto": "Acompañamiento digital cotidiano",
+      "hub": "Familias y menores"
+    },
+    {
+      "slug": "control-parental",
+      "texto": "Control parental: herramientas y límites",
+      "hub": "Familias y menores"
+    }
+  ]
+}

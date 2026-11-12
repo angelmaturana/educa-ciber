@@ -1545,5 +1545,75 @@
       "privacidad e ia",
       "copilot (microsoft)"
     ]
+  },
+  {
+    "title": "Primeros pasos digitales",
+    "url": "/aprende/familias-y-menores/primeros-pasos-digitales/",
+    "description": "Guía para que madres, padres y tutores acompañen a los más pequeños en su primera experiencia con dispositivos e Internet.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "descarga apps/juegos sin pedir permiso",
+      "aprender",
+      "ciberseguridad",
+      "no sabe a quién acudir si algo le molesta",
+      "el niño accede a youtube/redes sin supervisión",
+      "usa el dispositivo a solas en su habitación",
+      "familias y menores",
+      "seguridad digital",
+      "primeros pasos digitales"
+    ]
+  },
+  {
+    "title": "Acompañamiento",
+    "url": "/aprende/familias-y-menores/acompanamiento/",
+    "description": "Cómo integrar la supervisión y el diálogo sobre tecnología en la rutina familiar sin convertirlo en vigilancia ni conflicto.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "tú mismo/a usas el móvil durante las comidas",
+      "ciberseguridad",
+      "acompañamiento",
+      "seguridad digital",
+      "solo hablas de tecnología para regañar o limitar",
+      "aprender",
+      "acompanamiento",
+      "ocultan la pantalla cuando te acercas",
+      "familias y menores",
+      "responden con monosílabos a «¿qué haces?»"
+    ]
+  },
+  {
+    "title": "Privacidad y redes sociales",
+    "url": "/aprende/familias-y-menores/privacidad-redes-sociales/",
+    "description": "Configura la privacidad en perfiles de menores: qué compartir, quién ve sus publicaciones y cómo reducir su exposición online.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "fotos con exif: coordenadas gps incrustadas",
+      "ciberseguridad",
+      "familias y menores",
+      "perfil público: cualquiera ve fotos, rutinas, centro educativo",
+      "dms abiertos: cualquiera puede escribirles",
+      "ubicación activa en historias/publicaciones",
+      "privacidad redes sociales",
+      "privacidad y redes sociales",
+      "aprender",
+      "seguridad digital"
+    ]
+  },
+  {
+    "title": "Control parental",
+    "url": "/aprende/familias-y-menores/control-parental/",
+    "description": "Herramientas nativas y de terceros para supervisar, limitar y proteger el uso de dispositivos por menores: qué hacen, cómo configurarlas y sus límites.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "aprender",
+      "seguridad digital",
+      "no ve mensajes cifrados (whatsapp, signal, dms)",
+      "no filtra contenido dentro de apps (tiktok, youtube, reels)",
+      "ciberseguridad",
+      "familias y menores",
+      "sí genera informes para conversar, no para espiar",
+      "control parental",
+      "sí limita tiempo, apps, web, compras, ubicación"
+    ]
   }
 ]
