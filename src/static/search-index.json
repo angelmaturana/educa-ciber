@@ -1527,5 +1527,23 @@
       "información financiera y bancaria",
       "salud y datos especiales (rgpd art. 9)"
     ]
+  },
+  {
+    "title": "Privacidad e IA",
+    "url": "/aprende/ia-y-nuevas-tecnologias/privacidad-e-ia/",
+    "description": "Entiende cómo tratan tus datos los principales proveedores de IA, qué derechos tienes y cómo configurar la privacidad en cada servicio.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "gemini (google)",
+      "ciberseguridad",
+      "chatgpt (openai)",
+      "claude (anthropic)",
+      "seguridad digital",
+      "modelos locales (ollama, lm studio, jan)",
+      "aprender",
+      "ia y nuevas tecnologías",
+      "privacidad e ia",
+      "copilot (microsoft)"
+    ]
   }
 ]

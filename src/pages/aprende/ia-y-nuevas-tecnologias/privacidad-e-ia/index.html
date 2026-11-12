@@ -1,0 +1,84 @@
+---
+title: Privacidad e IA | EDUCA CIBER
+description: Entiende cómo tratan tus datos los principales proveedores de IA, qué derechos tienes y cómo configurar la privacidad en cada servicio.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Privacidad e IA | EDUCA CIBER",
+  "description": "Entiende cómo tratan tus datos los principales proveedores de IA, qué derechos tienes y cómo configurar la privacidad en cada servicio.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/ia-y-nuevas-tecnologias/">IA y nuevas tecnologías</a><span>/</span><span>Privacidad e IA</span></nav>
+ <p class="eyebrow">IA y nuevas tecnologías · Contenido piloto</p><h1>Privacidad e IA <span class="text-blue"></span></h1>
+ <p class="lead"></p>
+ <div class="meta-row"><span class="meta-pill">básico</span><span class="meta-pill">todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Cada proveedor de IA tiene políticas distintas: unos entrenan con tus chats por defecto, otros no. Revisa y ajusta la configuración antes de compartir algo sensible.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Cuando usas un servicio de IA generativa (ChatGPT, Gemini, Claude, Copilot, etc.), tus conversaciones viajan a los servidores del proveedor. Qué pasa después depende de cada empresa y de tu configuración: 1) Entrenamiento: algunos usan tus chats para mejorar el modelo (OpenAI en planes gratuitos, Google en Gemini), otros no por defecto (Anthropic con Claude). 2) Retención: se guardan logs, backups y historiales por periodos que van de 30 días a indefinido. 3) Revisión humana: empleados o contratistas pueden leer muestras anonimizadas para control de calidad o seguridad. 4) Terceros: algunos proveedores comparten datos con socios (Microsoft ve datos de Copilot, Google ve datos de Gemini). Tienes derechos RGPD: acceso, rectificación, supresión, limitación, portabilidad y oposición. Ejercítalos desde los portales de privacidad de cada proveedor. La regla de oro: si no quieres que algo sea público, no lo pongas en una IA pública gratuita.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Cada proveedor de IA tiene políticas distintas: unos entrenan con tus chats por defecto, otros no. Revisa y ajusta la configuración antes de compartir algo sensible.</p></div>
+  <h2 id="senales">Qué hace cada proveedor con tus datos (resumen 2024)</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>ChatGPT (OpenAI)</strong><p>Planes Free/Plus/Team: entrena con tus chats salvo que desactives «Chat history & training». Enterprise: no entrena, DPA firmado, datos en tu región. Retención: 30 días tras borrado (Free/Plus), configurable en Enterprise.</p></div>
+   <div><b>02</b><strong>Claude (Anthropic)</strong><p>No entrena con tus conversaciones por defecto. Retención: 30 días (se puede solicitar purga). Planes Pro/Team/Enterprise: DPA disponible, sin uso para entrenamiento. Revisión humana solo para seguridad/abuso.</p></div>
+   <div><b>03</b><strong>Gemini (Google)</strong><p>Entrena con datos de Apps de Gemini (configurable en «Actividad de Apps de Gemini»). Workspace/Cloud: no entrena, DPA, cumplimiento RGPD. Datos vinculados a tu cuenta Google si no usas modo incógnito.</p></div>
+   <div><b>04</b><strong>Copilot (Microsoft)</strong><p>Copilot en Windows/Edge/Bing: datos usados para mejorar servicios Microsoft. Copilot en Microsoft 365 (Enterprise): no entrena, datos en tu tenant, DPA, cumplimiento RGPD/ISO 27001.</p></div>
+   <div><b>05</b><strong>Modelos locales (Ollama, LM Studio, Jan)</strong><p>Ejecutan en tu hardware: datos no salen de tu máquina (salvo que tú los envíes). Sin telemetría obligatoria. Riesgo: modelo puede haber memorizado datos de entrenamiento original.</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: configurando privacidad en ChatGPT</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">C</span><div><strong>ChatGPT Settings</strong><small>Data Controls</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Ajustes → Data Controls → Chat history & training: DESACTIVADO. Ahora tus nuevas conversaciones no se usan para entrenar modelos. Nota: se conservan 30 días por seguridad y se eliminan después. Conversaciones anteriores ya usadas para entrenamiento no se pueden «des-entrenar».</p><div class="fake-button">Guardar</div><small class="fake-foot">EJEMPLO FICTICIO. Captura simulada de la interfaz real.</small></div>
+  <p>¿Esto garantiza privacidad total? No. OpenAI sigue viendo los chats por seguridad/abuso, y backups legales pueden retenerlos. Para datos sensibles, usa ChatGPT Enterprise o modelo local.</p>
+  <h2 id="aprende">15 MIN · Checklist de privacidad antes de usar una IA</h2>
+  <p>Aplica estos pasos en cada servicio que uses:</p>
+  <ol class="steps-list">
+<li><strong>Lee la política de privacidad y los Data Processing Terms</strong><p>Busca: ¿entrena con mis datos? ¿Cuánto los retiene? ¿Hay revisión humana? ¿DPA para empresas? ¿Dónde se almacenan (EE. UU., UE)?</p></li>
+<li><strong>Desactiva el entrenamiento si es posible</strong><p>ChatGPT: Ajustes → Data Controls → Chat history & training OFF. Gemini: myactivity.google.com → Actividad de Apps de Gemini → Desactivar. Claude: ya está OFF por defecto.</p></li>
+<li><strong>Usa modo incógnito / chat temporal cuando puedas</strong><p>ChatGPT: «Temporary chat» (icono de llama arriba a la izquierda). Gemini: modo incógnito en la app. Evita vincular a tu cuenta principal.</p></li>
+<li><strong>Borra el historial periódicamente</strong><p>ChatGPT: Ajustes → Clear all chats. Gemini: myactivity.google.com → Eliminar. Claude: botón «Delete conversation». Solicita purga completa si el proveedor la ofrece (formulario RGPD).</p></li>
+<li><strong>Ejercita tus derechos RGPD</strong><p>Acceso: solicita copia de tus datos. Supresión: pide borrado total. Oposición: opónte al tratamiento para entrenamiento. Portabilidad: pide tus datos en formato estructurado. Cada proveedor tiene formulario web (privacy@openai.com, privacy@anthropic.com, etc.).</p></li>
+  </ol>
+  <div class="callout callout-warn"><strong>Error frecuente: «ya borré el chat, ya está todo limpio»</strong><p>Borrar en la interfaz solo quita tu vista. El proveedor conserva: backups (semanas/meses), logs de auditoría, datasets de entrenamiento ya generados (no se pueden «des-entrenar» modelos). La purga real requiere solicitud formal RGPD y puede tardar 30-90 días. Asume que lo que enviaste persiste en alguna forma.</p></div>
+
+  <h2 id="que-hacer">¿Y si ya ha pasado?</h2>
+  <p>Qué hacer si el usuario ya ha interactuado con la amenaza. Enlaza al recurso correspondiente.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">He pulsado un enlace sospechoso: ¿qué hago? →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Usas ChatGPT Free y desactivaste «Chat history & training». ¿Tus conversaciones se usan para entrenar?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>No para entrenar nuevos modelos. Pero OpenAI las retiene 30 días por seguridad/abuso y puede revisarlas manualmente. No es privacidad absoluta.</strong></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tu empresa quiere usar IA para analizar contratos con datos de clientes. ¿Qué opción eliges?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>ChatGPT Enterprise, Microsoft 365 Copilot, Claude for Business o Google Vertex AI: todos ofrecen DPA, no entrenan con tus datos, almacenamiento en región UE y cumplimiento RGPD. Nunca uses planes gratuitos para datos de clientes.</strong></div></details></div>
+
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Puedo pedir a OpenAI/Google/Anthropic que borren TODO lo que les envié?</h3>
+  <p>Sí, bajo RGPD (art. 17) tienes derecho de supresión. Cada proveedor tiene formulario: OpenAI (privacy@openai.com o formulario web), Google (myaccount.google.com → Datos y privacidad), Anthropic (privacy@anthropic.com). La respuesta legal es 30 días (ampliable a 60). Backups técnicos pueden tardar más en purgarse.</p>
+  <h3>¿Claude es más privado que ChatGPT?</h3>
+  <p>Por defecto, sí: Anthropic no entrena con tus chats (OpenAI sí en planes gratuitos). Pero ambos retienen conversaciones 30 días por seguridad, ambos pueden revisar por abuso, y ambos están en EE. UU. (transferencia internacional). Para privacidad máxima: modelo local o plan Enterprise con DPA y región UE.</p>
+  <h3>¿Qué pasa con mis datos si uso Copilot en Windows 11?</h3>
+  <p>Copilot en Windows (versión de consumo) envía datos a Microsoft para «mejorar servicios y personalizar experiencias». No hay DPA ni garantía de no-entrenamiento. Para uso profesional: Microsoft 365 Copilot (licencia aparte) sí tiene DPA, no entrena, datos en tu tenant.</p>
+
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI u otras fuentes oficiales. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links">
+  <li><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI — Privacy policy y Data Processing Addendum</a></li>
+  <li><a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">Anthropic — Privacy Policy y Security Portal</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google — Gemini Apps Activity y Workspace Data Processing</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/privacy" target="_blank" rel="noopener">Microsoft — Copilot Data Protection y Microsoft 365 Copilot Privacy</a></li>
+  </ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Señales de alerta</a><a href="#aprende">Cómo comprobar</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">Qué hacer si ya ha pasado</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/ia-y-nuevas-tecnologias/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si necesitas actuar ya, empieza por esta guía práctica.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p>
+  <a href="/aprende/ia-y-nuevas-tecnologias/que-es-la-ia-generativa/">Qué es la IA generativa</a>
+  <a href="/aprende/ia-y-nuevas-tecnologias/que-informacion-no-compartir/">Qué información no compartir</a>
+</div></aside>
+</section></main>
