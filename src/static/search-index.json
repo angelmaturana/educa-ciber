@@ -461,5 +461,898 @@
       "actualizacion",
       "rigor"
     ]
+  },
+  {
+    "title": "Ingeniería social: cómo te manipulan",
+    "url": "/aprende/fraudes/ingenieria-social/",
+    "description": "Descubre cómo funciona la ingeniería social, qué emociones explota y por qué caer en un engaño no es culpa tuya. Aprende a frenar a tiempo.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "ingenieria social",
+      "manipulacion",
+      "engaño",
+      "me han engañado",
+      "me han timado",
+      "urgencia",
+      "miedo",
+      "autoridad",
+      "recompensa",
+      "confianza",
+      "estafa",
+      "culpa",
+      "caer en una estafa",
+      "psicologia del fraude",
+      "como me manipulan"
+    ]
+  },
+  {
+    "title": "Smishing y vishing: SMS y llamadas falsos",
+    "url": "/aprende/fraudes/smishing-y-vishing/",
+    "description": "Aprende a reconocer SMS y llamadas fraudulentas de paquetería, banco o soporte técnico, y a protegerte del familiar en apuros con una palabra de seguridad.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "smishing",
+      "vishing",
+      "sms falso",
+      "sms de correos",
+      "paquete retenido",
+      "llamada del banco",
+      "me llaman diciendo que son del banco",
+      "soporte tecnico falso",
+      "familiar en apuros",
+      "hijo con nuevo numero",
+      "voz clonada",
+      "palabra de seguridad",
+      "llamada fraudulenta",
+      "mensaje raro"
+    ]
+  },
+  {
+    "title": "Suplantación de identidad: qué es y qué hacer",
+    "url": "/aprende/fraudes/suplantacion-de-identidad/",
+    "description": "Qué es la suplantación de identidad, cómo se aprovechan los datos públicos de una persona y qué hacer para reducir tu exposición y reaccionar a tiempo.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "suplantacion de identidad",
+      "perfil falso",
+      "perfil clonado",
+      "alguien se hace pasar por mi",
+      "me han clonado el perfil",
+      "cuenta falsa",
+      "usan mi foto",
+      "me suplantan",
+      "identidad robada",
+      "denunciar perfil falso",
+      "datos publicos",
+      "reducir exposicion"
+    ]
+  },
+  {
+    "title": "Webs falsas: el candado no basta",
+    "url": "/aprende/fraudes/webs-falsas/",
+    "description": "El candado del navegador no garantiza que una web sea legítima. Aprende a revisar el dominio, detectar copias de marca y comprobar antes de dar datos.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "web falsa",
+      "pagina falsa",
+      "candado https",
+      "el candado no garantiza",
+      "pagina fraudulenta",
+      "dominio falso",
+      "copia de web",
+      "web del banco falsa",
+      "como saber si una web es fiable",
+      "anuncio patrocinado falso",
+      "pagina clonada"
+    ]
+  },
+  {
+    "title": "Enlaces, archivos y QR sospechosos",
+    "url": "/aprende/fraudes/enlaces-y-archivos-sospechosos/",
+    "description": "Cómo revisar enlaces acortados, adjuntos y códigos QR sospechosos antes de abrirlos, y qué hacer si ya has pulsado o escaneado algo dudoso.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "enlace sospechoso",
+      "enlace acortado",
+      "acortador de url",
+      "archivo adjunto sospechoso",
+      "extension de archivo",
+      "doble extension",
+      "codigo qr falso",
+      "quishing",
+      "qr malicioso",
+      "no abrir adjuntos",
+      "habilitar contenido",
+      "he abierto un archivo raro",
+      "previsualizar enlace"
+    ]
+  },
+  {
+    "title": "Buenas contraseñas: frases largas y únicas",
+    "url": "/aprende/contrasenas-y-cuentas/buenas-contrasenas/",
+    "description": "Aprende a crear contraseñas seguras con frases largas, por qué no reutilizarlas y qué es el relleno de credenciales que ataca a quien lo hace.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "contraseña segura",
+      "contraseña debil",
+      "frase de paso",
+      "passphrase",
+      "contraseña larga",
+      "reutilizar contraseñas",
+      "relleno de credenciales",
+      "credential stuffing",
+      "misma contraseña en todo",
+      "cambiar contraseña",
+      "cada cuanto cambiar la contraseña",
+      "como crear una contraseña",
+      "filtracion de contraseñas"
+    ]
+  },
+  {
+    "title": "Gestores de contraseñas: cómo usarlos bien",
+    "url": "/aprende/contrasenas-y-cuentas/gestores-de-contrasenas/",
+    "description": "Qué es un gestor de contraseñas, qué tipos hay, cómo elegir la contraseña maestra y por qué además te ayuda a no caer en webs falsas.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "gestor de contraseñas",
+      "administrador de contraseñas",
+      "contraseña maestra",
+      "guardar contraseñas",
+      "no recuerdo mis contraseñas",
+      "autocompletar contraseñas",
+      "contraseñas en el navegador",
+      "generador de contraseñas",
+      "bóveda de contraseñas",
+      "tantas contraseñas"
+    ]
+  },
+  {
+    "title": "Verificación en dos pasos: SMS, app o llave",
+    "url": "/aprende/contrasenas-y-cuentas/verificacion-en-dos-pasos/",
+    "description": "Qué es la verificación en dos pasos, cómo se comparan el SMS, la app autenticadora y la llave física, y por qué un código nunca se comparte.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "verificacion en dos pasos",
+      "doble factor",
+      "2fa",
+      "mfa",
+      "autenticacion de dos factores",
+      "codigo por sms",
+      "app autenticadora",
+      "llave de seguridad",
+      "codigos de recuperacion",
+      "me piden un codigo",
+      "no compartir codigo",
+      "segundo paso",
+      "autenticador"
+    ]
+  },
+  {
+    "title": "Passkeys: acceder sin contraseña",
+    "url": "/aprende/contrasenas-y-cuentas/passkeys/",
+    "description": "Qué son las passkeys (claves de acceso), por qué resisten al phishing, cómo funcionan con tu huella o PIN y qué límites tienen hoy.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "passkey",
+      "passkeys",
+      "clave de acceso",
+      "sin contraseña",
+      "passwordless",
+      "fido2",
+      "webauthn",
+      "huella dactilar para entrar",
+      "acceder sin contraseña",
+      "llave de acceso",
+      "autenticacion sin contraseña"
+    ]
+  },
+  {
+    "title": "Proteger tus cuentas principales",
+    "url": "/aprende/contrasenas-y-cuentas/proteger-tus-cuentas-principales/",
+    "description": "Por qué tu correo es la llave de toda tu identidad digital, en qué orden proteger tus cuentas y qué revisar: sesiones activas, alertas y recuperación.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "proteger mis cuentas",
+      "cuenta de correo",
+      "correo seguro",
+      "sesiones activas",
+      "dispositivos conectados a mi cuenta",
+      "cerrar sesion en todos los dispositivos",
+      "alertas de acceso",
+      "cuentas importantes",
+      "recuperar cuenta",
+      "que cuentas proteger primero",
+      "seguridad del correo electronico"
+    ]
+  },
+  {
+    "title": "Me han robado una cuenta: qué hacer",
+    "url": "/aprende/contrasenas-y-cuentas/me-han-robado-una-cuenta/",
+    "description": "Cómo saber si te han robado una cuenta y qué hacer en orden: cerrar sesiones, cambiar la contraseña, recuperarla por el canal oficial y avisar.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "me han hackeado",
+      "me han robado la cuenta",
+      "cuenta hackeada",
+      "cuenta robada",
+      "no puedo entrar en mi cuenta",
+      "recuperar cuenta",
+      "han cambiado mi contraseña",
+      "cerrar sesiones activas",
+      "alguien usa mi cuenta",
+      "cuenta comprometida",
+      "avisar a mis contactos"
+    ]
+  },
+  {
+    "title": "Qué es la ciberseguridad y qué protege",
+    "url": "/aprende/empieza-por-aqui/que-es-la-ciberseguridad/",
+    "description": "Entiende qué es la ciberseguridad en lenguaje llano y qué estás protegiendo cada día: tu dinero, tu identidad, tus datos, tus cuentas y tus dispositivos.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "que es la ciberseguridad",
+      "seguridad informatica",
+      "seguridad digital",
+      "que debo proteger",
+      "que protege la ciberseguridad",
+      "no se nada de informatica",
+      "por donde empiezo",
+      "seguridad en internet",
+      "proteger mis datos",
+      "proteger mis cuentas"
+    ]
+  },
+  {
+    "title": "Amenaza, vulnerabilidad y riesgo",
+    "url": "/aprende/empieza-por-aqui/amenaza-vulnerabilidad-y-riesgo/",
+    "description": "Aprende la diferencia entre amenaza, vulnerabilidad y riesgo con la analogía de una casa, y úsala para decidir qué proteger primero en tu vida digital.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "amenaza vulnerabilidad riesgo",
+      "diferencia entre amenaza y vulnerabilidad",
+      "que es una vulnerabilidad",
+      "que es un riesgo informatico",
+      "que es una amenaza informatica",
+      "como saber si estoy en riesgo",
+      "que proteger primero",
+      "probabilidad y daño"
+    ]
+  },
+  {
+    "title": "El factor humano en la ciberseguridad",
+    "url": "/aprende/empieza-por-aqui/el-factor-humano/",
+    "description": "Por qué caemos en engaños aunque sepamos de seguridad: prisas, cansancio y confianza. Aprende a frenar a tiempo y a reaccionar sin culpa si te ha pasado.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "factor humano",
+      "error humano",
+      "por que caemos en estafas",
+      "me han engañado",
+      "me siento culpable",
+      "prisas",
+      "urgencia en mensajes",
+      "seguridad sin culpa",
+      "caer en una estafa",
+      "vergüenza estafa"
+    ]
+  },
+  {
+    "title": "Por qué pueden atacarme (aunque no seas nadie)",
+    "url": "/aprende/empieza-por-aqui/por-que-pueden-atacarme/",
+    "description": "Por qué a ti también te pueden atacar aunque creas no tener nada de valor: cibercrimen automatizado y aparatos de casa convertidos en botnets.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "por que me van a atacar",
+      "no tengo nada interesante",
+      "a mi no me van a hackear",
+      "ciberdelincuentes",
+      "ataques masivos",
+      "botnet",
+      "red zombi",
+      "dispositivos infectados",
+      "televisor inteligente",
+      "router infectado",
+      "no soy nadie importante"
+    ]
+  },
+  {
+    "title": "Malware explicado de forma sencilla",
+    "url": "/aprende/empieza-por-aqui/malware-explicado-sencillo/",
+    "description": "Qué es el malware y en qué se diferencian virus, troyanos, spyware y adware. Aprende cómo actúa el ransomware y por qué las autoridades desaconsejan pagar.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "malware",
+      "virus informatico",
+      "troyano",
+      "spyware",
+      "adware",
+      "gusano informatico",
+      "ransomware",
+      "secuestro de archivos",
+      "me han cifrado los archivos",
+      "pagar el rescate",
+      "mi ordenador tiene virus",
+      "programa espia"
+    ]
+  },
+  {
+    "title": "Hábitos básicos de seguridad digital",
+    "url": "/aprende/empieza-por-aqui/habitos-basicos-de-seguridad-digital/",
+    "description": "Diez hábitos sencillos de seguridad digital para proteger tus cuentas, dispositivos y datos, con enlaces a cada tema para profundizar a tu ritmo.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "habitos de seguridad",
+      "consejos de ciberseguridad",
+      "decalogo ciberseguridad",
+      "por donde empiezo",
+      "lista de consejos",
+      "como protegerme en internet",
+      "seguridad digital basica",
+      "buenas practicas",
+      "proteger mis cuentas y dispositivos"
+    ]
+  },
+  {
+    "title": "Actualizaciones: por qué instalarlas",
+    "url": "/aprende/dispositivos-seguros/actualizaciones/",
+    "description": "Por qué las actualizaciones de seguridad son tan importantes, cómo activarlas en automático y qué hacer si tu dispositivo ya no recibe parches.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "actualizaciones",
+      "actualizar el movil",
+      "actualizar windows",
+      "parche de seguridad",
+      "actualizaciones automaticas",
+      "dispositivo sin soporte",
+      "movil antiguo",
+      "dejar de recibir actualizaciones",
+      "actualizar el router",
+      "fallo de seguridad"
+    ]
+  },
+  {
+    "title": "Instalar apps con seguridad y revisar permisos",
+    "url": "/aprende/dispositivos-seguros/instalacion-segura-de-aplicaciones-y-permisos/",
+    "description": "Cómo instalar aplicaciones con seguridad: tiendas oficiales, desarrollador y valoraciones, y cómo revisar los permisos que piden antes de aceptarlos.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "instalar aplicaciones seguras",
+      "permisos de aplicaciones",
+      "permisos de las apps",
+      "app de linterna pide contactos",
+      "tienda oficial",
+      "google play",
+      "app store",
+      "app maliciosa",
+      "revisar permisos",
+      "desinstalar apps",
+      "por que me pide acceso a la camara"
+    ]
+  },
+  {
+    "title": "Proteger tu ordenador: cuentas y defensas",
+    "url": "/aprende/dispositivos-seguros/proteger-tu-ordenador/",
+    "description": "Cómo proteger tu ordenador con el principio de menor privilegio: cuenta estándar a diario, administrador solo para instalar y defensas activas.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "proteger mi ordenador",
+      "cuenta de administrador",
+      "cuenta estandar",
+      "menor privilegio",
+      "antivirus",
+      "cortafuegos",
+      "firewall",
+      "seguridad windows",
+      "seguridad mac",
+      "mi ordenador va lento",
+      "configurar ordenador nuevo"
+    ]
+  },
+  {
+    "title": "Proteger tu móvil: ajustes que revisar",
+    "url": "/aprende/dispositivos-seguros/proteger-tu-movil/",
+    "description": "Revisa los ajustes clave para proteger tu móvil: bloqueo, cifrado, actualizaciones, copias y por qué mantener desactivados los orígenes desconocidos.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "proteger mi movil",
+      "seguridad del movil",
+      "bloqueo de pantalla",
+      "cifrar el movil",
+      "origenes desconocidos",
+      "instalar apps de fuentes desconocidas",
+      "rootear",
+      "jailbreak",
+      "movil nuevo configurar",
+      "ajustes de seguridad android",
+      "ajustes de seguridad iphone"
+    ]
+  },
+  {
+    "title": "Bloqueo del móvil: PIN, huella y cara",
+    "url": "/aprende/dispositivos-seguros/bloqueo-y-autenticacion/",
+    "description": "Compara PIN, contraseña, patrón, huella y reconocimiento facial para bloquear tu móvil: qué ventajas tiene cada uno, qué límites y cómo combinarlos.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "bloqueo de pantalla",
+      "pin o huella",
+      "desbloquear con la cara",
+      "reconocimiento facial",
+      "biometria",
+      "patron de desbloqueo",
+      "bloqueo automatico",
+      "pin del movil",
+      "mi movil se desbloquea con la cara",
+      "que es mas seguro huella o pin"
+    ]
+  },
+  {
+    "title": "Wi-Fi público, VPN y Bluetooth: riesgos",
+    "url": "/aprende/dispositivos-seguros/wifi-y-bluetooth/",
+    "description": "Qué riesgos tienen el wifi público y el Bluetooth, qué es una VPN y cuándo ayuda (y cuándo no), y qué ajustes te ahorran problemas fuera de casa.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "wifi publico",
+      "wifi del bar",
+      "wifi gratis aeropuerto",
+      "wifi del hotel",
+      "vpn",
+      "que es una vpn",
+      "man in the middle",
+      "ataque de intermediario",
+      "bluetooth",
+      "bluesnarfing",
+      "es seguro conectarse a un wifi gratis"
+    ]
+  },
+  {
+    "title": "Pérdida o robo del móvil: qué hacer",
+    "url": "/aprende/dispositivos-seguros/perdida-o-robo-del-movil/",
+    "description": "Prepárate antes y actúa en orden si pierdes el móvil o te lo roban: localizar, bloquear, SIM, denuncia con IMEI y borrado remoto, y en qué se diferencian.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "he perdido el movil",
+      "me han robado el movil",
+      "bloquear el movil",
+      "bloquear la sim",
+      "imei",
+      "bloqueo por imei",
+      "borrado remoto",
+      "localizar mi movil",
+      "denuncia robo movil",
+      "que hago si pierdo el movil",
+      "movil perdido"
+    ]
+  },
+  {
+    "title": "Qué significa HTTPS: certificados y candado",
+    "url": "/aprende/navega-y-compra-seguro/que-significa-https/",
+    "description": "Qué es HTTPS, qué comprueba un certificado y qué no: entiende el candado del navegador y los avisos de conexión no segura sin fiarte a ciegas.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "https",
+      "que significa el candado",
+      "candado del navegador",
+      "certificado ssl",
+      "certificado tls",
+      "la conexion no es privada",
+      "sitio no seguro",
+      "web con candado es segura",
+      "http o https"
+    ]
+  },
+  {
+    "title": "Navegadores seguros y modo incógnito",
+    "url": "/aprende/navega-y-compra-seguro/navegadores-y-seguridad/",
+    "description": "Mantén tu navegador al día, cuida las extensiones y entiende qué hace el modo incógnito y qué no: ajustes sencillos para navegar con menos riesgos.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "modo incognito",
+      "navegacion privada",
+      "extensiones del navegador",
+      "navegador seguro",
+      "actualizar el navegador",
+      "borrar historial",
+      "ventanas emergentes",
+      "el modo incognito me hace anonimo",
+      "guardar contrasenas en el navegador"
+    ]
+  },
+  {
+    "title": "Cookies: qué son y qué puedes decidir",
+    "url": "/aprende/navega-y-compra-seguro/cookies/",
+    "description": "Qué son las cookies, para qué sirven y qué debe dejarte elegir una web: aceptar, rechazar o configurar, sin trucos que te empujen a aceptar.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "cookies",
+      "aviso de cookies",
+      "aceptar cookies",
+      "rechazar cookies",
+      "cookies de terceros",
+      "banner de cookies",
+      "rastreo",
+      "publicidad personalizada",
+      "me siguen por internet",
+      "borrar cookies",
+      "consentimiento"
+    ]
+  },
+  {
+    "title": "Descargas seguras: dónde instalar sin riesgos",
+    "url": "/aprende/navega-y-compra-seguro/descargas-seguras/",
+    "description": "Aprende de dónde descargar programas y apps sin riesgo, por qué el software pirata es vía de malware y qué hacer si ya instalaste algo dudoso.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "descargas seguras",
+      "software pirata",
+      "programa crackeado",
+      "crack",
+      "keygen",
+      "descargar gratis",
+      "aplicaciones no oficiales",
+      "apk",
+      "instalador sospechoso",
+      "descargar programas",
+      "malware en descargas",
+      "copia pirata"
+    ]
+  },
+  {
+    "title": "Comprar online: qué comprobar antes de pagar",
+    "url": "/aprende/navega-y-compra-seguro/comprar-por-internet/",
+    "description": "Antes de pagar en una tienda online, comprueba quién vende, qué condiciones ofrece y cómo puedes reclamar. Una lista clara para comprar con criterio.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "comprar por internet",
+      "compras online seguras",
+      "tienda online fiable",
+      "comprobar una tienda",
+      "devoluciones",
+      "condiciones de venta",
+      "datos de la empresa",
+      "marketplace",
+      "comprar a particulares",
+      "oferta sospechosa",
+      "vendedor de confianza",
+      "antes de pagar"
+    ]
+  },
+  {
+    "title": "Tiendas fraudulentas: señales y qué hacer",
+    "url": "/aprende/navega-y-compra-seguro/tiendas-fraudulentas/",
+    "description": "Aprende a reconocer una tienda online falsa por sus precios, su pasarela de pago y su aspecto, y qué pasos dar si ya has pagado en una.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "tienda falsa",
+      "tienda fraudulenta",
+      "estafa compra online",
+      "me han estafado comprando",
+      "oferta demasiado buena",
+      "anuncio falso",
+      "precio muy bajo",
+      "pasarela de pago falsa",
+      "he pagado y no llega",
+      "compra en una web falsa",
+      "estafa segunda mano",
+      "tienda clonada"
+    ]
+  },
+  {
+    "title": "Pagos online: tarjetas, verificación y riesgos",
+    "url": "/aprende/navega-y-compra-seguro/pagos-online/",
+    "description": "Cómo pagar por Internet con menos riesgo: tarjetas de uso online, qué significa la verificación del banco y por qué evitar transferencias a desconocidos.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "pagos online",
+      "pagar por internet",
+      "tarjeta virtual",
+      "tarjeta de un solo uso",
+      "autenticación reforzada",
+      "3D Secure",
+      "SCA",
+      "código del banco",
+      "transferencia a desconocidos",
+      "pagar con tarjeta",
+      "confirmar un pago",
+      "cobro que no reconozco"
+    ]
+  },
+  {
+    "title": "Privacidad y datos personales: qué son",
+    "url": "/aprende/privacidad-e-identidad/privacidad-y-datos-personales/",
+    "description": "Qué es un dato personal, cuáles tienen protección reforzada (salud, biometría) y por qué tu privacidad importa aunque creas que no tienes nada que ocultar.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "datos personales",
+      "RGPD",
+      "privacidad",
+      "categorías especiales de datos",
+      "datos sensibles",
+      "datos de salud",
+      "datos biométricos",
+      "qué son mis datos personales",
+      "que saben de mí",
+      "política de privacidad",
+      "no tengo nada que ocultar"
+    ]
+  },
+  {
+    "title": "Identidad digital: cómo se construye tu perfil",
+    "url": "/aprende/privacidad-e-identidad/identidad-digital/",
+    "description": "Qué es tu identidad digital, de dónde salen las piezas que la forman (lo que publicas, lo que otros publican y lo que se deduce) y cómo ordenarla.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "identidad digital",
+      "perfil digital",
+      "quién soy en internet",
+      "alias",
+      "correo principal",
+      "iniciar sesión con google",
+      "perfil falso con mis datos",
+      "separar cuentas",
+      "qué saben de mí en internet",
+      "datos deducidos"
+    ]
+  },
+  {
+    "title": "Huella digital y reputación online",
+    "url": "/aprende/privacidad-e-identidad/huella-digital-y-reputacion/",
+    "description": "Qué rastro dejas en Internet, cómo buscarte a ti mismo (egosurfing) para detectar exposición y qué hacer ante el doxing, la publicación de tus datos.",
+    "type": "Aprende · 18 min",
+    "keywords": [
+      "huella digital",
+      "reputación online",
+      "egosurfing",
+      "buscarme en google",
+      "doxing",
+      "doxxing",
+      "han publicado mis datos",
+      "alertas de nombre",
+      "qué hay sobre mí en internet",
+      "rastro digital",
+      "datos expuestos"
+    ]
+  },
+  {
+    "title": "Metadatos: lo que esconden fotos y archivos",
+    "url": "/aprende/privacidad-e-identidad/metadatos/",
+    "description": "Qué son los metadatos, qué revelan las fotos (ubicación, fecha, móvil) y los documentos (autor, fechas) y cómo revisarlos o quitarlos antes de compartir.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "metadatos",
+      "EXIF",
+      "ubicación de una foto",
+      "quitar la ubicación de una foto",
+      "datos ocultos en archivos",
+      "propiedades del documento",
+      "limpiar documento antes de enviar",
+      "GPS en fotos",
+      "información oculta en una foto",
+      "autor del documento"
+    ]
+  },
+  {
+    "title": "Tus derechos sobre tus datos personales",
+    "url": "/aprende/privacidad-e-identidad/tus-derechos-sobre-tus-datos/",
+    "description": "Derechos de acceso, rectificación y supresión de tus datos: cómo ejercerlos ante una empresa, cuándo reclamar ante la AEPD y qué es la cartera europea.",
+    "type": "Aprende · 18 min",
+    "keywords": [
+      "derechos RGPD",
+      "derecho de acceso",
+      "derecho de rectificación",
+      "derecho de supresión",
+      "derecho al olvido",
+      "AEPD",
+      "reclamar a la AEPD",
+      "borrar mis datos",
+      "ejercer mis derechos",
+      "cartera de identidad digital europea",
+      "eIDAS 2",
+      "portabilidad de datos"
+    ]
+  },
+  {
+    "title": "Perfiles falsos y estafas en redes sociales",
+    "url": "/aprende/redes-sociales-y-mensajeria/perfiles-falsos/",
+    "description": "Cómo reconocer perfiles falsos en redes y apps de citas, qué señales delatan una estafa romántica o de inversión en cripto y qué hacer si ya has caído.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "perfil falso",
+      "estafa romántica",
+      "catfishing",
+      "timo del amor",
+      "inversión en criptomonedas falsa",
+      "estafa de inversión",
+      "me han engañado en una app de citas",
+      "no quiere hacer videollamada",
+      "sextorsión",
+      "cuenta falsa en redes"
+    ]
+  },
+  {
+    "title": "Qué no publicar en redes sociales",
+    "url": "/aprende/redes-sociales-y-mensajeria/que-no-publicar/",
+    "description": "Qué información conviene no publicar en redes (viajes, documentos, rutinas, datos personales) y cómo compartir sin dar pistas a estafadores ni ladrones.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "oversharing",
+      "compartir de más",
+      "qué no publicar en redes sociales",
+      "no subir foto del billete de avión",
+      "publicar vacaciones",
+      "foto del DNI en redes",
+      "datos personales en redes",
+      "peligros de las redes sociales",
+      "fotos de la familia en redes",
+      "rutinas y privacidad"
+    ]
+  },
+  {
+    "title": "Configurar la privacidad de tus redes sociales",
+    "url": "/aprende/redes-sociales-y-mensajeria/configuracion-de-privacidad/",
+    "description": "Qué revisar en cualquier red social: perfil público o privado, audiencia, etiquetas, mensajes, apps vinculadas y sesiones abiertas, sin depender de menús.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "configuración de privacidad",
+      "perfil privado",
+      "cuenta privada",
+      "quién puede ver mis publicaciones",
+      "etiquetas",
+      "audiencia de publicaciones",
+      "aplicaciones vinculadas",
+      "cerrar sesiones activas",
+      "ajustes de privacidad Instagram Facebook TikTok",
+      "bloquear a alguien en redes"
+    ]
+  },
+  {
+    "title": "Geolocalización y redes sociales",
+    "url": "/aprende/redes-sociales-y-mensajeria/geolocalizacion/",
+    "description": "Cómo funciona la ubicación en el móvil y las redes, qué riesgos tiene compartirla en tiempo real o en fotos y cómo decidir cuándo sí y cuándo no.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "geolocalización",
+      "ubicación en tiempo real",
+      "compartir ubicación",
+      "permisos de ubicación",
+      "ubicación en fotos",
+      "etiquetar lugar",
+      "GPS",
+      "me pueden localizar",
+      "ubicación aproximada",
+      "apps que saben dónde estoy"
+    ]
+  },
+  {
+    "title": "WhatsApp seguro: evita el robo de tu cuenta",
+    "url": "/aprende/redes-sociales-y-mensajeria/whatsapp-seguro/",
+    "description": "Cómo te roban WhatsApp con un código de seis dígitos, por qué la verificación en dos pasos lo impide y cómo reconocer estafas en grupos y mensajes.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "WhatsApp",
+      "secuestro de WhatsApp",
+      "me han robado el WhatsApp",
+      "código de verificación",
+      "código de WhatsApp por SMS",
+      "verificación en dos pasos WhatsApp",
+      "PIN de WhatsApp",
+      "me ha llegado un código que no he pedido",
+      "grupos de WhatsApp",
+      "estafas por WhatsApp",
+      "hackeo de WhatsApp",
+      "mi hijo con móvil nuevo"
+    ]
+  },
+  {
+    "title": "Instagram, TikTok, Facebook y LinkedIn seguros",
+    "url": "/aprende/redes-sociales-y-mensajeria/instagram-tiktok-facebook-linkedin/",
+    "description": "Ajustes comunes para Instagram, TikTok, Facebook y LinkedIn: cuenta privada, mensajes, anuncios y cuentas profesionales, y los engaños típicos de cada red.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "Instagram",
+      "TikTok",
+      "Facebook",
+      "LinkedIn",
+      "cuenta privada",
+      "ajustes de privacidad Instagram",
+      "mensajes de desconocidos",
+      "cuenta profesional",
+      "cuenta de creador",
+      "anuncios personalizados",
+      "falsos reclutadores",
+      "oferta de trabajo falsa",
+      "perfil clonado"
+    ]
+  },
+  {
+    "title": "Robo de cuenta social: qué hacer",
+    "url": "/aprende/redes-sociales-y-mensajeria/robo-de-cuenta-social/",
+    "description": "Pasos para recuperar una cuenta de red social robada, cómo avisar a tus contactos para que no caigan en el engaño y cómo guardar pruebas y denunciar.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "robo de cuenta",
+      "me han robado la cuenta de Instagram",
+      "me han hackeado Facebook",
+      "cuenta de red social hackeada",
+      "recuperar cuenta",
+      "avisar a mis contactos",
+      "alguien se hace pasar por mí",
+      "suplantan mi perfil",
+      "guardar pruebas",
+      "denunciar robo de cuenta",
+      "no puedo entrar en mi cuenta"
+    ]
+  },
+  {
+    "title": "Cifrado: qué es y cuándo activarlo",
+    "url": "/aprende/protege-tu-informacion/cifrado/",
+    "description": "Qué es el cifrado, dónde ya lo usas sin saberlo y cuándo conviene activarlo en tu móvil, tu ordenador, tus USB y tus copias, sin perder el acceso.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "cifrado",
+      "cifrar",
+      "cifrar disco",
+      "cifrar usb",
+      "BitLocker",
+      "FileVault",
+      "clave de recuperación",
+      "proteger archivos si me roban el portátil",
+      "cifrar copias de seguridad",
+      "cifrar antes de subir a la nube",
+      "candado para mis archivos"
+    ]
+  },
+  {
+    "title": "Copias de seguridad: la regla 3-2-1",
+    "url": "/aprende/protege-tu-informacion/copias-de-seguridad/",
+    "description": "Aprende a hacer copias de seguridad con la regla 3-2-1, por qué sincronizar no es lo mismo que copiar y cómo comprobar que podrías recuperar tus datos.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "copia de seguridad",
+      "backup",
+      "regla 3-2-1",
+      "hacer copia de mis fotos",
+      "perder mis archivos",
+      "ransomware recuperar archivos",
+      "sincronizar no es copia",
+      "restaurar copia",
+      "disco externo",
+      "me han secuestrado los archivos"
+    ]
+  },
+  {
+    "title": "Almacenamiento seguro: dónde guardar tus datos",
+    "url": "/aprende/protege-tu-informacion/almacenamiento-seguro/",
+    "description": "Dónde guardar tu DNI, contratos, claves y fotos: ventajas y riesgos del móvil, el disco externo y la nube, y los sitios donde conviene no dejarlos.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "almacenamiento seguro",
+      "dónde guardar el DNI",
+      "foto del DNI en el móvil",
+      "guardar documentos importantes",
+      "nube segura",
+      "guardar contraseñas",
+      "disco externo",
+      "usb",
+      "carpeta cifrada",
+      "claves de recuperación",
+      "enviar el DNI por internet"
+    ]
+  },
+  {
+    "title": "Valor y clasificación de la información",
+    "url": "/aprende/protege-tu-informacion/valor-y-clasificacion-de-la-informacion/",
+    "description": "Descubre por qué tus datos valen más de lo que crees y aprende a clasificarlos en públicos, privados y críticos para decidir cómo protegerlos.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "clasificación de la información",
+      "información crítica",
+      "datos sensibles",
+      "qué datos proteger primero",
+      "valor de mis datos",
+      "información pública privada",
+      "información irreemplazable",
+      "por qué mis datos importan",
+      "clasificar mis archivos"
+    ]
   }
 ]

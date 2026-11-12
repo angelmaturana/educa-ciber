@@ -4,6 +4,10 @@ All notable changes to `legible` are recorded here. The format follows [Keep a C
 
 ## [Unreleased]
 
+### Content helper `legible/nueva_leccion.py`
+
+- New stand-alone script (standard library only; run with `python3 -B -I`) that builds a lesson page from one JSON file, adds its `search-index.json` entry and links it from its hub. It validates everything before writing, never overwrites, and touches no engine file or test. Engine mode, one new file; tests and validator unchanged.
+
 ### Tests no longer break once a real site lives in the folder
 
 - Tests only, no engine change. `run_all.py` stopped at step 1 as soon as `src/data/site.json` held real data, because three tests assumed the folder is always the pristine base: `TestSampleValues` and `TestPrelaunchCommand` (they check the base *ships* with example values and that `--prelaunch` fails on it) and the contact-channels test (it asked for the English text whatever `language` was). The first two now skip themselves (`ONLY_ON_THE_BASE`) when `site_name` is no longer the example value; the third reads the text for the site's own `language`. On the base nothing changes: all 400 tests still run.
