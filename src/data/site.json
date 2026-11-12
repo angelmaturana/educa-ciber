@@ -1,0 +1,61 @@
+{
+  "site_url": "https://educaciber.com",
+  "site_name": "EDUCA CIBER",
+  "language": "es",
+  "site_description": "Formación y recursos gratuitos de ciberseguridad, explicados de forma sencilla y práctica para que cualquier persona pueda aprender a proteger su vida digital.",
+  "theme_color": "#FFFFFF",
+  "contact_email": "hola@educaciber.com",
+  "city": "",
+  "region": "",
+  "country_code": "ES",
+  "nav": [
+    {
+      "label": "Inicio",
+      "url": "/"
+    },
+    {
+      "label": "Aprende",
+      "url": "/aprende/"
+    },
+    {
+      "label": "Recursos",
+      "url": "/recursos/"
+    },
+    {
+      "label": "Buscar",
+      "url": "/buscar/"
+    },
+    {
+      "label": "Empresas",
+      "url": "/empresas/"
+    },
+    {
+      "label": "Sobre EDUCA CIBER",
+      "url": "/sobre-educaciber/"
+    },
+    {
+      "label": "Contacto",
+      "url": "/contact/",
+      "action": true
+    }
+  ],
+  "legal_nav": [
+    {
+      "label": "Aviso legal",
+      "url": "/legal-notice/"
+    },
+    {
+      "label": "Privacidad",
+      "url": "/privacy-policy/"
+    },
+    {
+      "label": "Cookies",
+      "url": "/cookie-policy/"
+    },
+    {
+      "label": "Fuentes y metodología",
+      "url": "/fuentes-metodologia/"
+    }
+  ],
+  "legal_contact_email": "legal@educaciber.com"
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "@type": "EducationalOrganization",
+    "@id": "{{site_url}}/#business",
+    "name": "{{site_name}}",
+    "description": "{{site_description}}",
+    "url": "{{site_url}}",
+    "logo": "{{site_url}}/images/logo.svg",
+    "image": "{{site_url}}/images/og-image.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "{{country_code}}"
+    }
+  },
+  {
+    "@type": "WebSite",
+    "@id": "{{site_url}}/#website",
+    "url": "{{site_url}}/",
+    "name": "{{site_name}}",
+    "inLanguage": "{{in_language}}",
+    "publisher": {
+      "@id": "{{site_url}}/#business"
+    }
+  }
+]
