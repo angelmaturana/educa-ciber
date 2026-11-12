@@ -1164,6 +1164,29 @@
     ]
   },
   {
+    "title": "Bloqueo de sesión: protege tu puesto",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/bloqueo-sesion/",
+    "description": "Aprende a bloquear tu sesión correctamente: atajos de teclado, bloqueo automático, principio de menor privilegio y por qué no confiar solo en la biometría.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "bloqueo sesion",
+      "win+l",
+      "ctrl+cmd+q",
+      "super+l",
+      "bloqueo automatico",
+      "menor privilegio",
+      "cuenta estandar",
+      "biometria",
+      "windows hello",
+      "touch id",
+      "face id",
+      "notificaciones pantalla bloqueada",
+      "protector pantalla",
+      "sesion abandonada",
+      "acceso no autorizado"
+    ]
+  },
+  {
     "title": "Familias y menores",
     "url": "/aprende/familias-y-menores/",
     "description": "Acompaña a niños y adolescentes para que aprendan a desenvolverse en Internet de forma segura y responsable.",
