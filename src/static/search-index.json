@@ -1354,5 +1354,149 @@
       "por qué mis datos importan",
       "clasificar mis archivos"
     ]
+  },
+  {
+    "title": "Compartir archivos en la nube con seguridad",
+    "url": "/aprende/protege-tu-informacion/nube-y-archivos-compartidos/",
+    "description": "Aprende a compartir archivos en la nube sin abrir la puerta a desconocidos: enlaces, permisos de lectura o edición, caducidad y revisión de accesos.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "compartir archivos en la nube",
+      "enlace compartido",
+      "cualquiera con el enlace",
+      "permisos de lectura y edición",
+      "caducidad de enlace",
+      "quién tiene acceso a mi archivo",
+      "dejar de compartir",
+      "carpeta compartida",
+      "me han compartido un documento"
+    ]
+  },
+  {
+    "title": "USB y borrado seguro de dispositivos",
+    "url": "/aprende/protege-tu-informacion/usb-y-borrado-seguro/",
+    "description": "Por qué no debes conectar un USB desconocido y cómo borrar de verdad móviles, ordenadores y discos antes de venderlos, regalarlos o reciclarlos.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "usb desconocido",
+      "baiting",
+      "pendrive encontrado",
+      "borrado seguro",
+      "restablecer de fábrica",
+      "vender mi móvil",
+      "reciclar ordenador",
+      "formatear no borra",
+      "cargador público",
+      "destruir un disco duro"
+    ]
+  },
+  {
+    "title": "Correo corporativo y fraude del CEO",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/correo-corporativo/",
+    "description": "Aprende a reconocer el fraude del CEO y el cambio de cuenta bancaria falso, y a verificar por teléfono cualquier pago o cambio fuera de lo habitual.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "fraude del CEO",
+      "BEC",
+      "cambio de cuenta bancaria",
+      "factura falsa",
+      "me piden una transferencia urgente",
+      "correo de mi jefe falso",
+      "suplantación de proveedor",
+      "whaling",
+      "doble validación por teléfono"
+    ]
+  },
+  {
+    "title": "Bloqueo de sesión y mesa limpia en el trabajo",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/bloqueo-de-sesion-y-mesa-limpia/",
+    "description": "Bloquea la pantalla cada vez que te levantes, no dejes papeles ni claves a la vista y cuida lo que se ve y se oye en tu puesto de trabajo.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "bloquear la pantalla",
+      "bloqueo de sesión",
+      "mesa limpia",
+      "pantalla limpia",
+      "post-it con contraseñas",
+      "dejar el ordenador desbloqueado",
+      "papeles confidenciales",
+      "trituradora",
+      "seguridad en la oficina"
+    ]
+  },
+  {
+    "title": "Teletrabajo seguro y Wi-Fi fuera de la oficina",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/teletrabajo-y-wifi-fuera-de-la-oficina/",
+    "description": "Cómo teletrabajar con seguridad: protege el router de casa, evita las wifis públicas, usa la VPN de tu empresa y cuida tu puesto fuera de la oficina.",
+    "type": "Aprende · 20 min",
+    "keywords": [
+      "teletrabajo",
+      "trabajar desde casa",
+      "wifi pública",
+      "wifi del hotel",
+      "VPN",
+      "VPN de empresa",
+      "router",
+      "WPS",
+      "red doméstica",
+      "datos móviles",
+      "política de teletrabajo",
+      "trabajar fuera de la oficina"
+    ]
+  },
+  {
+    "title": "Móvil personal en el trabajo (BYOD)",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/dispositivos-personales-byod/",
+    "description": "Si usas tu móvil o portátil personal para trabajar, aprende a separar lo laboral de lo personal y qué hacer si lo pierdes, lo cambias o dejas la empresa.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "BYOD",
+      "móvil personal para trabajar",
+      "correo de la empresa en el móvil",
+      "dispositivos personales",
+      "perfil de trabajo",
+      "separar datos personales y laborales",
+      "política de dispositivos",
+      "portátil personal para trabajar",
+      "dejar la empresa móvil"
+    ]
+  },
+  {
+    "title": "Proveedores y terceros con acceso",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/proveedores-y-terceros/",
+    "description": "Asesorías, informáticos externos y servicios en la nube pueden ser una puerta de entrada. Aprende a darles solo el acceso necesario y a retirarlo a tiempo.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "proveedores",
+      "terceros",
+      "cadena de suministro",
+      "mínimo privilegio",
+      "acceso de proveedores",
+      "soporte técnico externo",
+      "gestoría acceso a datos",
+      "NIS2",
+      "acuerdo de confidencialidad",
+      "acceso compartido",
+      "clave de administrador"
+    ]
+  },
+  {
+    "title": "Cómo comunicar un incidente de seguridad",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/como-comunicar-un-incidente/",
+    "description": "Has hecho clic donde no debías o has perdido un dispositivo. Aprende qué cuenta como incidente, a quién avisar, qué contar y por qué avisar pronto ayuda.",
+    "type": "Aprende · 15 min",
+    "keywords": [
+      "comunicar un incidente",
+      "avisar de un incidente",
+      "he cometido un error",
+      "he pulsado un enlace",
+      "he perdido el portátil",
+      "cultura de no culpa",
+      "incidente de seguridad",
+      "brecha de seguridad",
+      "a quién aviso en el trabajo",
+      "INCIBE-CERT",
+      "NIS2"
+    ]
   }
 ]
