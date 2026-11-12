@@ -20,22 +20,35 @@
 
 ---
 
+## FASE 1 · Fraudes y engaños ⭐ (COMPLETADA)
+
+- [x] 1. `ingenieria-social` — principios de manipulación, desestigmatizar víctima
+- [x] 2. `smishing-y-vishing` — SMS/llamadas, familiar en apuros con voz clonada IA, palabra seguridad
+- [x] 3. `suplantacion-de-identidad` — perfiles clonados, reducir exposición (defensa)
+- [x] 4. `webs-falsas` — HTTPS no garantiza legitimidad, dominio, copia marca
+- [x] 5. `enlaces-y-archivos-sospechosos` — acortadores, QR maliciosos, adjuntos, previsualizar
+- [x] Extra: enlazar desde recursos/phishing-smishing-vishing/ y recursos/phishing-checklist/ (hecho en lecciones)
+- [x] Cierre de hub (`/aprende/fraudes-y-enganos/`): ≥250 palabras, ruta recomendada, quitar noindex
+
+**Hecho cuando:** 5 lecciones reales, hub indexable, tests OK, build sin avisos.
+
+---
+
 ## Fases pendientes
-- FASE 1 · Fraudes y engaños ⭐ (5 lecciones + cierre hub)
-- FASE 2 · Contraseñas y cuentas ⭐ (6 lecciones + cierre hub)
-- FASE 3 · Empieza por aquí ⭐ (6 lecciones + cierre hub)
+- FASE 2 · Contraseñas y cuentas ⭐ (6 lecciones + cierre de hub)
+- FASE 3 · Empieza por aquí ⭐ (6 lecciones + cierre de hub)
 - FASE 4 · Dispositivos seguros I (4 lecciones)
 - FASE 5 · Dispositivos II + Navega I (5 lecciones + cierre hub Dispositivos)
-- FASE 6 · Navega y compra seguro II (5 lecciones + cierre hub)
-- FASE 7 · Privacidad e identidad digital (5 lecciones + cierre hub)
+- FASE 6 · Navega y compra seguro II (5 lecciones + cierre de hub)
+- FASE 7 · Privacidad e identidad digital (5 lecciones + cierre de hub)
 - FASE 8 · Redes sociales y mensajería I (4 lecciones)
-- FASE 9 · Redes sociales y mensajería II (3 lecciones + cierre hub)
+- FASE 9 · Redes sociales y mensajería II (3 lecciones + cierre de hub)
 - FASE 10 · Protege tu información I (4 lecciones)
 - FASE 11 · Protege II + Trabajo I (4 lecciones + cierre hub Protege)
-- FASE 12 · Ciberseguridad en el trabajo II (4 lecciones + cierre hub)
+- FASE 12 · Ciberseguridad en el trabajo II (4 lecciones + cierre de hub)
 - FASE 13 · Familias y menores I (4 lecciones)
-- FASE 14 · Familias y menores II (3 lecciones + cierre hub)
-- FASE 15 · IA y nuevas tecnologías (5 lecciones + cierre hub) — Hito A
+- FASE 14 · Familias y menores II (3 lecciones + cierre de hub)
+- FASE 15 · IA y nuevas tecnologías (5 lecciones + cierre de hub) — Hito A
 - FASE 16 · Recursos I (5 recursos + reescribir `/recursos/`)
 - FASE 17 · Recursos II (5 recursos)
 - FASE 18 · Glosario ⭐ (1 página, ~40 términos)

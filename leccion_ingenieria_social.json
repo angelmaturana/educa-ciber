@@ -1,0 +1,88 @@
+{
+  "titulo": "Ingeniería social",
+  "slug": "ingenieria-social",
+"hub": "fraudes-y-enganos",
+  "descripcion": "Principios de manipulación (autoridad, urgencia, miedo, recompensa, confianza). El factor humano es vulnerable por diseño: desestigmatizar a la víctima.",
+  "nivel": "básico",
+  "duracion": "5 min · Lo esencial",
+  "publico": "todos",
+  "idea_clave": "La ingeniería social ataca tu confianza y emociones, no tu tecnología. Caer no es tontería, es humano.",
+  "esencial": "La <strong>ingeniería social</strong> es el arte de manipular a las personas para que revelen información confidencial o realicen acciones que comprometan su seguridad. No explota fallos técnicos, sino cómo funciona nuestra mente: confiamos en la autoridad, tememos perder algo, nos apura la urgencia, deseamos recompensas y tendemos a ayudar. Estos son atajos mentales que todos tenemos y que los atacantes conocen y usan.",
+  "secciones": [
+    {
+      "tipo": "signal-grid",
+      "id": "senales",
+      "titulo": "Los 5 principios que usan para manipularte",
+      "contenido": [
+        {"titulo": "Autoridad", "descripcion": "Se hacen pasar por tu banco, la policía, tu jefe, Hacienda. Sabes que debes obedecer a la autoridad y lo aprovechan."},
+        {"titulo": "Urgencia", "descripcion": "Tu cuenta se cerrará en 1 hora. El paquete se devuelve hoy. Tienes que actuar YA. La prisa anula tu pensamiento crítico."},
+        {"titulo": "Miedo", "descripcion": "Te han hackeado, hay un virus, vas a perder tu dinero, te van a denunciar. El miedo paraliza y hace que obedezcas sin verificar."},
+        {"titulo": "Recompensa", "descripcion": "Has ganado un premio, te toca un reembolso, hay una oferta exclusiva. La codicia o la ilusión nublan el juicio."},
+        {"titulo": "Confianza / Simpatía", "descripcion": "Se ganan tu confianza fingiendo ser un compañero, un técnico amable, alguien que te quiere ayudar. Bajamos la guardia con quien nos cae bien."}
+      ]
+    },
+    {
+      "tipo": "steps-list",
+      "id": "aprende",
+      "titulo": "15 MIN · Aprende a defender tu mente",
+      "intro": "No puedes evitar que intenten manipularte, pero puedes entrenarte para detectarlo:",
+      "contenido": [
+        {"titulo": "Detente ante la emoción fuerte", "descripcion": "Si un mensaje te da miedo, urgencia, ilusión o culpa, esa es la señal. Para. Respira. No actúes aún."},
+        {"titulo": "Pregunta: ¿quién lo pide y por qué?", "descripcion": "¿Es lógico que tu banco te pida la contraseña por SMS? ¿Que Hacienda te amenace por WhatsApp? ¿Que un compañero necesite una transferencia urgente sin avisar?"},
+        {"titulo": "Verifica por canal independiente", "descripcion": "No uses el enlace ni el teléfono del mensaje. Busca el número oficial, entra en la app tú solo, llama a la persona supuestamente implicada."},
+        {"titulo": "Comparte la experiencia", "descripcion": "Cuéntalo a alguien de confianza. Verbalizar lo ocurrido ayuda a procesarlo y alerta a otros. No te avergüences: le pasa a gente lista y formada."}
+      ]
+    },
+    {
+      "tipo": "fake-message",
+      "id": "ejemplo",
+      "titulo": "Un ejemplo: el \"técnico de Microsoft\" que llama por teléfono",
+      "avatar": "T",
+      "entidad": "Soporte Técnico Microsoft",
+      "asunto": "Su equipo está infectado",
+      "texto": "“Hola, le llamamos de Microsoft. Hemos detectado virus en su ordenador. Si nos da acceso remoto, lo limpiamos en 10 minutos. Es gratis por ser cliente.”",
+      "boton": "DAR ACCESO",
+      "nota": "Microsoft nunca llama sin que lo pidas. El acceso remoto da control total a un extraño.",
+      "preguntas": "¿Te esperaba esta llamada? ¿Microsoft tiene tu teléfono? ¿Por qué gratis? ¿Qué ganan ellos?"
+    },
+    {
+      "tipo": "flow-steps",
+      "id": "flujo",
+      "contenido": ["CONFIANZA", "EMOCIÓN (MIEDO/URGENCIA)", "PETICIÓN (DATOS/ACCESO/DINERO)", "ROBO"]
+    }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Recibes un WhatsApp de \"tu jefe\" pidiéndote que compres tarjetas de regalo de 500 € para unos clientes y le envíes los códigos por foto. Dice que está en una reunión y no puede hablar. ¿Qué haces?",
+      "respuesta": "No compres nada. Llama a tu jefe por su número habitual o habla con él en persona. Es un ataque de suplantación (CEO fraud) muy común: usan urgencia y autoridad para que no verifiques."
+    },
+    {
+      "pregunta": "Te llama alguien diciendo ser de tu banco: \"Hemos detectado un cargo extraño de 2.000 €. Para anularlo, necesitamos que nos diga el código que le acabamos de enviar por SMS\". ¿Es legítimo?",
+      "respuesta": "No. Tu banco NUNCA te pide códigos SMS por teléfono. Ese código es para que TÚ entres en tu banca online; si se lo das a otro, entra él. Cuelga y llama a tu banco al número de tu tarjeta."
+    }
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Solo la gente mayor o poco informada cae en ingeniería social?",
+      "respuesta": "No. La ingeniería social explota atajos mentales universales (confianza en la autoridad, miedo a perder, deseo de ayudar). Caen expertos en seguridad, directivos, periodistas, jóvenes. La diferencia no es inteligencia, sino si en ese momento estabas distraído, cansado o con prisa."
+    },
+    {
+      "pregunta": "Me da vergüenza haber caído. ¿Debo contarlo?",
+      "respuesta": "Contarlo es lo mejor que puedes hacer. El silencio protege al atacante. Avisa a tu banco, a tu empresa, a la policía si procede, y a tus contactos si te suplantaron. No eres tonto: fuiste manipulado por profesionales del engaño."
+    },
+    {
+      "pregunta": "¿Cómo puedo entrenarme para no caer?",
+      "respuesta": "Practica la pausa: ante cualquier petición inesperada de datos, dinero o acceso, espera 5 minutos. Verifica por otro canal. Haz simulacros mentales: \"Si me llamaran diciendo X, qué haría\". Comparte casos reales con tu entorno para normalizar la conversación."
+    }
+  ],
+  "fuentes": [
+    {"titulo": "INCIBE · Ingeniería social", "url": "https://www.incibe.es/aprendeciberseguridad/ingenieria-social"},
+    {"titulo": "OSI · Qué es la ingeniería social", "url": "https://www.osi.es/es/actualidad/ingenieria-social"},
+    {"titulo": "CCN-CERT · Guía de concienciación", "url": "https://www.ccn-cert.cni.es/guia-concienciacion"}
+  ],
+  "relacionadas": [
+    {"slug": "phishing", "hub": "fraudes-y-enganos", "texto": "Phishing: reconócelo antes de hacer clic"},
+    {"slug": "smishing-y-vishing", "hub": "fraudes-y-enganos", "texto": "Smishing y vishing: engaños por SMS y llamada"},
+    {"slug": "suplantacion-de-identidad", "hub": "fraudes-y-enganos", "texto": "Suplantación de identidad: perfiles clonados"}
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "titulo": "Smishing y vishing",
+  "slug": "smishing-y-vishing",
+  "hub": "fraudes",
+  "descripcion": "Aprende a reconocer el smishing (SMS fraudulentos) y el vishing (llamadas fraudulentas), incluyendo el engaño del familiar en apuros con voz clonada por IA.",
+  "nivel": "básico",
+  "duracion": "5 min · Lo esencial",
+  "publico": "todos",
+  "idea_clave": "Un SMS o una llamada pueden suplantar a cualquiera. Verifica siempre por otro canal antes de actuar.",
+  "esencial": "El <strong>smishing</strong> es phishing por SMS y el <strong>vishing</strong> por llamada telefónica. Usan los mismos trucos: urgencia, autoridad, miedo. Un caso creciente es el \"familiar en apuros\": te llaman o escriben diciendo ser un hijo/nieto en problemas, piden dinero urgente. Ahora usan IA para clonar la voz. La defensa: <strong>palabra de seguridad familiar</strong> (una palabra que solo vosotros sabéis).",
+  "secciones": [
+    {
+      "tipo": "signal-grid",
+      "id": "senales",
+      "titulo": "Señales en SMS y llamadas",
+      "contenido": [
+        {"titulo": "Número desconocido o oculto", "descripcion": "No coincide con el contacto guardado. Pueden falsificar el remitente (spoofing)."},
+        {"titulo": "Urgencia extrema", "descripcion": "\"Necesito el dinero YA\", \"Me van a detener\", \"Se me acaba la batería\". No te dan tiempo a pensar."},
+        {"titulo": "Piden dinero o datos", "descripcion": "Transferencia, Bizum, tarjetas regalo, códigos, contraseñas. Nada legítimo se pide así."},
+        {"titulo": "Voz extraña o metálica", "descripcion": "Puede ser clonada por IA. Si dudar, cuelga y llama al número real."},
+        {"titulo": "Canal inusual", "descripcion": "Tu banco no te avisa por SMS de problemas. Tu hijo no te pide dinero por WhatsApp de un número nuevo."}
+      ]
+    },
+    {
+      "tipo": "steps-list",
+      "id": "aprende",
+      "titulo": "15 MIN · Cómo protegerte",
+      "intro": "La mejor defensa es la verificación por canal independiente:",
+      "contenido": [
+        {"titulo": "No uses el enlace ni el número del mensaje", "descripcion": "Si es tu banco, entra en la app tú solo. Si es un familiar, llama a su número habitual."},
+        {"titulo": "Acordad una palabra de seguridad familiar", "descripcion": "Una palabra secreta que solo conocéis los de casa. Si no la dicen, no son ellos."},
+        {"titulo": "Activa la verificación en dos pasos en WhatsApp", "descripcion": "Ajustes → Cuenta → Verificación en dos pasos. Evita el secuestro de cuenta por SMS/buzón de voz."},
+        {"titulo": "Denuncia y bloquea", "descripcion": "Reenvía el SMS al 7726 (INCIBE) o denuncia en la app de tu operadora. Bloquea el número."}
+      ]
+    },
+    {
+      "tipo": "fake-message",
+      "id": "ejemplo",
+      "titulo": "Un ejemplo: tu \"hijo\" te escribe desde un número nuevo",
+      "avatar": "H",
+      "entidad": "Hijo (número nuevo)",
+      "asunto": "Urgente",
+      "texto": "“Mamá/papá, se me ha roto el móvil y este es el nuevo. Me han robado la cartera y necesito 500 € YA por Bizum al 6XX XX XX XX. Te explico luego, por favor date prisa.”",
+      "boton": "ENVIAR BIZUM",
+      "nota": "Número nuevo, urgencia, pide dinero, no te deja verificar. Clásico smishing de familiar en apuros.",
+      "preguntas": "¿Tu hijo te pediría dinero así? ¿Por qué no llama? ¿Por qué tanta prisa?"
+    },
+    {
+      "tipo": "flow-steps",
+      "id": "flujo",
+      "contenido": ["SMS/LLAMADA", "SUPlantación (BANCO/FAMILIAR)", "URGENCIA + MIEDO", "PETICIÓN DINERO/DATOS", "ROBO"]
+    }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Recibes un SMS de \"Correos\": \"Su paquete no se pudo entregar. Pague 1,50 € para reprogramar: [enlace]\". ¿Qué haces?",
+      "respuesta": "No pulses. Correos no cobra por reprogramar. Entra en su web/app con tu número de seguimiento. Es smishing de paquetería."
+    },
+    {
+      "pregunta": "Te llama \"Microsoft\" diciendo que tu PC tiene virus y te piden acceso remoto para arreglarlo gratis. ¿Es de fiar?",
+      "respuesta": "No. Microsoft no llama sin que lo pidas. El acceso remoto da control total a un extraño. Cuelga."
+    }
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cómo sé si una voz es clonada por IA?",
+      "respuesta": "Puede sonar muy real, pero a veces tiene pausas extrañas, tono metálico, o no responde bien a preguntas personales. La prueba definitiva: cuelga y llama al número real de esa persona."
+    },
+    {
+      "pregunta": "¿Qué es la palabra de seguridad familiar?",
+      "respuesta": "Una palabra o frase secreta que acordáis en familia (ej. \"tortilla\"). Si alguien dice ser un familiar en apuros y no la sabe, no es él. Funciona contra clonación de voz y suplantación."
+    },
+    {
+      "pregunta": "Me han llamado y he dado mis datos bancarios. ¿Qué hago?",
+      "respuesta": "Llama YA a tu banco (número de la tarjeta o app oficial) para anular tarjetas y bloquear operaciones. Denuncia a Policía/Guardia Civil. Revisa movimientos."
+    }
+  ],
+  "fuentes": [
+    {"titulo": "INCIBE · Smishing", "url": "https://www.incibe.es/aprendeciberseguridad/smishing"},
+    {"titulo": "INCIBE · Vishing", "url": "https://www.incibe.es/aprendeciberseguridad/vishing"},
+    {"titulo": "OSI · Secuestro de WhatsApp", "url": "https://www.osi.es/es/actualidad/whatsapp-secuestro"}
+  ],
+  "relacionadas": [
+    {"slug": "phishing", "hub": "fraudes-y-enganos", "texto": "Phishing: reconócelo antes de hacer clic"},
+    {"slug": "ingenieria-social", "hub": "fraudes-y-enganos", "texto": "Ingeniería social"},
+    {"slug": "enlaces-y-archivos-sospechosos", "hub": "fraudes-y-enganos", "texto": "Enlaces y archivos sospechosos"}
+  ]
+}

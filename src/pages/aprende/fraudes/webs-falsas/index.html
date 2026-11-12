@@ -1,7 +1,6 @@
 ---
 title: Webs falsas: el candado no basta | EDUCA CIBER
 description: Aprende a detectar webs fraudulentas: HTTPS solo cifra la conexión, no garantiza legitimidad. Dominio, copia de marca, formularios y comprobación segura.
-robots: noindex, follow
 updated: 2026-11-12
 ---
 
@@ -22,18 +21,47 @@ updated: 2026-11-12
 <main id="main">
 <section class="inner-hero page-width">
  <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/fraudes-y-enganos/">Fraudes y engaños</a><span>/</span><span>Webs falsas</span></nav>
- <p class="eyebrow">Fraudes y engaños · Contenido en preparación</p><h1>Webs falsas: el candado no basta</h1>
- <p class="lead">Esta lección está en desarrollo. Pronto aprenderás por qué HTTPS no garantiza que una web sea legítima, cómo comprobar el dominio, detectar copias de marca y formularios sospechosos.</p>
- <div class="meta-row"><span class="meta-pill">Nivel básico</span><span class="meta-pill">Para todos</span><span class="meta-pill">Próximamente</span></div>
+ <p class="eyebrow">Fraudes y engaños · Contenido piloto</p><h1>Webs falsas: <span class="text-blue">el candado no basta.</span></h1>
+ <p class="lead">Ver el candado HTTPS te da falsa seguridad. Una web fraudulenta también lo tiene. Aprende a verificar el dominio y detectar la copia.</p>
+ <div class="meta-row"><span class="meta-pill">Nivel básico</span><span class="meta-pill">Para todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
 </section>
 <section class="section page-width content-layout">
  <article class="content-main">
   <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>HTTPS cifra la conexión, no certifica quién está al otro lado. Verifica siempre el dominio antes de confiar.</strong></div>
-  <h2 id="lo-esencial">Lo esencial</h2>
-  <p>Contenido en preparación. Esta lección desmitificará el candado HTTPS: cifra la conexión, no garantiza legitimidad. Cubrirá dominio, copia de marca, formularios y comprobación segura.</p>
-  <h2 id="fuentes">Fuentes y revisión</h2>
-  <p>Contenido en desarrollo a partir de documentación de INCIBE y OSI.</p>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Cuando ves el candado en la barra del navegador, significa que la conexión está cifrada (TLS/SSL). Nadie puede espiar lo que envías o recibes. Pero el candado <strong>NO verifica quién está al otro lado</strong>: una web fraudulenta también puede tener HTTPS. Cualquiera puede obtener un certificado gratis (Let's Encrypt) para su dominio.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>HTTPS cifra la conexión, no certifica quién está al otro lado. Verifica siempre el dominio antes de confiar.</p></div>
+  <h2 id="senales">Qué verifica y qué NO el candado</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Cifra la conexión</strong><p>Tus datos viajan encriptados entre tu navegador y el servidor.</p></div>
+   <div><b>02</b><strong>NO verifica la identidad</strong><p>Cualquiera puede obtener un certificado para su dominio, incluso estafadores.</p></div>
+   <div><b>03</b><strong>NO garantiza seguridad</strong><p>La web puede tener malware, phishing o ser una copia de marca.</p></div>
+   <div><b>04</b><strong>Dominio ≠ organización</strong><p>banco-ejemplo.com no es el banco, aunque tenga candado.</p></div>
+   <div><b>05</b><strong>Certificados gratuitos</strong><p>Let's Encrypt y otros emiten certificados gratis; tener uno no cuesta nada.</p></div>
+  </div>
+  <h2 id="aprende">15 MIN · Aprende a comprobar la web</h2>
+  <p>El candado es necesario, pero no suficiente. Antes de confiar, verifica lo siguiente:</p>
+  <ol class="steps-list"><li><strong>Mira el dominio completo</strong><p>Lee la URL entera. ¿Coincide exactamente con la organización oficial? Cuidado con subdominios (seguridad.banco.com.malicioso.com).</p></li><li><strong>Busca señales de suplantación</strong><p>Errores ortográficos, diseño descuidado, urgencia, peticiones de datos sensibles.</p></li><li><strong>Verifica por otro canal</strong><p>Si dudar, contacta con la entidad por teléfono o app oficial, no por enlaces del mensaje.</p></li><li><strong>Usa herramientas de reputación</strong><p>Extensiones o servicios que avisan de webs conocidas como fraudulentas.</p></li></ol>
+  <h2 id="ejemplo">Un ejemplo: web clonada con candado</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">B</span><div><strong>Banco XYZ</strong><small>Acceso a banca online</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>"Entra en https://banco-xyz-seguridad.com para verificar tu cuenta. Tu sesión expirará en 10 minutos."</p><div class="fake-button">ACCEDER AHORA</div><small class="fake-foot">El dominio banco-xyz-seguridad.com no es del banco. Tiene HTTPS (candado), pero es una clonación.</small></div>
+  <p>¿Ves el candado? Sí. ¿Es seguro? No. El dominio no pertenece al banco.</p>
+  <div class="flow-steps"><span>VES CANDADO</span><b>→</b><span>CONFIAS</span><b>→</b><span>INTRODUCES DATOS</span><b>→</b><span>ROBO DE CREDENCIALES</span></div>
+  <h2 id="que-hacer">¿Y si ya has introducido datos?</h2>
+  <p>Cambia la contraseña desde la web/app oficial YA. Activa verificación en dos pasos. Revisa movimientos y avisa a tu banco si ves cargos extraños. Si diste datos de tarjeta, pídele a tu banco anularla y emitir nueva.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">He pulsado un enlace sospechoso: ¿qué hago? →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Entras en una web con candado HTTPS que dice ser tu banco. La URL es banco-seguridad-clientes.com. ¿Qué haces?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>No introduzcas credenciales. El dominio no es el oficial de tu banco. Entra en la app o escribe la URL oficial que ya conoces.</strong><p>El subdominio o dominio similar es el truco clásico. El candado solo cifra, no valida la identidad.</p></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Recibes un email con un enlace a una web con HTTPS que pide tu contraseña. El remitente parece tu banco. ¿Es seguro?</h3><details><summary>¿Qué harías en este caso?</summary><div class="answer"><strong>No. HTTPS solo cifra la conexión. El phishing también usa HTTPS. Verifica el dominio y entra por tu cuenta en la app oficial.</strong><p>El certificado TLS lo puede tener cualquiera. Lo que importa es el dominio, no el candado.</p></div></details></div>
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>Si una web tiene el candado verde o el nombre de la empresa en la barra, ¿es segura?</h3>
+  <p>Los navegadores ya no muestran el nombre de la empresa en la barra (certificados EV). El candado solo indica cifrado. Verifica siempre el dominio.</p>
+  <h3>¿Significa HTTPS que la web no tiene virus?</h3>
+  <p>No. HTTPS protege la transmisión, no el contenido. Una web con HTTPS puede distribuir malware o ser phishing.</p>
+  <h3>¿Cómo sé si un certificado es de confianza?</h3>
+  <p>Los navegadores confían en certificados emitidos por autoridades reconocidas. Pero cualquiera puede obtener uno para su dominio. Lo importante es el dominio, no el certificado.</p>
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI y Mozilla. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links"><li><a href="https://www.incibe.es/aprendeciberseguridad/https" target="_blank" rel="noopener">INCIBE · Qué es HTTPS y para qué sirve</a></li><li><a href="https://www.osi.es/es/actualidad/web-segura" target="_blank" rel="noopener">OSI · Cómo identificar una web segura</a></li><li><a href="https://www.mozilla.org/en-US/about/manifesto/" target="_blank" rel="noopener">Mozilla · HTTPS Everywhere</a></li></ul>
   <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
  </article>
- <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="/aprende/fraudes-y-enganos/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si has introducido datos en una web sospechosa, actúa rápido.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div></aside>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Qué verifica el candado</a><a href="#aprende">Cómo comprobar la web</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">Qué hacer si ya ha pasado</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/fraudes-y-enganos/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si has introducido datos en una web sospechosa, actúa rápido.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p><a href="/aprende/fraudes/phishing/">Phishing: reconócelo antes de hacer clic</a><a href="/aprende/navega-y-compra-seguro/">Navega y compra seguro</a><a href="/aprende/fraudes/enlaces-y-archivos-sospechosos/">Enlaces y archivos sospechosos</a></div></aside>
 </section></main>
