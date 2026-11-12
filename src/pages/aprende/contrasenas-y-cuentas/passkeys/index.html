@@ -1,0 +1,78 @@
+---
+title: Passkeys: claves de acceso sin contraseña | EDUCA CIBER
+description: Estándar FIDO2/WebAuthn: criptografía de clave pública en tu dispositivo. Inmune a phishing, no se filtra del servidor.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Passkeys: claves de acceso sin contraseña | EDUCA CIBER",
+  "description": "Estándar FIDO2/WebAuthn en llano: criptografía de clave pública vinculada al dispositivo/biometría. No se puede \"teclear\" en una web falsa ni robar de un servidor.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/contrasenas-y-cuentas/">Contraseñas y cuentas</a><span>/</span><span>Passkeys</span></nav>
+ <p class="eyebrow">Contraseñas y cuentas · Contenido piloto</p><h1>Passkeys: <span class="text-blue">el futuro sin contraseñas.</span></h1>
+ <p class="lead">Imagina entrar en tu banco, correo o redes sin teclear nada: solo tu huella, Face ID o PIN del dispositivo. Las passkeys lo hacen posible, y son inmunes al phishing y a las filtraciones de servidores.</p>
+ <div class="meta-row"><span class="meta-pill">Nivel intermedio</span><span class="meta-pill">Para todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Una passkey es una credencial criptográfica ligada a tu dispositivo. No se escribe, no se reutiliza, no se filtra del servidor, y no funciona en webs falsas.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Una <strong>passkey</strong> (clave de acceso) sustituye a la contraseña. Se basa en el estándar <strong>FIDO2 / WebAuthn</strong> (W3C + FIDO Alliance). En lugar de un secreto compartido (contraseña), usa <strong>criptografía de clave pública</strong>:</p>
+  <ul>
+   <li><strong>Clave privada</strong>: se queda en tu dispositivo (móvil, ordenador, llave física), protegida por tu biometría (huella, Face ID) o PIN del dispositivo. Nunca sale de ahí.</li>
+   <li><strong>Clave pública</strong>: la guarda el servidor (Google, Microsoft, GitHub, Amazon...). Sirve solo para verificar tus firmas. Si filtran la base de datos, solo obtienen claves públicas (inútiles para atacar).</li>
+  </ul>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Una passkey es una credencial criptográfica ligada a tu dispositivo. No se escribe, no se reutiliza, no se filtra del servidor, y no funciona en webs falsas.</p></div>
+  <h2 id="ventajas">Por qué son un salto de seguridad</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Inmunes a phishing</strong><p>El navegador verifica el dominio antes de firmar. En banco-falso.com, la passkey de banco-real.com no se ofrece. No puedes "teclearla" en la web equivocada.</p></div>
+   <div><b>02</b><strong>No hay nada que robar en el servidor</strong><p>Solo claves públicas. Una brecha no expone credenciales usables. Fin del "credential stuffing".</p></div>
+   <div><b>03</b><strong>Sin reutilización posible</strong><p>Cada passkey es única para ese dominio. No existe "usar la misma passkey en dos sitios".</p></div>
+   <div><b>04</b><strong>Más cómodo que contraseña + 2FA</strong><p>Un solo gesto (huella, Face ID, PIN) = factor conocimiento + posesión. Experiencia fluida.</p></div>
+   <div><b>05</b><strong>Sincronización segura (opcional)</strong><p>iCloud Keychain, Google Password Manager, Bitwarden, 1Password sincronizan passkeys entre tus dispositivos cifradas end-to-end.</p></div>
+  </div>
+  <h2 id="aprende">15 MIN · Cómo funcionan y cómo empezar</h2>
+  <p>Cuando registras una passkey en un servicio (ej. Google, GitHub, Amazon, PayPal, Microsoft, Adobe, Nintendo, Sony, TikTok, WhatsApp, 1Password, Bitwarden...):</p>
+  <ol class="steps-list"><li><strong>Eliges dónde guardarla</strong><p>En tu móvil (iCloud/Google Password Manager), en tu ordenador (Windows Hello, macOS Touch ID), en tu gestor (Bitwarden, 1Password), o en llave física (YubiKey).</p></li><li><strong>Autenticas localmente</strong><p>Huella, Face ID, PIN de Windows Hello, patrón Android. Es tu factor de posesión + conocimiento/biometría.</p></li><li><strong>Se crea el par de claves</strong><p>Privada en tu dispositivo/gestor. Pública en el servidor. Asociada irrevocablemente a ese dominio.</p></li><li><strong>Para entrar: eliges la cuenta y autenticas</strong><p>El navegador muestra "Entrar con passkey". Eliges cuenta → huella/Face ID/PIN → dentro. Sin teclear nada.</p></li></ol>
+  <h2 id="limites">Límites actuales (lo que debes saber)</h2>
+  <ul>
+   <li><strong>Compatibilidad</strong>: Funciona en navegadores modernos (Chrome 108+, Edge 108+, Firefox 122+, Safari 16+). Sistemas: Windows 10/11, macOS Ventura+, iOS 16+, Android 9+. Apps nativas: soporte creciente.</li>
+   <li><strong>Recuperación si pierdes todos los dispositivos</strong>: Necesitas acceso a tu gestor de passkeys (iCloud, Google, Bitwarden, 1Password) desde otro dispositivo de confianza, o códigos de recuperación del servicio. Pierdes todo = proceso de recuperación del proveedor (lento).</li>
+   <li><strong>No todos los servicios la ofrecen aún</strong>: Grandes (Google, Microsoft, Apple, GitHub, Amazon, PayPal, Adobe, Nintendo, Sony, TikTok, WhatsApp, 1Password, Bitwarden, Cloudflare, Shopify, Stripe...) sí. Bancos y administraciones: en proceso.</li>
+   <li><strong>Compartir passkeys</strong>: Algunas plataformas permiten compartir (familia, equipo) vía gestor. No es tan trivial como "dime la contraseña".</li>
+  </ul>
+  <div class="callout callout-warn"><strong>Nota importante</strong><p>Mientras migras, mantén contraseñas fuertes + 2FA en servicios sin passkey. La passkey no elimina la necesidad de proteger tu cuenta de correo (llave maestra) y tu gestor.</p></div>
+  <h2 id="ejemplo">Un ejemplo: entrar en GitHub con passkey</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">G</span><div><strong>GitHub</strong><small>Iniciar sesión</small></div><span class="fake-label">EJEMPLO REAL</span></div><p>1. Ves "Iniciar sesión con passkey"<br>2. Eliges tu cuenta "tu-usuario@github.com"<br>3. Windows Hello / Touch ID / Face ID / huella<br>4. Dentro. Sin contraseña, sin código 2FA.</p><div class="fake-button">AUTENTICAR CON WINDOWS HELLO</div><small class="fake-foot">El navegador verifica que estás en github.com. Firma con tu clave privada. GitHub verifica con la pública. Cero secretos compartidos.</small></div>
+  <div class="flow-steps"><span>ELIGES CUENTA</span><b>→</b><span>AUTENTICAS LOCALMENTE (HUELLA/PIN)</span><b>→</b><span>DISPOSITIVO FIRMA CON CLAVE PRIVADA</span><b>→</b><span>SERVIDOR VERIFICA CON CLAVE PÚBLICA</span><b>→</b><span>ACCESO CONCEDIDO</span></div>
+  <h2 id="que-hacer">¿Y si ya uso gestor de contraseñas?</h2>
+  <p>Bitwarden, 1Password, Proton Pass, iCloud Keychain, Google Password Manager ya soportan passkeys. Al registrar una passkey en un servicio, el gestor te ofrece guardarla. Se sincroniza entre tus dispositivos. Es el camino natural: gestor para contraseñas legacy, passkeys para lo moderno.</p>
+  <a class="button primary" href="/recursos/checklist-contrasenas-y-cuentas/">Checklist: contraseñas y cuentas (15 min) →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Registras una passkey para tu cuenta Google en tu iPhone (guardada en iCloud Keychain). Luego intentas entrar desde tu Windows. ¿Funciona?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Sí, si en Windows usas Chrome/Edge y has iniciado sesión en tu cuenta Google (sincroniza passkeys) o usas la passkey del iPhone vía QR/Bluetooth (cross-device).</strong><p>La sincronización cross-ecosistema (Apple↔Windows/Android) funciona vía iCloud Keychain en Chrome/Edge o escaneando QR desde el móvil. Bitwarden/1Password lo hacen nativo en su app.</p></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Te llega un email de "GitHub Security" con enlace a github-security-alert.com pidiéndote "verificar tu passkey". ¿Qué haces?</h3><details><summary>¿Qué harías en este caso?</summary><div class="answer"><strong>No pulses. Las passkeys no se "verifican" por enlace. El navegador solo ofrece la passkey en el dominio real (github.com). En github-security-alert.com no aparecerá.</strong><p>Es phishing. La passkey te protege: no se ofrece en dominio falso. Cierra y entra en github.com directo.</p></div></details></div>
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Puedo usar passkeys si no tengo biometría?</h3>
+  <p>Sí. Windows Hello acepta PIN. Android acepta PIN/patrón. macOS acepta contraseña de usuario. La passkey se desbloquea con lo que uses para desbloquear tu dispositivo.</p>
+  <h3>¿Qué pasa si pierdo el móvil y no tengo otro dispositivo sincronizado?</h3>
+  <p>Usa los códigos de recuperación del servicio (Google, GitHub, Microsoft... te dan al activar passkey). O contacta con soporte. Por eso: guarda códigos de recuperación y ten al menos dos dispositivos de confianza (móvil + ordenador, o móvil + llave física).</p>
+  <h3>¿Las passkeys sustituyen al gestor de contraseñas?</h3>
+  <p>No del todo. El gestor sigue sirviendo para: contraseñas de servicios sin passkey, notas seguras, tarjetas, identidades, TOTP (2FA), passkeys de servicios que no sincronizan. Lo ideal: gestor + passkeys donde estén disponibles.</p>
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de FIDO Alliance, W3C WebAuthn, Apple, Google, Microsoft, Bitwarden, 1Password, Yubico y NCSC. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links"><li><a href="https://fidoalliance.org/fido2/" target="_blank" rel="noopener">FIDO Alliance · FIDO2 / WebAuthn</a></li><li><a href="https://passkeys.dev/" target="_blank" rel="noopener">passkeys.dev · Guía técnica y demostraciones</a></li><li><a href="https://www.ncsc.gov.uk/collection/passwords/passkeys" target="_blank" rel="noopener">NCSC · Passkeys</a></li></ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#ventajas">Por qué son un salto</a><a href="#aprende">Cómo funcionan</a><a href="#limites">Límites actuales</a><a href="#ejemplo">Ejemplo: GitHub</a><a href="#que-hacer">Si ya usas gestor</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/contrasenas-y-cuentas/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si quieres activar passkeys en tus cuentas principales.</p><a href="/recursos/checklist-contrasenas-y-cuentas/">Checklist: contraseñas y cuentas →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p><a href="/aprende/contrasenas-y-cuentas/verificacion-en-dos-pasos/">Verificación en dos pasos</a><a href="/aprende/contrasenas-y-cuentas/proteger-tus-cuentas-principales/">Proteger tus cuentas principales</a><a href="/aprende/contrasenas-y-cuentas/gestores-de-contrasenas/">Gestores de contraseñas</a></div></aside>
+</section></main>

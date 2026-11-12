@@ -124,6 +124,132 @@
     ]
   },
   {
+    "title": "Contraseñas fuertes: frases de paso",
+    "url": "/aprende/contrasenas-y-cuentas/buenas-contrasenas/",
+    "description": "Aprende a crear contraseñas seguras con frases de paso largas y memorables. Por qué no reutilizarlas y qué es el relleno de credenciales.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "frase de paso",
+      "passphrase",
+      "contrasena fuerte",
+      "password",
+      "credential stuffing",
+      "relleno credenciales",
+      "reutilizar contrasena",
+      "contrasena unica",
+      "longitud vs complejidad",
+      "diceware",
+      "gestor contrasenas"
+    ]
+  },
+  {
+    "title": "Gestores de contraseñas: elige y usa el tuyo",
+    "url": "/aprende/contrasenas-y-cuentas/gestores-de-contrasenas/",
+    "description": "Tipos de gestores (navegador, terceros, local), contraseña maestra, y la defensa clave contra phishing: el gestor no autocompleta en dominios falsos.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "gestor contrasenas",
+      "password manager",
+      "bitwarden",
+      "1password",
+      "keepassxc",
+      "contrasena maestra",
+      "master password",
+      "phishing",
+      "autocompletar",
+      "dominio falso",
+      "sincronizacion"
+    ]
+  },
+  {
+    "title": "Verificación en dos pasos (2FA/MFA): más allá del SMS",
+    "url": "/aprende/contrasenas-y-cuentas/verificacion-en-dos-pasos/",
+    "description": "Compara SMS (básico) vs app autenticadora (alto) vs llave física (muy alto). Un código no se comparte nunca. Códigos de recuperación.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "2fa",
+      "mfa",
+      "doble factor",
+      "verificacion dos pasos",
+      "app autenticadora",
+      "google authenticator",
+      "aegis",
+      "bitwarden authenticator",
+      "llave fisica",
+      "yubikey",
+      "sms",
+      "sim swapping",
+      "codigos recuperacion",
+      "totp"
+    ]
+  },
+  {
+    "title": "Passkeys: el futuro sin contraseñas",
+    "url": "/aprende/contrasenas-y-cuentas/passkeys/",
+    "description": "Estándar FIDO2/WebAuthn en llano: criptografía de clave pública vinculada al dispositivo/biometría. No se puede teclear en una web falsa ni robar de un servidor.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "passkey",
+      "passkeys",
+      "fido2",
+      "webauthn",
+      "clave publica",
+      "criptografia",
+      "biometria",
+      "face id",
+      "touch id",
+      "windows hello",
+      "phishing",
+      "credential stuffing",
+      "icloud keychain",
+      "google password manager",
+      "bitwarden",
+      "1password"
+    ]
+  },
+  {
+    "title": "Proteger tus cuentas principales: el correo es la llave maestra",
+    "url": "/aprende/contrasenas-y-cuentas/proteger-tus-cuentas-principales/",
+    "description": "El correo es la llave maestra de tu identidad digital. Orden de prioridad (correo → banca → nube → redes), sesiones activas, alertas, métodos de recuperación.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "cuenta principal",
+      "correo llave maestra",
+      "jerarquia cuentas",
+      "banca",
+      "nube",
+      "icloud",
+      "google",
+      "onedrive",
+      "sesiones activas",
+      "alertas seguridad",
+      "metodos recuperacion",
+      "dispositivos confianza"
+    ]
+  },
+  {
+    "title": "Me han robado una cuenta: qué hacer paso a paso",
+    "url": "/aprende/contrasenas-y-cuentas/me-han-robado-una-cuenta/",
+    "description": "Señales de compromiso, cierre de sesiones activas, cambio de contraseña, recuperación oficial, avisar a contactos.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "cuenta robada",
+      "cuenta hackeada",
+      "cuenta comprometida",
+      "recuperar cuenta",
+      "cerrar sesiones",
+      "cambiar contrasena",
+      "recuperacion oficial",
+      "facebook hacked",
+      "google recuperacion",
+      "microsoft recuperacion",
+      "apple iforgot",
+      "whatsapp robado",
+      "avisar contactos",
+      "denuncia policia"
+    ]
+  },
+  {
     "title": "Dispositivos seguros",
     "url": "/aprende/dispositivos-seguros/",
     "description": "Configura y utiliza tus móviles y ordenadores con hábitos que reducen riesgos.",

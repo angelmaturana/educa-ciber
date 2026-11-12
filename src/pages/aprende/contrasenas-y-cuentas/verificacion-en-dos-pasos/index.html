@@ -1,0 +1,65 @@
+---
+title: Verificación en dos pasos (2FA/MFA) | EDUCA CIBER
+description: Compara SMS (básico) vs app autenticadora (alto) vs llave física (muy alto). Un código no se comparte nunca. Códigos de recuperación.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Verificación en dos pasos (2FA/MFA) | EDUCA CIBER",
+  "description": "Compara SMS (básico) vs app autenticadora (alto) vs llave física (muy alto). Un código no se comparte nunca. Códigos de recuperación.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/contrasenas-y-cuentas/">Contraseñas y cuentas</a><span>/</span><span>Verificación en dos pasos</span></nav>
+ <p class="eyebrow">Contraseñas y cuentas · Contenido piloto</p><h1>Verificación en dos pasos: <span class="text-blue">más allá del SMS.</span></h1>
+ <p class="lead">La contraseña sola no basta. El segundo factor (algo que tienes) frena el 99 % de accesos no autorizados. SMS es mejor que nada, pero app o llave son mucho más fuertes.</p>
+ <div class="meta-row"><span class="meta-pill">Nivel básico</span><span class="meta-pill">Para todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Activa 2FA en todo lo importante. App autenticadora o llave física son mucho más seguras que SMS. Un código NUNCA se comparte.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>La <strong>verificación en dos pasos</strong> (2FA o MFA) añade una segunda prueba de identidad tras la contraseña: <em>algo que sabes</em> (contraseña) + <em>algo que tienes</em> (móvil, llave, app). Si te roban la contraseña, no entran sin el segundo factor.</p>
+  <p>No todos los segundos factores son iguales. Desde el más débil al más fuerte:</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Activa 2FA en todo lo importante. App autenticadora o llave física son mucho más seguras que SMS. Un código NUNCA se comparte.</p></div>
+  <h2 id="comparar">Compara tus opciones</h2>
+  <div class="compare-grid">
+   <div><strong>SMS / llamada (básico)</strong><p>Te envían un código por mensaje. Mejor que nada, pero vulnerable a: intercambio de SIM (SIM swapping), interceptación SS7, phishing que pide el código, pérdida de cobertura.</p></div>
+   <div><strong>App autenticadora (alto)</strong><p>Google Authenticator, Microsoft Authenticator, Aegis, Bitwarden Authenticator, Authy. Genera códigos TOTP (cambian cada 30 seg) en tu móvil, sin red. Resiste SIM swapping y phishing básico. Gratis.</p></div>
+   <div><strong>Llave física FIDO2 / WebAuthn (muy alto)</strong><p>YubiKey, Google Titan, Nitrokey, SoloKey. Dispositivo USB/NFC/Bluetooth que firmas criptográficamente. Inmune a phishing (verifica el dominio), SIM swapping, malware. Coste: 20-60 €. La opción más robusta.</p></div>
+  </div>
+  <h2 id="aprende">15 MIN · Configura y usa bien tu 2FA</h2>
+  <ol class="steps-list"><li><strong>Prioriza: correo, banca, gestor, redes principales</strong><p>El correo es la llave maestra (reset de otras cuentas). Banca = dinero. Gestor = todas las claves.</p></li><li><strong>Elige app autenticadora como mínimo</strong><p>Instala Aegis (open source, backup cifrado), Bitwarden Authenticator (integrado en gestor) o Google/Microsoft Authenticator. Evita SMS si el servicio ofrece app.</p></li><li><strong>Guarda los códigos de recuperación</strong><p>Al activar 2FA, el servicio te da 8-10 códigos de un solo uso. Guárdalos en papel (caja fuerte) o en tu gestor de contraseñas. Son tu "llave de emergencia" si pierdes el móvil.</p></li><li><strong>Un código NUNCA se comparte</strong><p>Nadie legítimo (banco, soporte, amigo, policía) te pedirá un código 2FA por teléfono, email, WhatsApp. Si te lo piden, es estafa.</p></li><li><strong>Registra dos métodos si puedes</strong><p>App + llave física, o app + códigos de recuperación. Si pierdes uno, tienes el otro.</p></li></ol>
+  <h2 id="ejemplo">Un ejemplo: la estafa del "código de verificación"</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">S</span><div><strong>Soporte Banco XYZ</strong><small>Verificación de seguridad</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>"Hemos detectado acceso sospechoso. Para protegerle, le enviamos un código al 6XX XX XX XX. Dígamelo para confirmar su identidad."</p><div class="fake-button">EL ATACANTE YA TIENE TU CONTRASEÑA, SOLO LE FALTA EL CÓDIGO</div><small class="fake-foot">El atacante intenta entrar, el banco envía el código real a TU móvil, el atacante te llama para robártelo. Si se lo das, entra.</small></div>
+  <p>El banco NUNCA te llamará pidiendo un código. El código es para que TÚ lo introduzcas en la web/app oficial.</p>
+  <div class="flow-steps"><span>ATACANTE TIENE PASS</span><b>→</b><span>INTENTA ENTRAR</span><b>→</b><span>BANCO ENVÍA CÓDIGO REAL</span><b>→</b><span>ATACANTE TE LLAMA PIDIÉNDOLO</span><b>→</b><span>SI LO DAS, ENTRAN</span></div>
+  <h2 id="que-hacer">¿Y si pierdes el móvil o la llave?</h2>
+  <p>Usa tus códigos de recuperación (los guardaste en papel/gestor). Entra, desactiva el 2FA perdido y configura uno nuevo en tu nuevo dispositivo. Si no tienes códigos: contacta con soporte del servicio (proceso lento, verifica identidad). Por eso: guarda los códigos de recuperación YA al activar 2FA.</p>
+  <a class="button primary" href="/recursos/checklist-contrasenas-y-cuentas/">Checklist: contraseñas y cuentas (15 min) →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Te llama "soporte de Microsoft" diciendo que tu cuenta fue hackeada y te piden el código que te acaba de llegar por SMS/app para "verificar que eres tú". ¿Qué haces?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Cuelga. Microsoft no llama pidiendo códigos. El código es para que TÚ lo pongas en login.microsoft.com.</strong><p>Es vishing para robar tu 2FA. Si se lo das, entran en tu cuenta aunque tengas 2FA activado.</p></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Activas 2FA con app autenticadora en tu correo. Pierdes el móvil y no guardaste códigos de recuperación. ¿Qué pasa?</h3><details><summary>¿Qué harías en este caso?</summary><div class="answer"><strong>Proceso largo de recuperación con el proveedor (Google, Microsoft, Proton...). Verificarán tu identidad (facturas, contactos, dispositivos previos). Puede tardar días.</strong><p>Por eso: guarda los códigos de recuperación AL ACTIVAR 2FA. En papel seguro o en tu gestor de contraseñas.</p></div></details></div>
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿El SMS es inútil entonces?</h3>
+  <p>No. SMS es mejor que nada. Si un servicio solo ofrece SMS, úsalo. Pero si ofrece app autenticadora o llave, elige esas. La jerarquía: llave física > app > SMS > nada.</p>
+  <h3>¿Puedo usar la misma app autenticadora para todo?</h3>
+  <p>Sí. Aegis, Bitwarden Authenticator, Google Authenticator, Microsoft Authenticator gestionan decenas de cuentas. Cada una genera su código independiente cada 30 segundos.</p>
+  <h3>¿Qué pasa si formateo el móvil o cambio de teléfono?</h3>
+  <p>Apps como Aegis y Bitwarden Authenticator permiten exportar/importar copia cifrada. Google/Microsoft Authenticator: traspasa cuentas en el nuevo móvil (opción "Transferir cuentas") o reconfigura desde cero con códigos de recuperación.</p>
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, NCSC, Google, Microsoft, Yubico y FIDO Alliance. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links"><li><a href="https://www.incibe.es/aprendeciberseguridad/doble-factor-autenticacion" target="_blank" rel="noopener">INCIBE · Doble factor de autenticación</a></li><li><a href="https://www.ncsc.gov.uk/collection/mfa/multi-factor-authentication" target="_blank" rel="noopener">NCSC · Multi-factor authentication</a></li><li><a href="https://fidoalliance.org/" target="_blank" rel="noopener">FIDO Alliance · Estándares de autenticación</a></li></ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#comparar">Compara opciones</a><a href="#aprende">Configura y usa bien</a><a href="#ejemplo">Ejemplo: estafa del código</a><a href="#que-hacer">Si pierdes el móvil</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/contrasenas-y-cuentas/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si te han pedido un código 2FA o has perdido acceso a tu 2FA.</p><a href="/recursos/checklist-contrasenas-y-cuentas/">Checklist: contraseñas y cuentas →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p><a href="/aprende/contrasenas-y-cuentas/gestores-de-contrasenas/">Gestores de contraseñas</a><a href="/aprende/contrasenas-y-cuentas/passkeys/">Passkeys: el futuro sin contraseñas</a><a href="/aprende/contrasenas-y-cuentas/proteger-tus-cuentas-principales/">Proteger tus cuentas principales</a></div></aside>
+</section></main>

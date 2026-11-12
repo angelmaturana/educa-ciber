@@ -34,8 +34,22 @@
 
 ---
 
+## FASE 2 · Contraseñas y cuentas ⭐ (COMPLETADA)
+
+- [x] 1. `buenas-contrasenas` — frases de paso largas y memorables; relleno de credenciales por reutilización
+- [x] 2. `gestores-de-contrasenas` — tipos, contraseña maestra, defensa contra phishing
+- [x] 3. `verificacion-en-dos-pasos` — SMS vs app autenticadora vs llave física, códigos de recuperación
+- [x] 4. `passkeys` — FIDO2/WebAuthn en llano, criptografía clave pública, límites actuales
+- [x] 5. `proteger-tus-cuentas-principales` — correo como llave maestra, orden de prioridad, sesiones activas
+- [x] 6. `me-han-robado-una-cuenta` — señales compromiso, cierre sesiones, cambio contraseña, recuperación
+- [x] Cierre de hub (`/aprende/contrasenas-y-cuentas/`): ruta recomendada, quitar noindex, revisar tarjeta home
+- [x] Recursos: `checklist-contrasenas-y-cuentas`, `me-han-robado-una-cuenta-que-hacer`
+
+**Hecho cuando:** 6 lecciones reales, hub indexable, tests OK, build sin avisos.
+
+---
+
 ## Fases pendientes
-- FASE 2 · Contraseñas y cuentas ⭐ (6 lecciones + cierre de hub)
 - FASE 3 · Empieza por aquí ⭐ (6 lecciones + cierre de hub)
 - FASE 4 · Dispositivos seguros I (4 lecciones)
 - FASE 5 · Dispositivos II + Navega I (5 lecciones + cierre hub Dispositivos)
