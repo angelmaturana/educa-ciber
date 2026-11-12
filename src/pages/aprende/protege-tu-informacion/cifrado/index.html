@@ -1,0 +1,81 @@
+---
+title: Cifrado | EDUCA CIBER
+description: Protege archivos, discos y comunicaciones con cifrado simétrico y asimétrico. Qué herramientas usar y cómo gestionar claves sin perder el acceso.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Cifrado | EDUCA CIBER",
+  "description": "Protege archivos, discos y comunicaciones con cifrado simétrico y asimétrico. Qué herramientas usar y cómo gestionar claves sin perder el acceso.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/protege-tu-informacion/">Protege tu información</a><span>/</span><span>Cifrado</span></nav>
+ <p class="eyebrow">Protege tu información · Contenido piloto</p><h1>Cifrado <span class="text-blue"></span></h1>
+ <p class="lead"></p>
+ <div class="meta-row"><span class="meta-pill">intermedio</span><span class="meta-pill">todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>El cifrado convierte tus datos en ruido ilegible sin la clave. Úsalo en reposo (discos, archivos, backups) y en tránsito (HTTPS, Signal, VPN, email PGP). La gestión de claves es el eslabón débil: pierdes la clave = pierdes los datos.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>El cifrado es la herramienta más potente para proteger la confidencialidad. Dos tipos principales: 1) Simétrico (misma clave cifra y descifra): AES-256, ChaCha20. Rápido, ideal para archivos, discos, backups. Herramientas: VeraCrypt (contenedores/discos), Cryptomator (archivos en nube), 7-Zip/WinRAR (archivos con contraseña), age (CLI moderno), OpenSSL. 2) Asimétrico (clave pública cifra, clave privada descifra): RSA-4096, Ed25519, X25519. Para intercambiar claves simétricas, firmar, email (PGP/GPG), SSH, TLS. Herramientas: GnuPG (GPG), age (también asimétrico), Signal Protocol (WhatsApp, Signal), TLS (HTTPS). Qué cifrar: disco completo del portátil (BitLocker, FileVault, LUKS), disco externo de backup, contenedor con datos sensibles (VeraCrypt, Cryptomator), archivos antes de subirlos a nube no cifrada lado cliente, emails con PGP/GPG si el destinatario lo usa, comunicaciones (Signal, WhatsApp, TLS). Gestión de claves: contraseña maestra fuerte + 2FA en gestor de contraseñas; clave de recuperación (recovery key) impresa y guardada en sitio seguro (caja fuerte, familiar de confianza); frases semilla (seed phrases) para wallets crypto; nunca guardes claves en texto plano, capturas de pantalla o notas del móvil. Verifica: cifra un archivo de prueba, descífralo, borra el original. Si no puedes recuperar, no confíes en ese método.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>El cifrado convierte tus datos en ruido ilegible sin la clave. Úsalo en reposo (discos, archivos, backups) y en tránsito (HTTPS, Signal, VPN, email PGP). La gestión de claves es el eslabón débil: pierdes la clave = pierdes los datos.</p></div>
+  <h2 id="senales">Cuándo cifrar (y cuándo no hace falta)</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>SÍ: portátil que sale de casa (BitLocker/FileVault/LUKS)</strong><p>Robo/pérdida = datos expuestos. Cifrado de disco completo nativo, sin impacto notable de rendimiento.</p></div>
+   <div><b>02</b><strong>SÍ: backup en nube sin cifrado lado cliente (Cryptomator/VeraCrypt/restic)</strong><p>Proveedor ve metadatos, no contenido. Tú controlas la clave. Protege contra brechas, empleados, órdenes judiciales.</p></div>
+   <div><b>03</b><strong>SÍ: archivos sensibles compartidos por canal inseguro (email, WeTransfer, Drive link)</strong><p>Cifra con 7-Zip/age/GPG antes de enviar. Comparte contraseña por canal distinto (Signal, llamada).</p></div>
+   <div><b>04</b><strong>NO (o cuidado): archivos que necesitas abrir en cualquier dispositivo sin instalar nada</strong><p>El cifrado requiere software/clave. Para acceso universal: usa servicios con cifrado lado cliente nativo (Proton Drive, Sync.com, Tresorit) o comparte contraseña de forma segura.</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: enviando un contrato firmado por email</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">A</span><div><strong>Abogado</strong><small>Contrato firmado - CONFIDENCIAL</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Adjunto el contrato firmado en PDF. Lo he cifrado con age (clave pública del destinatario). Para descifrar: age --decrypt -i clave_privada.txt contrato.pdf.age > contrato.pdf. La clave pública ya me la diste. La contraseña del ZIP (plan B) te la envío por Signal.</p><div class="fake-button">Descargar age</div><small class="fake-foot">EJEMPLO FICTICIO. age es moderno, simple y seguro (filippo.io/age). GPG es más completo pero complejo.</small></div>
+  <p>¿Por qué no enviar el PDF directo? Email no es seguro: pasa por servidores en texto plano (salvo TLS opportunistic), se guarda en bandejas, se puede reenviar, filtrar en brecha. Cifrado de archivo = confidencialidad end-to-end.</p>
+  <h2 id="aprende">15 MIN · Cifra lo esencial hoy</h2>
+  <p>Tres acciones de alto impacto, elige tu SO:</p>
+  <ol class="steps-list">
+<li><strong>1. Cifra el disco del portátil (obligatorio si sale de casa)</strong><p>Windows Pro/Enterprise: BitLocker (Panel de control → BitLocker → Activar). Guarda clave de recuperación en cuenta Microsoft O imprime. Windows Home: VeraCrypt (cifrado de partición/sistema). macOS: FileVault (Preferencias → Seguridad → FileVault → Activar). Guarda clave de recuperación en iCloud O imprime. Linux: LUKS en instalación (opción «Cifrar disco») o cryptsetup en disco existente. Guarda passphrase en gestor + papel.</p></li>
+<li><strong>2. Cifra backups en nube (Cryptomator: fácil, multiplataforma)</strong><p>Instala Cryptomator → Crear bóveda → Elige carpeta en Google Drive/OneDrive/Dropbox/Mega → Pon contraseña fuerte (guarda en gestor). Arrastra archivos a la unidad virtual (letra de disco / punto de montaje). Se cifran al vuelo antes de sincronizar. Funciona en Win/Mac/Linux/Android/iOS. Alternativa CLI: restic/rclone+crypt (automatizable).</p></li>
+<li><strong>3. Cifra archivos sueltos para compartir (7-Zip / age)</strong><p>Windows: 7-Zip → Click derecho → 7-Zip → Añadir al archivo → Cifrado: AES-256 → Contraseña. Mac/Linux: 7z (brew/apt) o age (age -e -p archivo.pdf > archivo.pdf.age). Comparte contraseña por Signal/llamada, NO por el mismo email. Verifica: descifra tú mismo antes de enviar.</p></li>
+  </ol>
+  <div class="callout callout-warn"><strong>Error frecuente: «cifré el disco y perdí la clave de recuperación»</strong><p>Sin clave de recuperación (BitLocker/FileVault/LUKS) o passphrase (VeraCrypt), los datos son irrecuperables. Ningún soporte técnico, ninguna «puerta trasera» puede abrirlo. Guarda la clave en: 1) Gestor de contraseñas (Bitwarden, 1Password, KeePassXC). 2) Papel en caja fuerte / lugar seguro físico. 3) Familiar de confianza (sobre sellado). 4) Cuenta Microsoft/Apple/Google (opción nativa). Prueba: reinicia y verifica que puedes desbloquear.</p></div>
+
+  <h2 id="que-hacer">¿Y si ya ha pasado?</h2>
+  <p>Qué hacer si el usuario ya ha interactuado con la amenaza. Enlaza al recurso correspondiente.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">He pulsado un enlace sospechoso: ¿qué hago? →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Quieres subir tus declaraciones de la renta (PDF) a Google Drive. ¿Cómo lo haces de forma segura?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Opción A (fácil): Cryptomator → Bóveda en Drive → Arrastra PDFs. Opción B (archivo único): 7-Zip / age → Cifra con AES-256/ChaCha20 + contraseña fuerte → Sube .zip/.age. Opción C (servicio nativo): Proton Drive / Sync.com / Tresorit (cifrado lado cliente por defecto). En todos los casos: guarda contraseña en gestor.</strong></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tu portátil con BitLocker no arranca (pantalla azul). Tienes la clave de recuperación impresa. ¿Qué haces?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Arranca desde USB de instalación de Windows → Reparar el equipo → Solucionar problemas → Opciones avanzadas → Símbolo del sistema → manage-bde -unlock C: -RecoveryPassword TU_CLAVE_48_DIGITOS. Luego copia tus datos a disco externo (BitLocker To Go o sin cifrar si es urgente) y reinstala.</strong></div></details></div>
+
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿BitLocker/FileVault/LUKS ralentizan el portátil?</h3>
+  <p>En hardware moderno (CPU con AES-NI, SSD NVMe), el impacto es <1-2% imperceptible. En discos duros mecánicos o CPU antiguas sin AES-NI, puede notarse ligeramente. El beneficio de seguridad supera ampliamente el coste.</p>
+  <h3>¿VeraCrypt es seguro? ¿Y Cryptomator?</h3>
+  <p>VeraCrypt: heredero de TrueCrypt, auditorías públicas (2016, 2020), estándar de facto para contenedores/discos cifrados multiplataforma. Cryptomator: código abierto, auditoría Cure53 2018, cifrado AES-256/ChaCha20-Poly1305, diseño «zero knowledge» (la app no sabe tu contraseña). Ambos son referencias de confianza.</p>
+  <h3>¿PGP/GPG sigue siendo relevante para email?</h3>
+  <p>Para casos de alto riesgo (periodistas, abogados, activistas, empresas con secretos): sí, GPG + Thunderbird/Enigmail o K-9 Mail/OpenKeychain. Para la mayoría: Signal/WhatsApp (Signal Protocol) o servicios de email cifrado (Proton Mail, Tutanota, Skiff) son más usables y seguros por defecto. PGP tiene usabilidad mala y riesgos de implementación (EFAIL).</p>
+
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI u otras fuentes oficiales. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links">
+  <li><a href="https://www.incibe.es/protege-tu-informacion/cifrado" target="_blank" rel="noopener">INCIBE — Cifrado de la información</a></li>
+  <li><a href="https://github.com/FiloSottile/age" target="_blank" rel="noopener">age — Modern file encryption</a></li>
+  <li><a href="https://docs.cryptomator.org/" target="_blank" rel="noopener">Cryptomator — Documentación</a></li>
+  <li><a href="https://www.veracrypt.fr/en/Documentation.html" target="_blank" rel="noopener">VeraCrypt — Documentación oficial</a></li>
+  </ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Señales de alerta</a><a href="#aprende">Cómo comprobar</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">Qué hacer si ya ha pasado</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/protege-tu-informacion/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si necesitas actuar ya, empieza por esta guía práctica.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p>
+  <a href="/aprende/protege-tu-informacion/copias-de-seguridad/">Copias de seguridad: la regla 3-2-1</a>
+  <a href="/aprende/protege-tu-informacion/borrado-seguro/">Borrado seguro: que no quede rastro</a>
+</div></aside>
+</section></main>

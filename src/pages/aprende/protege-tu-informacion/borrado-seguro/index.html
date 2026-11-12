@@ -1,0 +1,82 @@
+---
+title: Borrado seguro | EDUCA CIBER
+description: Eliminar no es borrar: el sistema solo marca el espacio como libre. Aprende a borrar realmente archivos, discos y móviles antes de vender, regalar o desechar.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Borrado seguro | EDUCA CIBER",
+  "description": "Eliminar no es borrar: el sistema solo marca el espacio como libre. Aprende a borrar realmente archivos, discos y móviles antes de vender, regalar o desechar.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/protege-tu-informacion/">Protege tu información</a><span>/</span><span>Borrado seguro</span></nav>
+ <p class="eyebrow">Protege tu información · Contenido piloto</p><h1>Borrado seguro <span class="text-blue"></span></h1>
+ <p class="lead"></p>
+ <div class="meta-row"><span class="meta-pill">intermedio</span><span class="meta-pill">todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Papelera de reciclaje, Shift+Supr, formateo rápido: nada de eso borra datos. Solo sobrescritura múltiple (HDD) o comando TRIM/SE (SSD) o cifrado previo + borrado de clave (moderno) garantizan irrecuperabilidad.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Cuando «borras» un archivo, el sistema operativo solo quita la entrada del índice (tabla de archivos) y marca esos bloques como disponibles. Los datos permanecen en el disco hasta que se sobrescriben. Herramientas de recuperación (Recuva, PhotoRec, TestDisk, R-Studio) los recuperan en minutos. Para borrar realmente: 1) HDD (mecánico): sobrescritura múltiple (estándar DoD 5220.22-M: 3 pasadas; Gutmann: 35 pasadas; NIST SP 800-88: 1 pasada aleatoria verificada es suficiente). Herramientas: shred (Linux), Eraser (Windows), nwipe (arranque), DBAN (antiguo, solo HDD). 2) SSD/NVMe/eMMC (flash): la sobrescritura desgasta celdas y no garantiza borrado por wear leveling y over-provisioning. Usa comando nativo: TRIM (Windows: Optimizar unidades, Linux: fstrim/discard, macOS: automático en APFS) + Secure Erase (ATA SECURITY ERASE UNIT / NVMe FORMAT NVM) via nvme-cli, hdparm --security-erase, Parted Magic, o firmware del fabricante. 3) Móviles: cifrado previo (FileVault/BitLocker/LUKS/Android/iOS ya lo hacen por defecto) + restablecimiento de fábrica = borra la clave de cifrado = datos irrecuperables. 4) Nube: borra archivo → papelera → vaciar papelera → versión anterior (si hay versionado) → contactar soporte para purga total (RGPD art. 17). 5) Papel: trituradora cruzada (cross-cut, P-4/P-5) o microcorte (P-6/P-7). Nunca tira a la basura documentos con DNI, cuenta bancaria, contraseñas, firmas.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Papelera de reciclaje, Shift+Supr, formateo rápido: nada de eso borra datos. Solo sobrescritura múltiple (HDD) o comando TRIM/SE (SSD) o cifrado previo + borrado de clave (moderno) garantizan irrecuperabilidad.</p></div>
+  <h2 id="senales">Métodos que NO borran (y la gente cree que sí)</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Papelera de reciclaje / Shift+Supr / rm</strong><p>Solo quitan referencia en filesystem. Datos intactos en disco. Recuperables con PhotoRec/TestDisk en minutos.</p></div>
+   <div><b>02</b><strong>Formateo rápido (Quick Format)</strong><p>Reescribe tabla de particiones/filesystem, no toca datos. Igual de recuperable.</p></div>
+   <div><b>03</b><strong>Restablecer móvil sin cifrado previo (Android antiguo sin FBE)</strong><p>Solo marca bloques libres. Flash memory no sobrescribe al instante. Recuperable con herramientas forenses.</p></div>
+   <div><b>04</b><strong>Sobrescribir SSD con herramientas de HDD (shred, DBAN)</strong><p>Desgasta celdas innecesariamente, wear leveling mueve datos, no garantiza borrado de over-provisioning. Usa Secure Erase nativo.</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: vendiendo un portátil usado</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">V</span><div><strong>Vendedor</strong><small>Preparar portátil para venta</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Mi checklist antes de entregar: 1) Backup 3-2-1 verificado. 2) Desvincular cuentas (Microsoft, Apple, Google, BitLocker recovery key). 3) SSD: nvme-cli format /dev/nvme0n1 --ses (Secure Erase) O Parted Magic → Erase Disk → NVMe Format. 4) HDD secundario: nwipe --method=dod --verify (3 pasadas + verificación). 5) Reinstalar Windows/Linux limpio. 6) Verificar: arrancar, ver que no hay datos personales, apagar. 7) Entregar con cargador y caja original.</p><div class="fake-button">Ejecutar borrado</div><small class="fake-foot">EJEMPLO FICTICIO. Secure Erase tarda segundos-minutos en NVMe. nwipe en HDD 1TB ~3-6h. Planifica tiempo.</small></div>
+  <p>¿Por qué desvincular BitLocker/Find My/iCloud ANTES de borrar? Porque si el comprador activa BitLocker/Find My con su cuenta, el dispositivo queda vinculado a TI. Desvincula: Windows → Configuración → Cuentas → Tu información → Dejar de sincronizar / BitLocker → Desactivar. Mac → Preferencias → Apple ID → Cerrar sesión. Móvil → Ajustes → Tu nombre → Cerrar sesión.</p>
+  <h2 id="aprende">15 MIN · Borrado seguro según tu dispositivo</h2>
+  <p>Identifica tu medio y aplica el método correcto:</p>
+  <ol class="steps-list">
+<li><strong>SSD / NVMe / eMMC (portátil, móvil, USB-C SSD)</strong><p>Windows: Parted Magic (USB booteable) → Erase Disk → NVMe Format / ATA Secure Erase. Linux: nvme format /dev/nvme0n1 --ses=1 (User Data Erase) o nvme format --ses=2 (Cryptographic Erase - instantáneo si hay clave). hdparm --security-erase-enhanced /dev/sdX (SATA SSD). macOS: Utilidad de Discos → Borrar → Seguridad → «Más seguro» (solo HDD) / en SSD: FileVault ON → Reiniciar → Utilidad de Discos → Borrar (APFS + cifrado = borrado criptográfico).</p></li>
+<li><strong>HDD mecánico (disco externo, NAS, PC antiguo)</strong><p>Windows: Eraser (click derecho → Eraser → Borrar espacio libre / archivo) o nwipe (USB booteable). Linux: shred -vfz -n 3 /dev/sdX (3 pasadas + cero final) o nwipe --method=dod. macOS: Utilidad de Discos → Borrar → Opciones de seguridad → 3 pasadas (DoD) o 7 pasadas. Verificación: leer sectores aleatorios con dd/hexdump tras borrado.</p></li>
+<li><strong>Móvil / Tablet (Android / iOS)</strong><p>Android 10+ (cifrado basado en archivos FBE activado por defecto): Ajustes → Sistema → Restablecer → Borrar todos los datos. iOS 8+ (cifrado hardware + Data Protection): Ajustes → General → Transferir/Restablecer → Borrar contenido y ajustes. Ambos: la clave de cifrado se destruye → datos irrecuperables. Verifica: tras restablecer, configurar como nuevo → comprobar que no hay cuentas / fotos / apps previas.</p></li>
+<li><strong>USB / Tarjeta SD (memoria flash)</strong><p>Si es para desechar: destruir físicamente (martillo, taladro, trituradora industrial). Si es para reutilizar: formateo completo (NO rápido) + sobrescritura con shred/nwipe (tratamiento como SSD sin wear leveling complejo) O mejor: cifrar con VeraCrypt/Cryptomator ANTES de usarla, luego borrar contenedor/clave.</p></li>
+<li><strong>Papel y documentos físicos</strong><p>Trituradora cruzada (cross-cut, DIN 66399 P-4 mínimo 4x40mm) para DNI, contratos, bancarios, contraseñas, firmas. Microcorte (P-5/P-6/P-7) para alta seguridad. Quemar (seguro, legal en zona permitida) para eliminar trazas químicas. Nunca: tirar a papelera, reciclaje, contenedor calle.</p></li>
+  </ol>
+  <div class="callout callout-warn"><strong>Error frecuente: «formateé el disco antes de venderlo, está limpio»</strong><p>Formateo rápido = tabla de particiones nueva, datos intactos. Cualquiera con Recuva/PhotoRec recupera fotos, documentos, contraseñas en 10 min. En HDD: usa nwipe/Eraser (3 pasadas). En SSD: usa Secure Erase (nvme-cli, hdparm, Parted Magic). En móvil: restablecer de fábrica (con cifrado previo activado). Verifica siempre: intenta recuperar algo tú mismo antes de entregar.</p></div>
+
+  <h2 id="que-hacer">¿Y si ya ha pasado?</h2>
+  <p>Qué hacer si el usuario ya ha interactuado con la amenaza. Enlaza al recurso correspondiente.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">He pulsado un enlace sospechoso: ¿qué hago? →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tienes un HDD externo de 2TB con fotos familiares. Lo vas a regalar a un familiar. ¿Cómo lo borras?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Conecta → nwipe (USB booteable Parted Magic) → método DoD 3 pasadas + verificación (--verify). Tarda ~4-6h. Al acabar, formatea NTFS/exFAT limpio. Verifica: intenta recuperar con PhotoRec → 0 archivos. Entrega con confianza.</strong></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Vendes tu iPhone 13. Haces «Borrar contenido y ajustes». ¿Es suficiente?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Sí. iOS cifra por hardware (Secure Enclave + AES-256) desde iPhone 3GS. «Borrar contenido» destruye la clave de cifrado (effaceable storage). Sin clave, los bloques flash son ruido aleatorio. Irrecuperable incluso para Apple/forenses. Verifica: tras borrar, configurar como nuevo → sin fotos, contactos, apps, cuentas.</strong></div></details></div>
+
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Cuántas pasadas son necesarias para HDD modernos?</h3>
+  <p>NIST SP 800-88 Rev. 1 (2014): una pasada aleatoria verificada es suficiente para HDD modernos (post-2001). DoD 5220.22-M (3 pasadas) es estándar heredado, aún aceptado. Gutmann (35 pasadas) es obsoleto (diseñado para MFM/RLL de los 80). Clave: verificación tras escritura (leer y confirmar patrón).</p>
+  <h3>¿El cifrado previo (BitLocker/FileVault/LUKS/Android FBE/iOS Data Protection) sustituye al borrado seguro?</h3>
+  <p>Sí, si la clave se destruye irreversiblemente. Cifrado + borrado de clave (restablecer fábrica, cryptographic erase NVMe, reformatear partición LUKS/BitLocker) = datos irrecuperables. Es más rápido (segundos) y seguro que sobrescritura. Requisito: el cifrado debe estar ACTIVO *antes* de guardar datos sensibles. Si cifras después, los datos en claro previos quedan en sectores no cifrados (remanencia).</p>
+  <h3>¿Cómo borro de forma segura un archivo suelto en Windows sin borrar todo el disco?</h3>
+  <p>Eraser (gratis, open source): click derecho → Eraser → Borrar (sobrescribe clusters del archivo + entrada MFT + espacio libre opcional). SDelete (Sysinternals, CLI): sdelete -p 3 archivo.txt (3 pasadas). PowerShell: cipher /w:C:\ruta\carpeta (sobrescribe espacio libre de la unidad). En Linux: shred -vfz -n 3 archivo. En macOS: rm -P archivo (3 pasadas) o srm (secure rm).</p>
+
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI u otras fuentes oficiales. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links">
+  <li><a href="https://csrc.nist.gov/publications/detail/sp/800-88/rev-1/final" target="_blank" rel="noopener">NIST SP 800-88 Rev. 1 — Guidelines for Media Sanitization</a></li>
+  <li><a href="https://www.incibe.es/protege-tu-informacion/destruccion-segura" target="_blank" rel="noopener">INCIBE — Destrucción segura de la información</a></li>
+  <li><a href="https://eraser.heidi.ie/" target="_blank" rel="noopener">Eraser / nwipe / shred / sdelete — Documentación oficial</a></li>
+  </ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Señales de alerta</a><a href="#aprende">Cómo comprobar</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">Qué hacer si ya ha pasado</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/protege-tu-informacion/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si necesitas actuar ya, empieza por esta guía práctica.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p>
+  <a href="/aprende/protege-tu-informacion/cifrado/">Cifrado: protege tus archivos y comunicaciones</a>
+  <a href="/aprende/protege-tu-informacion/copias-de-seguridad/">Copias de seguridad: la regla 3-2-1</a>
+</div></aside>
+</section></main>

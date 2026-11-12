@@ -1,0 +1,82 @@
+---
+title: Copias de seguridad | EDUCA CIBER
+description: Aplica la regla 3-2-1 para no perder nunca tus datos: 3 copias, 2 medios distintos, 1 fuera de casa. Automatiza y verifica.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Copias de seguridad | EDUCA CIBER",
+  "description": "Aplica la regla 3-2-1 para no perder nunca tus datos: 3 copias, 2 medios distintos, 1 fuera de casa. Automatiza y verifica.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/protege-tu-informacion/">Protege tu información</a><span>/</span><span>Copias de seguridad</span></nav>
+ <p class="eyebrow">Protege tu información · Contenido piloto</p><h1>Copias de seguridad <span class="text-blue"></span></h1>
+ <p class="lead"></p>
+ <div class="meta-row"><span class="meta-pill">básico</span><span class="meta-pill">todos</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>La copia de seguridad no es opcional: ransomware, fallo de disco, robo, borrado accidental o incendio ocurren. La regla 3-2-1 es tu seguro de vida digital.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Perder datos (fotos, documentos, trabajo, contraseñas) es evitable con una estrategia de copias sólida. La regla de oro es 3-2-1: 3 copias totales (original + 2 backups), en 2 medios distintos (ej. disco externo + nube, o NAS + cinta), con 1 copia fuera de casa (nube, disco en otra ubicación, familiar de confianza). Qué copiar: documentos personales (DNI, contratos, títulos), fotos/vídeos irrepetibles, contraseñas (exportación cifrada del gestor), claves SSH/GPG, configuraciones importantes, código/proyectos propios. Qué NO copiar en nube sin cifrar: datos médicos, fiscales, propiedad intelectual sensible (cifra antes de subir). Frecuencia: diario para trabajo activo, semanal para archivo personal. Automatiza: Windows (Historial de archivos), macOS (Time Machine), Linux (rsync/Borg/Restric), móvil (Google Drive/iCloud + copia local periódica). Verifica: una vez al mes, restaura un archivo aleatorio. Si no se puede restaurar, la copia no sirve. Prueba de restauración completa anual.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>La copia de seguridad no es opcional: ransomware, fallo de disco, robo, borrado accidental o incendio ocurren. La regla 3-2-1 es tu seguro de vida digital.</p></div>
+  <h2 id="senales">Escenarios donde una copia te salva</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Ransomware cifra tu disco (y el backup conectado)</strong><p>Si el backup está desconectado (offline) o en nube con versionado, recuperas sin pagar rescate.</p></div>
+   <div><b>02</b><strong>Disco duro/SSD falla sin aviso (SMART no siempre avisa)</strong><p>La vida media es 3-5 años. Fallo súbito = datos perdidos si no hay copia en otro medio.</p></div>
+   <div><b>03</b><strong>Borrado accidental o sobrescritura de archivo crítico</strong><p>Versionado (Time Machine, Historial de archivos, snapshots nube) permite volver a versión anterior.</p></div>
+   <div><b>04</b><strong>Robo/incendio/inundación del dispositivo y backup local</strong><p>Si la única copia está en el mismo sitio, se pierde todo. La copia fuera de casa (nube/disco remoto) es vital.</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: configurando 3-2-1 en un portátil personal</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">U</span><div><strong>Usuario</strong><small>Estrategia de backup</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Mi plan 3-2-1: 1) Original en portátil (SSD interno). 2) Copia local: disco externo 2TB cifrado (BitLocker/FileVault/LUKS) + Time Machine / Historial de archivos / BorgBackup (diario, automático al enchufar). 3) Copia remota: Backblaze B2 / Synology C2 / Proton Drive / Mega (cifrado lado cliente) + rclone / restic (semanal, automático). Verificación: 1er día de cada mes restauro 3 archivos aleatorios. Test completo: cada enero.</p><div class="fake-button">Guardar plan</div><small class="fake-foot">EJEMPLO FICTICIO. Adapta medios y frecuencia a tu volumen y criticidad.</small></div>
+  <p>¿Por qué cifrar el disco externo? Si te lo roban o pierdes, tus datos no son accesibles. BitLocker (Win Pro), FileVault (Mac), LUKS (Linux), VeraCrypt (multiplataforma).</p>
+  <h2 id="aprende">15 MIN · Pon en marcha tu 3-2-1 hoy</h2>
+  <p>Elige una opción por columna y configúrala ahora:</p>
+  <ol class="steps-list">
+<li><strong>Copia 1: Local automática (medio 1)</strong><p>Windows: Historial de archivos → Añadir disco → Cada hora. macOS: Time Machine → Seleccionar disco → Cifrar copia. Linux: BorgBackup + systemd timer (diario) o rsync + cron. Cifra el disco destino (BitLocker/FileVault/LUKS/VeraCrypt).</p></li>
+<li><strong>Copia 2: Nube/remota con versionado (medio 2)</strong><p>Gratis/freemium: Google Drive (15GB), OneDrive (5GB), iCloud (5GB), Mega (20GB), Proton Drive (1GB), Backblaze B2 (10GB gratis). Pago ilimitado: Backblaze Personal (90€/año), Synology C2. Herramientas: rclone, restic, duplicati, Arq. Activa versionado (30-90 días).</p></li>
+<li><strong>Copia 3: Fuera de casa (ubicación distinta)</strong><p>Si usas nube, ya está fuera. Si solo usas discos locales: guarda uno en casa de familiar/amigo de confianza (cifrado) y rota mensual. O usa 2 discos: uno en casa, otro en taquilla/coche/trastero (riesgo calor/humedad).</p></li>
+<li><strong>Qué copiar (lista mínima)</strong><p>Documentos (~/Documentos), Escritorio, Fotos (~/Imágenes), Contraseñas (exportación .json/.csv cifrada del gestor), Claves SSH/GPG (~/.ssh, ~/.gnupg), Proyectos/código (~/Proyectos, repos Git), Configuraciones críticas.</p></li>
+<li><strong>Verifica y documenta</strong><p>Mes 1: restaura 3 archivos aleatorios. Mes 6: restaura carpeta completa. Año 1: test de desastre (formatea portátil, restaura todo). Documenta: dónde está cada copia, contraseñas de cifrado, cómo restaurar. Guarda en gestor de contraseñas y en papel (caja fuerte).</p></li>
+  </ol>
+  <div class="callout callout-warn"><strong>Error frecuente: «tengo RAID, no necesito backup»</strong><p>RAID (1, 5, 6, 10) protege contra fallo de *un* disco, no contra ransomware, borrado accidental, corrupción de filesystem, robo, incendio, fallo de controladora o error humano. RAID es disponibilidad, backup es recuperabilidad. Son complementarios, no sustitutos.</p></div>
+
+  <h2 id="que-hacer">¿Y si ya ha pasado?</h2>
+  <p>Qué hacer si el usuario ya ha interactuado con la amenaza. Enlaza al recurso correspondiente.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">He pulsado un enlace sospechoso: ¿qué hago? →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tienes 500GB de fotos y documentos. Tu disco externo es de 1TB. ¿Cómo haces la copia local completa con versionado histórico?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Time Machine (Mac) / Historial de archivos (Win) / BorgBackup (Linux) hacen copias incrementales: primera = 500GB, siguientes = solo cambios. En 1TB caben meses de histórico. Si el disco se llena, las herramientas borran lo más antiguo automáticamente.</strong></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Subes tu backup a Google Drive sin cifrar. ¿Qué riesgo asumes?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Google puede escanear tus archivos (política de uso), empleados con acceso legal pueden verlos, una brecha en Google los expone, una orden judicial los entrega. Cifra *antes* de subir: Cryptomator (gratis, multiplataforma), VeraCrypt, restic/rclone con cifrado nativo. Tú guardas la clave, nadie más la tiene.</strong></div></details></div>
+
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Cada cuánto debo hacer backup?</h3>
+  <p>Trabajo activo (código, docs en curso): cada hora (Time Machine, Historial de archivos, Borg) o al guardar. Archivo personal (fotos, docs estáticos): diario/semanal. Móvil: automático en carga + Wi-Fi (Google Photos, iCloud, OneDrive). Lo clave: automatiza y olvida; verifica mensual.</p>
+  <h3>¿Qué es mejor: disco externo o nube?</h3>
+  <p>Los dos (regla 3-2-1). Disco local: recuperación rápida (minutos), sin coste recurrente, privacidad total si cifras. Nube: fuera de casa automática, versionado incluido, accesible desde कहीं, coste recurrente. Combínalos.</p>
+  <h3>¿Cómo hago backup de WhatsApp sin Google Drive/iCloud?</h3>
+  <p>WhatsApp → Ajustes → Chats → Copia de seguridad → Guardar en dispositivo (Android: Google Drive local / iOS: iCloud). Para exportar local cifrado: apps de terceros (Whatsapp Viewer, Backup Text for WhatsApp) o copia manual de la carpeta /WhatsApp/Databases (Android) y cifra con VeraCrypt. En iOS: solo iCloud o iTunes/Finder (cifrado local).</p>
+
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI u otras fuentes oficiales. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links">
+  <li><a href="https://www.incibe.es/protege-tu-informacion/copias-seguridad" target="_blank" rel="noopener">INCIBE — Copias de seguridad: guía práctica</a></li>
+  <li><a href="https://www.cisa.gov/resources-tools/resources/data-backup-options" target="_blank" rel="noopener">CISA — Data Backup Options</a></li>
+  <li><a href="https://borgbackup.readthedocs.io/" target="_blank" rel="noopener">BorgBackup / restic / rclone — Documentación oficial</a></li>
+  </ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Señales de alerta</a><a href="#aprende">Cómo comprobar</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">Qué hacer si ya ha pasado</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/protege-tu-informacion/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si necesitas actuar ya, empieza por esta guía práctica.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p>
+  <a href="/aprende/protege-tu-informacion/por-que-los-datos-tienen-valor/">Por qué los datos tienen valor</a>
+  <a href="/aprende/protege-tu-informacion/cifrado/">Cifrado: protege tus archivos y comunicaciones</a>
+</div></aside>
+</section></main>

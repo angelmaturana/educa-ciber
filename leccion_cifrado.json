@@ -1,0 +1,128 @@
+{
+  "titulo": "Cifrado",
+  "slug": "cifrado",
+  "hub": "Protege tu información",
+  "descripcion": "Protege archivos, discos y comunicaciones con cifrado simétrico y asimétrico. Qué herramientas usar y cómo gestionar claves sin perder el acceso.",
+  "nivel": "intermedio",
+  "duracion": "5 min · Lo esencial",
+  "publico": "todos",
+  "idea_clave": "El cifrado convierte tus datos en ruido ilegible sin la clave. Úsalo en reposo (discos, archivos, backups) y en tránsito (HTTPS, Signal, VPN, email PGP). La gestión de claves es el eslabón débil: pierdes la clave = pierdes los datos.",
+  "esencial": "El cifrado es la herramienta más potente para proteger la confidencialidad. Dos tipos principales: 1) Simétrico (misma clave cifra y descifra): AES-256, ChaCha20. Rápido, ideal para archivos, discos, backups. Herramientas: VeraCrypt (contenedores/discos), Cryptomator (archivos en nube), 7-Zip/WinRAR (archivos con contraseña), age (CLI moderno), OpenSSL. 2) Asimétrico (clave pública cifra, clave privada descifra): RSA-4096, Ed25519, X25519. Para intercambiar claves simétricas, firmar, email (PGP/GPG), SSH, TLS. Herramientas: GnuPG (GPG), age (también asimétrico), Signal Protocol (WhatsApp, Signal), TLS (HTTPS). Qué cifrar: disco completo del portátil (BitLocker, FileVault, LUKS), disco externo de backup, contenedor con datos sensibles (VeraCrypt, Cryptomator), archivos antes de subirlos a nube no cifrada lado cliente, emails con PGP/GPG si el destinatario lo usa, comunicaciones (Signal, WhatsApp, TLS). Gestión de claves: contraseña maestra fuerte + 2FA en gestor de contraseñas; clave de recuperación (recovery key) impresa y guardada en sitio seguro (caja fuerte, familiar de confianza); frases semilla (seed phrases) para wallets crypto; nunca guardes claves en texto plano, capturas de pantalla o notas del móvil. Verifica: cifra un archivo de prueba, descífralo, borra el original. Si no puedes recuperar, no confíes en ese método.",
+  "secciones": [
+    {
+      "tipo": "signal-grid",
+      "id": "senales",
+      "titulo": "Cuándo cifrar (y cuándo no hace falta)",
+      "contenido": [
+        {
+          "titulo": "SÍ: portátil que sale de casa (BitLocker/FileVault/LUKS)",
+          "descripcion": "Robo/pérdida = datos expuestos. Cifrado de disco completo nativo, sin impacto notable de rendimiento."
+        },
+        {
+          "titulo": "SÍ: backup en nube sin cifrado lado cliente (Cryptomator/VeraCrypt/restic)",
+          "descripcion": "Proveedor ve metadatos, no contenido. Tú controlas la clave. Protege contra brechas, empleados, órdenes judiciales."
+        },
+        {
+          "titulo": "SÍ: archivos sensibles compartidos por canal inseguro (email, WeTransfer, Drive link)",
+          "descripcion": "Cifra con 7-Zip/age/GPG antes de enviar. Comparte contraseña por canal distinto (Signal, llamada)."
+        },
+        {
+          "titulo": "NO (o cuidado): archivos que necesitas abrir en cualquier dispositivo sin instalar nada",
+          "descripcion": "El cifrado requiere software/clave. Para acceso universal: usa servicios con cifrado lado cliente nativo (Proton Drive, Sync.com, Tresorit) o comparte contraseña de forma segura."
+        }
+      ]
+    },
+    {
+      "tipo": "fake-message",
+      "id": "ejemplo",
+      "titulo": "Un ejemplo: enviando un contrato firmado por email",
+      "avatar": "A",
+      "entidad": "Abogado",
+      "asunto": "Contrato firmado - CONFIDENCIAL",
+      "texto": "Adjunto el contrato firmado en PDF. Lo he cifrado con age (clave pública del destinatario). Para descifrar: age --decrypt -i clave_privada.txt contrato.pdf.age > contrato.pdf. La clave pública ya me la diste. La contraseña del ZIP (plan B) te la envío por Signal.",
+      "boton": "Descargar age",
+      "nota": "EJEMPLO FICTICIO. age es moderno, simple y seguro (filippo.io/age). GPG es más completo pero complejo.",
+      "preguntas": "¿Por qué no enviar el PDF directo? Email no es seguro: pasa por servidores en texto plano (salvo TLS opportunistic), se guarda en bandejas, se puede reenviar, filtrar en brecha. Cifrado de archivo = confidencialidad end-to-end."
+    },
+    {
+      "tipo": "steps-list",
+      "id": "aprende",
+      "titulo": "15 MIN · Cifra lo esencial hoy",
+      "intro": "Tres acciones de alto impacto, elige tu SO:",
+      "contenido": [
+        {
+          "titulo": "1. Cifra el disco del portátil (obligatorio si sale de casa)",
+          "descripcion": "Windows Pro/Enterprise: BitLocker (Panel de control → BitLocker → Activar). Guarda clave de recuperación en cuenta Microsoft O imprime. Windows Home: VeraCrypt (cifrado de partición/sistema). macOS: FileVault (Preferencias → Seguridad → FileVault → Activar). Guarda clave de recuperación en iCloud O imprime. Linux: LUKS en instalación (opción «Cifrar disco») o cryptsetup en disco existente. Guarda passphrase en gestor + papel."
+        },
+        {
+          "titulo": "2. Cifra backups en nube (Cryptomator: fácil, multiplataforma)",
+          "descripcion": "Instala Cryptomator → Crear bóveda → Elige carpeta en Google Drive/OneDrive/Dropbox/Mega → Pon contraseña fuerte (guarda en gestor). Arrastra archivos a la unidad virtual (letra de disco / punto de montaje). Se cifran al vuelo antes de sincronizar. Funciona en Win/Mac/Linux/Android/iOS. Alternativa CLI: restic/rclone+crypt (automatizable)."
+        },
+        {
+          "titulo": "3. Cifra archivos sueltos para compartir (7-Zip / age)",
+          "descripcion": "Windows: 7-Zip → Click derecho → 7-Zip → Añadir al archivo → Cifrado: AES-256 → Contraseña. Mac/Linux: 7z (brew/apt) o age (age -e -p archivo.pdf > archivo.pdf.age). Comparte contraseña por Signal/llamada, NO por el mismo email. Verifica: descifra tú mismo antes de enviar."
+        }
+      ]
+    },
+    {
+      "tipo": "callout-warn",
+      "id": "error-frecuente",
+      "titulo": "Error frecuente: «cifré el disco y perdí la clave de recuperación»",
+      "contenido": "Sin clave de recuperación (BitLocker/FileVault/LUKS) o passphrase (VeraCrypt), los datos son irrecuperables. Ningún soporte técnico, ninguna «puerta trasera» puede abrirlo. Guarda la clave en: 1) Gestor de contraseñas (Bitwarden, 1Password, KeePassXC). 2) Papel en caja fuerte / lugar seguro físico. 3) Familiar de confianza (sobre sellado). 4) Cuenta Microsoft/Apple/Google (opción nativa). Prueba: reinicia y verifica que puedes desbloquear."
+    }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Quieres subir tus declaraciones de la renta (PDF) a Google Drive. ¿Cómo lo haces de forma segura?",
+      "respuesta": "Opción A (fácil): Cryptomator → Bóveda en Drive → Arrastra PDFs. Opción B (archivo único): 7-Zip / age → Cifra con AES-256/ChaCha20 + contraseña fuerte → Sube .zip/.age. Opción C (servicio nativo): Proton Drive / Sync.com / Tresorit (cifrado lado cliente por defecto). En todos los casos: guarda contraseña en gestor."
+    },
+    {
+      "pregunta": "Tu portátil con BitLocker no arranca (pantalla azul). Tienes la clave de recuperación impresa. ¿Qué haces?",
+      "respuesta": "Arranca desde USB de instalación de Windows → Reparar el equipo → Solucionar problemas → Opciones avanzadas → Símbolo del sistema → manage-bde -unlock C: -RecoveryPassword TU_CLAVE_48_DIGITOS. Luego copia tus datos a disco externo (BitLocker To Go o sin cifrar si es urgente) y reinstala."
+    }
+  ],
+  "faq": [
+    {
+      "pregunta": "¿BitLocker/FileVault/LUKS ralentizan el portátil?",
+      "respuesta": "En hardware moderno (CPU con AES-NI, SSD NVMe), el impacto es <1-2% imperceptible. En discos duros mecánicos o CPU antiguas sin AES-NI, puede notarse ligeramente. El beneficio de seguridad supera ampliamente el coste."
+    },
+    {
+      "pregunta": "¿VeraCrypt es seguro? ¿Y Cryptomator?",
+      "respuesta": "VeraCrypt: heredero de TrueCrypt, auditorías públicas (2016, 2020), estándar de facto para contenedores/discos cifrados multiplataforma. Cryptomator: código abierto, auditoría Cure53 2018, cifrado AES-256/ChaCha20-Poly1305, diseño «zero knowledge» (la app no sabe tu contraseña). Ambos son referencias de confianza."
+    },
+    {
+      "pregunta": "¿PGP/GPG sigue siendo relevante para email?",
+      "respuesta": "Para casos de alto riesgo (periodistas, abogados, activistas, empresas con secretos): sí, GPG + Thunderbird/Enigmail o K-9 Mail/OpenKeychain. Para la mayoría: Signal/WhatsApp (Signal Protocol) o servicios de email cifrado (Proton Mail, Tutanota, Skiff) son más usables y seguros por defecto. PGP tiene usabilidad mala y riesgos de implementación (EFAIL)."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "INCIBE — Cifrado de la información",
+      "url": "https://www.incibe.es/protege-tu-informacion/cifrado"
+    },
+    {
+      "titulo": "age — Modern file encryption",
+      "url": "https://github.com/FiloSottile/age"
+    },
+    {
+      "titulo": "Cryptomator — Documentación",
+      "url": "https://docs.cryptomator.org/"
+    },
+    {
+      "titulo": "VeraCrypt — Documentación oficial",
+      "url": "https://www.veracrypt.fr/en/Documentation.html"
+    }
+  ],
+  "relacionadas": [
+    {
+      "slug": "copias-de-seguridad",
+      "texto": "Copias de seguridad: la regla 3-2-1",
+      "hub": "Protege tu información"
+    },
+    {
+      "slug": "borrado-seguro",
+      "texto": "Borrado seguro: que no quede rastro",
+      "hub": "Protege tu información"
+    }
+  ]
+}

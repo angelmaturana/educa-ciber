@@ -1615,5 +1615,74 @@
       "control parental",
       "sí limita tiempo, apps, web, compras, ubicación"
     ]
+  },
+  {
+    "title": "Por qué los datos tienen valor",
+    "url": "/aprende/protege-tu-informacion/por-que-los-datos-tienen-valor/",
+    "description": "Entiende qué hace valiosos tus datos personales y profesionales, quién los quiere y cómo protegen tu privacidad y seguridad.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "protege tu información",
+      "empresas legítimas (scoring, personalización, mejora producto)",
+      "aprender",
+      "ciberseguridad",
+      "por que los datos tienen valor",
+      "seguridad digital",
+      "plataformas publicitarias (google, meta, tiktok, amazon)",
+      "brokers de datos (acxiom, experian, oracle data cloud)",
+      "ciberdelincuentes (fraude, ransomware, suplantación)",
+      "por qué los datos tienen valor"
+    ]
+  },
+  {
+    "title": "Copias de seguridad",
+    "url": "/aprende/protege-tu-informacion/copias-de-seguridad/",
+    "description": "Aplica la regla 3-2-1 para no perder nunca tus datos: 3 copias, 2 medios distintos, 1 fuera de casa. Automatiza y verifica.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "aprender",
+      "borrado accidental o sobrescritura de archivo crítico",
+      "robo/incendio/inundación del dispositivo y backup local",
+      "seguridad digital",
+      "copias de seguridad",
+      "ciberseguridad",
+      "disco duro/ssd falla sin aviso (smart no siempre avisa)",
+      "protege tu información",
+      "ransomware cifra tu disco (y el backup conectado)"
+    ]
+  },
+  {
+    "title": "Cifrado",
+    "url": "/aprende/protege-tu-informacion/cifrado/",
+    "description": "Protege archivos, discos y comunicaciones con cifrado simétrico y asimétrico. Qué herramientas usar y cómo gestionar claves sin perder el acceso.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "seguridad digital",
+      "aprender",
+      "sí: backup en nube sin cifrado lado cliente (cryptomator/veracrypt/restic)",
+      "no (o cuidado): archivos que necesitas abrir en cualquier dispositivo sin instalar nada",
+      "protege tu información",
+      "cifrado",
+      "sí: archivos sensibles compartidos por canal inseguro (email, wetransfer, drive link)",
+      "sí: portátil que sale de casa (bitlocker/filevault/luks)",
+      "ciberseguridad"
+    ]
+  },
+  {
+    "title": "Borrado seguro",
+    "url": "/aprende/protege-tu-informacion/borrado-seguro/",
+    "description": "Eliminar no es borrar: el sistema solo marca el espacio como libre. Aprende a borrar realmente archivos, discos y móviles antes de vender, regalar o desechar.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "ciberseguridad",
+      "seguridad digital",
+      "aprender",
+      "protege tu información",
+      "sobrescribir ssd con herramientas de hdd (shred, dban)",
+      "borrado seguro",
+      "papelera de reciclaje / shift+supr / rm",
+      "restablecer móvil sin cifrado previo (android antiguo sin fbe)",
+      "formateo rápido (quick format)"
+    ]
   }
 ]
