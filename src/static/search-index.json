@@ -1137,8 +1137,30 @@
       "incidente",
       "proteger",
       "empresa hackeada",
-      "correo de trabajo",
-      "ordenador empresa"
+"correo de trabajo",
+       "ordenador empresa"
+     ]
+   },
+   {
+    "title": "Correo corporativo: phishing, BEC y seguridad",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/correo-corporativo/",
+    "description": "Aprende a usar el correo del trabajo de forma segura: phishing dirigido (BEC), adjuntos, enlaces, verificación de remitentes y buenas prácticas.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "correo corporativo",
+      "phishing dirigido",
+      "spear phishing",
+      "bec",
+      "estafa ceo",
+      "business email compromise",
+      "malware adjuntos",
+      "credenciales office 365",
+      "suplantacion proveedor",
+      "transferencia fraudulenta",
+      "verificacion remitente",
+      "reportar phishing",
+      "seguridad email empresa",
+      "formacion phishing"
     ]
   },
   {
