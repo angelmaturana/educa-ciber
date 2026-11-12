@@ -135,10 +135,10 @@ class TestTemplateContactIsOptional(TemplateCopy):
         'email only': {'phone_e164': ''},
     }
     NO_EMAIL = {
-        'phone only': {'contact_email': ''},
-        'none': {'contact_email': '', 'phone_e164': ''},
+        'phone only': {'contact_email': '', 'legal_contact_email': ''},
+        'none': {'contact_email': '', 'legal_contact_email': '', 'phone_e164': ''},
     }
-    LEGAL_PAGES = ('privacy-policy', 'legal-notice')
+    LEGAL_PAGES = ('cookie-policy', 'privacy-policy', 'legal-notice')
 
     def without_legal_pages(self):
         """The template minus the pages that print the email: what a site with no email would write."""
@@ -159,7 +159,7 @@ class TestTemplateContactIsOptional(TemplateCopy):
                 self.site(**changes)
                 with self.assertRaises(build.BuildError) as ctx:
                     self.build()
-                for expected in ('{{contact_email}}', 'contact_email', 'site.json'):
+                for expected in ('{{legal_contact_email}}', 'legal_contact_email', 'site.json'):
                     self.assertIn(expected, str(ctx.exception))
                 self.assertTrue(any(f'/{slug}/' in str(ctx.exception) for slug in self.LEGAL_PAGES))
 
@@ -464,15 +464,13 @@ class TestSmoke(TemplateCopy):
         errors, _ = check_site.run_checks(out, build.load_site(self.root).site_url)
         self.assertTrue(errors)
 
-    def test_whatsapp_links_well_formed(self):
-        """Regression: duplicated "?text=" and unencoded spaces in wa.me links."""
+    def test_educaciber_has_no_whatsapp_or_phone_links(self):
+        """EDUCA CIBER uses email as its only contact channel; there must be no WhatsApp/tel links."""
         out = self.build_to(True)
-        links = [h for f in out.rglob('*.html')
-                 for h in re.findall(r'href="(https://wa\.me/[^"]*)"', f.read_text(encoding='utf-8'))]
-        self.assertTrue(links, 'the template should have WhatsApp links')
-        for h in links:
-            self.assertEqual(h.count('?'), 1, f'repeated "?" in {h}')
-            self.assertNotIn(' ', h, f'unencoded spaces in {h}')
+        pages = '\n'.join(f.read_text(encoding='utf-8') for f in out.rglob('*.html'))
+        self.assertNotIn('https://wa.me/', pages)
+        self.assertNotIn('whatsapp-float', pages)
+        self.assertNotIn('href="tel:', pages)
 
     def test_no_validate_with_out_does_not_touch_the_projects_dist(self):
         self.build_to(True)
@@ -568,13 +566,11 @@ class TestCommandLine(unittest.TestCase):
             return subprocess.run(['bash', str(project / 'legible' / 'build.sh')],
                                   capture_output=True, text=True, cwd=project, env=env)
 
-    def test_build_script_warns_when_example_data_is_left(self):
-        """Forgetting the real data must not pass silently, but it must not stop the build either (F8B: the
-        notice of `build.py --all` replaces the old warning about the sample domain)."""
+    def test_build_script_does_not_warn_when_real_data_is_configured(self):
+        """This project has real brand/contact data, so --all must not emit the template-data warning."""
         r = self._run_build_script()
         self.assertEqual(r.returncode, 0, f'{r.stdout}\n{r.stderr}')
-        self.assertIn('WARNING', r.stderr)
-        self.assertIn('check_site.py --prelaunch', r.stderr)
+        self.assertNotIn('WARNING', r.stderr)
         self.assertIn('BUILD SUCCESS', r.stdout)
 
     def test_standalone_validator_site_url_overrides_invalid_config(self):

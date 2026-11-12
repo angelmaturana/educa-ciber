@@ -628,11 +628,14 @@ class _PageWriter:
         self.pages_data = []
 
     def emit(self, out_path, page_rel, front, content):
-        # A page that prints the contact email while there is none would publish an empty sentence ("write to ."):
-        # that is an error. No general "empty marker" rule: `{{location}}`, for one, may be empty on purpose.
-        if '{{contact_email}}' in content and not self.html_replacements.get('{{contact_email}}'):
-            raise BuildError(f'page {page_rel}: uses {{{{contact_email}}}} but "contact_email" in src/data/site.json is empty. '
-                             f'Write the email in site.json, or take the marker out of the page.')
+        # A page that prints an email address must not silently publish an empty value.
+        # General contact and legal contact are deliberately separate settings in EDUCA CIBER.
+        # No general "empty marker" rule: `{{location}}`, for one, may be empty on purpose.
+        for marker, key in (('{{contact_email}}', 'contact_email'),
+                            ('{{legal_contact_email}}', 'legal_contact_email')):
+            if marker in content and not self.html_replacements.get(marker):
+                raise BuildError(f'page {page_rel}: uses {{{{{key}}}}} but "{key}" in src/data/site.json is empty. '
+                                 f'Write the email in site.json, or take the marker out of the page.')
         # Global markers: HTML body as HTML, JSON-LD with JSON escaping
         content = replace_placeholders_in_content(content, self.html_replacements, self.json_replacements)
         composed = compose_page(front, content, page_rel=page_rel, **self.shared)
