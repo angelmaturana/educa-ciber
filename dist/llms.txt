@@ -1,0 +1,35 @@
+# EDUCA CIBER
+
+> Formación y recursos gratuitos de ciberseguridad, explicados de forma sencilla y práctica para que cualquier persona pueda aprender a proteger su vida digital.
+
+## About
+
+- **Name:** EDUCA CIBER
+- **Website:** https://educaciber.com/
+
+## Main sections
+
+- **Aprende:** formación en ciberseguridad para todos.
+- **Recursos:** guías y herramientas prácticas.
+- **Empresas:** formación y concienciación para organizaciones.
+- **Sobre EDUCA CIBER:** propósito y metodología.
+
+## Pages
+
+- [EDUCA CIBER | Aprende a proteger tu vida digital](https://educaciber.com/): Ciberseguridad para todos: aprende a reconocer amenazas digitales, proteger tus cuentas y dispositivos y actuar ante situaciones sospechosas.
+- [Aprende ciberseguridad | EDUCA CIBER](https://educaciber.com/aprende/): Formación de ciberseguridad para todos: once áreas para aprender a proteger tu vida digital.
+- [Recursos de ciberseguridad | EDUCA CIBER](https://educaciber.com/recursos/): Guías, checklists e infografías prácticas para proteger tus cuentas, dispositivos e información.
+- [Formación y concienciación para empresas | EDUCA CIBER](https://educaciber.com/empresas/): Formación en ciberseguridad y concienciación adaptada a empresas, PYMEs, asociaciones y centros educativos.
+- [Sobre EDUCA CIBER | Ciberseguridad para todos](https://educaciber.com/sobre-educaciber/): Conoce el propósito y la metodología de EDUCA CIBER: formación sencilla, práctica, rigurosa y accesible.
+- [Contacto | EDUCA CIBER](https://educaciber.com/contact/): Contacta con EDUCA CIBER para consultas, colaboraciones, sugerencias y formación para organizaciones.
+- [Phishing: reconócelo antes de hacer clic | EDUCA CIBER](https://educaciber.com/aprende/fraudes/phishing/): Aprende qué es el phishing, cómo reconocer los intentos de suplantación y qué comprobar antes de hacer clic.
+- [Fuentes y metodología | EDUCA CIBER](https://educaciber.com/fuentes-metodologia/): Conoce las fuentes de referencia y el proceso editorial para crear contenidos rigurosos y actualizados.
+- [Tres segundos antes de hacer clic | Píldora | EDUCA CIBER](https://educaciber.com/pildora/tres-segundos-antes-de-hacer-clic/): Píldora de ciberseguridad: detente, piensa y verifica antes de pulsar un enlace inesperado.
+- [He pulsado un enlace sospechoso: qué hacer | EDUCA CIBER](https://educaciber.com/recursos/he-pulsado-un-enlace-sospechoso/): Orientación práctica para saber qué hacer si has pulsado un enlace sospechoso, compartido datos o descargado un archivo.
+- [Checklist para detectar phishing | EDUCA CIBER](https://educaciber.com/recursos/phishing-checklist/): Comprueba si un mensaje puede ser phishing con esta lista de señales y preguntas prácticas.
+- [Phishing, smishing y vishing: diferencias | EDUCA CIBER](https://educaciber.com/recursos/phishing-smishing-vishing/): Infografía educativa para distinguir phishing, smishing y vishing según el canal utilizado.
+
+## Machine-readable files
+
+- **sitemap.xml:** https://educaciber.com/sitemap.xml
+- **robots.txt:** https://educaciber.com/robots.txt
