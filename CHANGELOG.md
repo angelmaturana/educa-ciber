@@ -4,6 +4,10 @@ All notable changes to `legible` are recorded here. The format follows [Keep a C
 
 ## [Unreleased]
 
+### Engine mode: add legible/nueva_leccion.py script for lesson generation
+
+- New script `legible/nueva_leccion.py` (stdlib only) that takes a JSON input with lesson data and generates the lesson HTML file, updates search-index.json, and updates the hub topic list. Includes validation for required fields, duplicate detection, and proper URL generation for different content types (aprende hubs, pildoras, etc.). Documented in CONTENIDO-GUIA.md.
+
 ### Tests no longer break once a real site lives in the folder
 
 - Tests only, no engine change. `run_all.py` stopped at step 1 as soon as `src/data/site.json` held real data, because three tests assumed the folder is always the pristine base: `TestSampleValues` and `TestPrelaunchCommand` (they check the base *ships* with example values and that `--prelaunch` fails on it) and the contact-channels test (it asked for the English text whatever `language` was). The first two now skip themselves (`ONLY_ON_THE_BASE`) when `site_name` is no longer the example value; the third reads the text for the site's own `language`. On the base nothing changes: all 400 tests still run.

@@ -93,6 +93,115 @@
     ]
   },
   {
+    "title": "Ingeniería social: te manipulan, no te hackean",
+    "url": "/aprende/fraudes/ingenieria-social/",
+    "description": "Principios de manipulación (autoridad, urgencia, miedo, recompensa, confianza). El factor humano es vulnerable por diseño: desestigmatizar a la víctima.",
+    "type": "Aprende · 5 min",
+    "keywords": [
+      "ingenieria social",
+      "manipulacion",
+      "autoridad",
+      "urgencia",
+      "miedo",
+      "recompensa",
+      "confianza",
+      "factor humano",
+      "victima",
+      "estafa",
+      "engaño",
+      "phishing"
+    ]
+  },
+  {
+    "title": "Smishing y vishing: engaños por SMS y llamada",
+    "url": "/aprende/fraudes/smishing-y-vishing/",
+    "description": "Aprende a reconocer el smishing (SMS fraudulentos) y el vishing (llamadas fraudulentas), incluyendo el engaño del familiar en apuros con voz clonada por IA.",
+    "type": "Aprende · 5 min",
+    "keywords": [
+      "smishing",
+      "vishing",
+      "sms fraudulento",
+      "llamada fraudulenta",
+      "familiar en apuros",
+      "voz clonada",
+      "ia",
+      "palabra seguridad",
+      "mensaje raro",
+      "llamada rara",
+      "me han llamado"
+    ]
+  },
+  {
+    "title": "Suplantación de identidad: perfiles clonados",
+    "url": "/aprende/fraudes/suplantacion-de-identidad/",
+    "description": "Cómo se aprovechan los datos públicos para crear perfiles falsos. Desde la defensa: reducir exposición y revisar qué es público.",
+    "type": "Aprende · 5 min",
+    "keywords": [
+      "suplantacion identidad",
+      "perfil falso",
+      "perfil clonado",
+      "datos publicos",
+      "exposicion",
+      "privacidad",
+      "me han suplantado",
+      "suplantan",
+      "robo identidad"
+    ]
+  },
+  {
+    "title": "Webs falsas: el candado no basta",
+    "url": "/aprende/fraudes/webs-falsas/",
+    "description": "Aprende a detectar webs fraudulentas: HTTPS solo cifra la conexión, no garantiza legitimidad. Dominio, copia de marca, formularios y comprobación segura.",
+    "type": "Aprende · 5 min",
+    "keywords": [
+      "web falsa",
+      "web fraudulenta",
+      "https",
+      "candado",
+      "dominio",
+      "copia marca",
+      "formulario sospechoso",
+      "tienda falsa",
+      "verificar web",
+      "sitio sospechoso"
+    ]
+  },
+  {
+    "title": "Enlaces y archivos sospechosos: QR, acortadores y adjuntos",
+    "url": "/aprende/fraudes/enlaces-y-archivos-sospechosos/",
+    "description": "Acortadores de URL, códigos QR maliciosos (quishing), adjuntos y extensiones peligrosas. Previsualizar sin abrir.",
+    "type": "Aprende · 5 min",
+    "keywords": [
+      "enlace sospechoso",
+      "acortador url",
+      "codigo qr",
+      "quishing",
+      "archivo adjunto",
+      "extension peligrosa",
+      "previsualizar",
+      "malware",
+      "virus",
+      "qr malicioso"
+    ]
+  },
+  {
+    "title": "Fraudes en compras online: precios anómalos y pagos no estándar",
+    "url": "/aprende/fraudes/fraudes-en-compras-online/",
+    "description": "Detecta tiendas fraudulentas: precios anómalos, pasarelas de pago no estándar, perfiles de anuncio. Qué hacer si ya has pagado.",
+    "type": "Aprende · 5 min",
+    "keywords": [
+      "fraude compra",
+      "tienda fraudulenta",
+      "precio anomalo",
+      "pago no estandar",
+      "pasarela pago",
+      "perfil anuncio",
+      "estafa online",
+      "comprar seguro",
+      "me han estafado comprando"
+    ]
+  },
+  {
     "title": "Contraseñas y cuentas",
     "url": "/aprende/contrasenas-y-cuentas/",
     "description": "Protege los accesos que dan entrada a tu correo, redes sociales, banca y otros servicios.",
