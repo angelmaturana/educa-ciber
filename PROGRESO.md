@@ -87,4 +87,17 @@
 
 ---
 
-## FASE 6 · Navega y compra seguro II (5 lecciones + cierre de hub)
+## FASE 6 · Navega y compra seguro II (5 lecciones + cierre de hub) (COMPLETADA)
+
+- [x] 1. `cookies` — explicación funcional + consentimiento (qué debe poder elegir el usuario)
+- [x] 2. `descargas-seguras` — tiendas oficiales vs software pirata (principal vía de malware)
+- [x] 3. `comprar-por-internet` — qué debe poder comprobar el comprador: identificación del vendedor, condiciones, política de devoluciones
+- [x] 4. `tiendas-fraudulentas` — precios anómalos, pasarelas de pago no estándar, perfiles de anuncio; qué hacer si ya has pagado
+- [x] 5. `pagos-online` — tarjetas virtuales de un solo uso; autenticación reforzada (SCA / 3D Secure) en llano; evitar transferencias a particulares
+- [x] Cierre de hub (`/aprende/navega-y-compra-seguro/`): enlazar `fraudes/webs-falsas`; activar en hub de Fraudes el enlace "Fraudes en compras online"
+
+**Hecho cuando:** 5 lecciones reales, hub indexable, tests OK, build sin avisos.
+
+---
+
+## FASE 7 · Privacidad e identidad digital (5 lecciones + cierre de hub)

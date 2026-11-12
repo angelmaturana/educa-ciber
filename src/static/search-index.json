@@ -623,6 +623,116 @@
     ]
   },
   {
+    "title": "Cookies: qué son y qué debes poder elegir",
+    "url": "/aprende/navega-y-compra-seguro/cookies/",
+    "description": "Explicación funcional de las cookies + consentimiento: qué debe poder elegir el usuario (necesarias, preferencias, analíticas, marketing).",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "cookies",
+      "consentimiento",
+      "rgpd",
+      "eprivacy",
+      "necesarias",
+      "preferencias",
+      "analiticas",
+      "marketing",
+      "terceros",
+      "banner",
+      "rechazar",
+      "aepd",
+      "dark patterns"
+    ]
+  },
+  {
+    "title": "Descargas seguras: tiendas oficiales vs pirata",
+    "url": "/aprende/navega-y-compra-seguro/descargas-seguras/",
+    "description": "Tiendas oficiales vs software pirata (principal vía de malware). Cómo verificar una descarga antes de ejecutarla.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "descargas seguras",
+      "software pirata",
+      "cracks",
+      "keygens",
+      "malware",
+      "tiendas oficiales",
+      "microsoft store",
+      "app store",
+      "hash",
+      "sha256",
+      "firma digital",
+      "virustotal",
+      "alternativas gratis"
+    ]
+  },
+  {
+    "title": "Comprar por Internet: qué comprobar antes de pagar",
+    "url": "/aprende/navega-y-compra-seguro/comprar-por-internet/",
+    "description": "Identificación del vendedor, condiciones, política de devoluciones, métodos de pago. Qué verificar antes de dar al botón Pagar.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "comprar online",
+      "vendedor",
+      "identificacion",
+      "condiciones",
+      "devoluciones",
+      "14 dias",
+      "desistimiento",
+      "pago seguro",
+      "tarjeta virtual",
+      "paypal",
+      "chargeback",
+      "estafa",
+      "ocu",
+      "consumo"
+    ]
+  },
+  {
+    "title": "Tiendas fraudulentas: precios anómalos y pagos no estándar",
+    "url": "/aprende/navega-y-compra-seguro/tiendas-fraudulentas/",
+    "description": "Detecta tiendas falsas: precios anómalos, pasarelas de pago no estándar, perfiles de anuncio. Qué hacer si ya has pagado.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "tienda fraudulenta",
+      "fake shop",
+      "precio anomalo",
+      "pago inseguro",
+      "transferencia",
+      "bizum",
+      "cripto",
+      "dominio nuevo",
+      "whois",
+      "chargeback",
+      "paypal disputa",
+      "estafa",
+      "policia"
+    ]
+  },
+  {
+    "title": "Pagos online: tarjetas virtuales, 3D Secure, evitar transferencias",
+    "url": "/aprende/navega-y-compra-seguro/pagos-online/",
+    "description": "Tarjetas virtuales de un solo uso; autenticación reforzada (SCA / 3D Secure) en llano; evitar transferencias a particulares.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "pagos online",
+      "tarjeta virtual",
+      "un solo uso",
+      "recargable",
+      "apple pay",
+      "google pay",
+      "3d secure",
+      "sca",
+      "psd2",
+      "autenticacion reforzada",
+      "chargeback",
+      "paypal disputa",
+      "klarna",
+      "transferencia",
+      "bizum",
+      "cripto",
+      "tarjeta regalo"
+    ]
+  },
+  {
     "title": "Privacidad e identidad digital",
     "url": "/aprende/privacidad-e-identidad/",
     "description": "Comprende qué información compartes, qué huella dejas y cómo cuidar tu identidad en Internet.",
