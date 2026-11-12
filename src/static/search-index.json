@@ -1684,5 +1684,93 @@
       "restablecer móvil sin cifrado previo (android antiguo sin fbe)",
       "formateo rápido (quick format)"
     ]
+  },
+  {
+    "title": "Teletrabajo",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/teletrabajo/",
+    "description": "Protege tu conexión, dispositivos y datos cuando trabajas desde casa o en movilidad: red, VPN, separación de entornos y bucles de verificación.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "fatiga mfa: apruebas notificaciones push sin mirar",
+      "ciberseguridad en el trabajo",
+      "seguridad digital",
+      "wi-fi compartida con iot (cámaras, bombillas, tv, altavoces)",
+      "teletrabajo",
+      "ciberseguridad",
+      "router doméstico sin actualizar / contraseña por defecto",
+      "aprender",
+      "uso de vpn comercial en lugar de corporativa"
+    ]
+  },
+  {
+    "title": "Wi-Fi fuera de la oficina",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/wifi-fuera-oficina/",
+    "description": "Riesgos de redes públicas (hoteles, aeropuertos, cafés, coworkings) y cómo proteger la conexión corporativa: tethering, VPN, verificación de red.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "red abierta (sin contraseña) en zona donde debería haber wpa2/3",
+      "wifi fuera oficina",
+      "ciberseguridad",
+      "portal cautivo pide credenciales corporativas / mfa / certificado",
+      "ciberseguridad en el trabajo",
+      "wi-fi fuera de la oficina",
+      "aprender",
+      "dos redes con mismo nombre (ssid) distinta mac/bssid",
+      "certificado tls inválido / autofirmado en sitios conocidos",
+      "seguridad digital"
+    ]
+  },
+  {
+    "title": "Dispositivos personales (BYOD)",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/dispositivos-personales-byod/",
+    "description": "Política BYOD (Bring Your Own Device): riesgos, requisitos técnicos (MDM/MAM, contenedores, cifrado) y responsabilidades de empleado y empresa.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "datos corporativos en backup personal (icloud/google drive/onedrive personal)",
+      "aprender",
+      "seguridad digital",
+      "dispositivos personales byod",
+      "os sin parchear (android 2 años sin updates, ios 1 versión antigua)",
+      "root / jailbreak para 'personalizar' el dispositivo",
+      "ciberseguridad en el trabajo",
+      "portapapeles compartido entre apps personales y corporativas",
+      "ciberseguridad",
+      "dispositivos personales (byod)"
+    ]
+  },
+  {
+    "title": "Proveedores",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/proveedores/",
+    "description": "Gestión de riesgo de terceros (TPRM): evalúa la seguridad de proveedores con acceso a tus datos/sistemas, cláusulas contractuales y monitorización continua.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "ciberseguridad",
+      "subcontrata sin informar / no notifica brechas",
+      "proveedores",
+      "ciberseguridad en el trabajo",
+      "seguridad digital",
+      "tarda semanas en parchear vulnerabilidades críticas (cve 9-10)",
+      "acceso vpn/cuentas compartidas / sin mfa / sin expiración",
+      "aprender",
+      "no tiene certificaciones ni auditorías recientes (iso 27001, soc 2, ens)"
+    ]
+  },
+  {
+    "title": "Cómo comunicar un incidente",
+    "url": "/aprende/ciberseguridad-en-el-trabajo/como-comunicar-incidente/",
+    "description": "Protocolo de notificación interna y externa: a quién avisar, qué información dar, plazos legales (RGPD, NIS2, ENS) y cómo evitar empeorar la situación.",
+    "type": "Aprende · 5 min · Lo esencial",
+    "keywords": [
+      "brecha en proveedor que afecta a tus datos (supply chain)",
+      "aprender",
+      "como comunicar incidente",
+      "seguridad digital",
+      "compromiso de credenciales / acceso no autorizado a sistemas",
+      "cómo comunicar un incidente",
+      "fuga de datos personales (rgpd art. 33/34)",
+      "ransomware / cifrado / extorsión",
+      "ciberseguridad en el trabajo",
+      "ciberseguridad"
+    ]
   }
 ]

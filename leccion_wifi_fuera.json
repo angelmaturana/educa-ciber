@@ -1,0 +1,132 @@
+{
+  "titulo": "Wi-Fi fuera de la oficina",
+  "slug": "wifi-fuera-oficina",
+  "hub": "Ciberseguridad en el trabajo",
+  "descripcion": "Riesgos de redes públicas (hoteles, aeropuertos, cafés, coworkings) y cómo proteger la conexión corporativa: tethering, VPN, verificación de red.",
+  "nivel": "básico",
+  "duracion": "5 min · Lo esencial",
+  "publico": "empresas",
+  "idea_clave": "Cualquier Wi-Fi que no gestionas tú es hostil por defecto. Usa datos móviles (tethering) + VPN corporativa. Si no hay alternativa, verifica SSID, certificado y limita exposición.",
+  "esencial": "Redes Wi-Fi públicas (hoteles, aeropuertos, cafeterías, coworkings, conferencias) son terreno de caza para atacantes: 1) Evil Twin: punto de acceso falso con mismo nombre (SSID) que el legítimo. Tu dispositivo se conecta al de mayor señal. 2) MITM (Man-in-the-Middle): atacante intercepta tráfico entre tú y el router. Ve metadatos (SNI, DNS), inyecta contenido, roba cookies de sesión. 3) Portal cautivo malicioso: página de login que pide credenciales corporativas, MFA, o instala certificado raíz para descifrar HTTPS. 4) Sniffing pasivo: captura tráfico sin cifrar (HTTP, DNS, protocolos antiguos). Defensas en orden de preferencia: A) Tethering 4G/5G (datos móviles) + VPN corporativa: tu red, tu control. B) Router de viaje propio (GL.iNet, Raspberry Pi) con VPN configurada: crea tu red de confianza sobre la pública. C) VPN corporativa *siempre* activa antes de cualquier tráfico corporativo. Verifica: IP pública cambia a la de la empresa, acceso a recurso interno funciona. D) Si no hay VPN: no accedas a correo, Git, intranet, nube corporativa. E) Verifica SSID con personal del lugar (hotel, café). F) Desactiva conexión automática a redes abiertas/guardadas. G) HTTPS Everywhere (navegador), DoH/DoT (DNS sobre HTTPS/TLS) para cifrar DNS. H) Al terminar: olvida la red (borra credenciales guardadas).",
+  "secciones": [
+    {
+      "tipo": "signal-grid",
+      "id": "senales",
+      "titulo": "Señales de Wi-Fi sospechosa",
+      "contenido": [
+        {
+          "titulo": "Dos redes con mismo nombre (SSID) distinta MAC/BSSID",
+          "descripcion": "Posible Evil Twin. Verifica con personal cuál es la oficial. No te conectes a la de mayor señal sin confirmar."
+        },
+        {
+          "titulo": "Portal cautivo pide credenciales corporativas / MFA / certificado",
+          "descripcion": "Legítimo: aceptación términos / email / habitación. Malicioso: usuario/contraseña empresa, código MFA, 'instala este certificado'."
+        },
+        {
+          "titulo": "Certificado TLS inválido / autofirmado en sitios conocidos",
+          "descripcion": "Indica MITM con certificado falso. Navegador avisa: 'Conexión no privada'. NO continúes. Desconecta VPN si está activa y verifica."
+        },
+        {
+          "titulo": "Red abierta (sin contraseña) en zona donde debería haber WPA2/3",
+          "descripcion": "Puede ser red legítima mal configurada o trampa. Pregunta al personal. Si es abierta, SOLO con VPN corporativa activa."
+        }
+      ]
+    },
+    {
+      "tipo": "fake-message",
+      "id": "ejemplo",
+      "titulo": "Un ejemplo: conexión en aeropuerto",
+      "avatar": "V",
+      "entidad": "Viajero",
+      "asunto": "Conexión segura",
+      "texto": "Llego al aeropuerto. 1) Activo tethering 5G en móvil (contraseña WPA3, 20 chars). 2) Conecto portátil corporativo al hotspot. 3) Abro VPN corporativa (certificado + MFA). 4) Verifico: ipconfig → IP corporativa; accedo a GitLab interno → OK. 5) Trabajo 2h. 6) Desconecto VPN → apago hotspot. Si no tuviera datos: router viaje GL.iNet (configurado en casa con WireGuard a servidor corporativo) → enchufo en enchufe aeropuerto → mi Wi-Fi segura.",
+      "boton": "Conectar",
+      "nota": "EJEMPLO FICTICIO. Tethering + VPN = estándar de oro. Router viaje = plan B para viajes frecuentes.",
+      "preguntas": "¿Por qué no usar la Wi-Fi del aeropuerto con VPN? Porque el portal cautivo puede pedir credenciales ANTES de que la VPN suba. Y si la VPN cae (cambio de celda), tráfico corporativo sale en claro segundos. Tethering elimina la red hostil."
+    },
+    {
+      "tipo": "steps-list",
+      "id": "aprende",
+      "titulo": "15 MIN · Protocolo conexión fuera de la oficina",
+      "intro": "Aplica en orden cada vez que salgas de la red corporativa/casa:",
+      "contenido": [
+        {
+          "titulo": "1. Datos móviles (tethering) = primera opción",
+          "descripcion": "Móvil empresa/personal con plan datos → Hotspot → WPA3 + pass 20+ chars. Portátil solo se conecta a ESE hotspot. Desactiva Wi-Fi automático a otras redes."
+        },
+        {
+          "titulo": "2. VPN corporativa ANTES de cualquier tráfico de trabajo",
+          "descripcion": "Conecta hotspot → espera IP → lanza VPN corporativa → verifica acceso a recurso interno (intranet, Git). Si falla: NO trabajes, avisa a IT."
+        },
+        {
+          "titulo": "3. Router de viaje (plan B para viajes frecuentes)",
+          "descripcion": "GL.iNet GL-MT3000 / Beryl AX / Flint / Raspberry Pi + WireGuard/OpenVPN a servidor corporativo. Configurado en casa. En destino: enchufa Ethernet o repite Wi-Fi pública → crea TU Wi-Fi cifrada + VPN automática. Coste: 60-120€."
+        },
+        {
+          "titulo": "4. Si SIN tethering SIN router viaje → Wi-Fi pública + VPN OBLIGATORIA",
+          "descripcion": "Verifica SSID con personal. Conecta → portal cautivo (solo términos/email) → VPN corporativa INMEDIATA. HTTPS Everywhere ON. DoH/DoT ON (Firefox/Chrome/Edge: DNS sobre HTTPS). No accedas a banca personal, correo personal sin VPN."
+        },
+        {
+          "titulo": "5. Al terminar: olvida la red",
+          "descripcion": "Windows: Configuración → Red e Internet → Wi-Fi → Administrar redes conocidas → Olvidar. Mac: Preferencias → Red → Wi-Fi → Avanzado → Eliminar. Linux: nmcli connection delete 'SSID'. Evita reconexión automática futura."
+        }
+      ]
+    },
+    {
+      "tipo": "callout-warn",
+      "id": "error-frecuente",
+      "titulo": "Error frecuente: «la VPN ya está configurada para auto-conectar»",
+      "contenido": "Auto-conectar VPN falla si: portal cautivo bloquea puerto UDP 51820/1194, cambio de red (Wi-Fi → 4G) rompe túnel, certificado expira, MFA push expira. SIEMPRE verifica manualmente: IP pública = corporativa, acceso a recurso interno OK. Si no verificas, trabajas en claro sin saberlo."
+    }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Estás en un café. La red se llama 'Starbucks_WiFi' (la oficial) y 'Starbucks_WiFi_5G' (no sabes cuál es oficial). ¿A cuál te conectas?",
+      "respuesta": "Ninguna sin verificar. Pregunta al personal: '¿Cuál es el SSID exacto de su Wi-Fi?'. Si no puedes verificar: usa tethering 4G/5G. La red '_5G' puede ser legítima (banda 5GHz) o Evil Twin. Sin confirmación, asumir hostil."
+    },
+    {
+      "pregunta": "Conectado a Wi-Fi de hotel, el navegador avisa 'Su conexión no es privada' en github.com (certificado autofirmado). La VPN corporativa está activa. ¿Qué haces?",
+      "respuesta": "Desconecta TODO. Ese aviso con VPN activa significa: 1) MITM rompe TLS antes de que VPN cifre (poco probable si VPN full tunnel), 2) VPN usa split tunnel y github.com sale por Wi-Fi hotel (MITM en DNS/HTTP), 3) Certificado corporativo de inspección TLS (algunas empresas). Avisa a IT inmediatamente. No accedas a nada hasta confirmar."
+    }
+  ],
+  "faq": [
+    {
+      "pregunta": "¿El tethering 4G/5G es realmente más seguro que Wi-Fi pública?",
+      "respuesta": "Sí. El enlace aire (UE–eNodeB/gNodeB) usa cifrado LTE/5G (128-256 bits, claves de sesión efímeras). El hotspot crea red WPA3 entre móvil y portátil. Superficie de ataque: solo tu móvil y portátil. En Wi-Fi pública: router compartido, clientes desconocidos, posible Evil Twin, admin desconocido. Tethering = red de confianza propia."
+    },
+    {
+      "pregunta": "¿Qué router de viaje recomiendas para empresa?",
+      "respuesta": "GL.iNet GL-MT3000 (Beryl AX, Wi-Fi 6, WireGuard/OpenVPN/Tailscale, 130€), GL.iNet GL-AXT1800 (Slate AX, 100€), GL.iNet Beryl (MT1300, 70€). Todos: OpenWrt base, interfaz web, soporte WireGuard nativo, cliente VPN comercial, DNS over TLS/HTTPS, VLANs. Configura en casa, lleva en viajes. Alternativa DIY: Raspberry Pi 4 + OpenWrt/Ubuntu + WireGuard (más flexibilidad, más trabajo)."
+    },
+    {
+      "pregunta": "Mi empresa usa split-tunnel VPN. En Wi-Fi pública, ¿mi navegación personal (banco, email) va cifrada?",
+      "respuesta": "NO. Split tunnel = solo tráfico hacia red corporativa va por VPN. Tu banco, Gmail, YouTube salen por la Wi-Fi pública en claro (salvo HTTPS/TLS de cada sitio). Un atacante en la Wi-Fi ve: a qué IPs conectas, SNI (github.com, bank.com), DNS (si no usas DoH). Solución: activa DoH/DoT en navegador/OS, o usa full tunnel VPN si la empresa lo permite, o tethering."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "INCIBE — Riesgos de redes Wi-Fi públicas",
+      "url": "https://www.incibe.es/protege-tu-empresa/wifi-publicas"
+    },
+    {
+      "titulo": "CCN-CERT — Seguridad en redes inalámbricas",
+      "url": "https://www.ccn-cert.cni.es/guías-y-estudios/seguridad-redes-inalambricas"
+    },
+    {
+      "titulo": "NIST — Guide to Securing Wireless Networks (SP 800-97)",
+      "url": "https://csrc.nist.gov/publications/detail/sp/800-97/final"
+    }
+  ],
+  "relacionadas": [
+    {
+      "slug": "teletrabajo",
+      "texto": "Teletrabajo",
+      "hub": "Ciberseguridad en el trabajo"
+    },
+    {
+      "slug": "dispositivos-personales-byod",
+      "texto": "Dispositivos personales (BYOD)",
+      "hub": "Ciberseguridad en el trabajo"
+    }
+  ]
+}

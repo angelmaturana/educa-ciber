@@ -1,0 +1,84 @@
+---
+title: Cómo comunicar un incidente | EDUCA CIBER
+description: Protocolo de notificación interna y externa: a quién avisar, qué información dar, plazos legales (RGPD, NIS2, ENS) y cómo evitar empeorar la situación.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Cómo comunicar un incidente | EDUCA CIBER",
+  "description": "Protocolo de notificación interna y externa: a quién avisar, qué información dar, plazos legales (RGPD, NIS2, ENS) y cómo evitar empeorar la situación.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/ciberseguridad-en-el-trabajo/">Ciberseguridad en el trabajo</a><span>/</span><span>Cómo comunicar un incidente</span></nav>
+ <p class="eyebrow">Ciberseguridad en el trabajo · Contenido piloto</p><h1>Cómo comunicar un incidente <span class="text-blue">Notifica pronto, limita el daño</span></h1>
+ <p class="lead">Tiempo es dinero en un incidente. Aprende el protocolo de notificación interna y externa, plazos legales y cómo preservar evidencias.</p>
+ <div class="meta-row"><span class="meta-pill">básico</span><span class="meta-pill">empresas</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Tiempo es dinero en un incidente. Notificar pronto y bien limita daños, cumple obligaciones legales y protege la reputación. Silencio o notificación tardía agrava sanciones y daño.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Un incidente de seguridad (acceso no autorizado, fuga de datos, ransomware, phishing exitoso, pérdida dispositivo, brecha proveedor) requiere comunicación estructurada. Dos niveles: 1) Interno (inmediato): IT / Helpdesk → Responsable Seguridad / CISO → Dirección / DPO (si datos personales) → Jurídico / Compliance. Qué reportar: qué pasó, cuándo, cómo se detectó, qué sistemas/datos afectados, impacto estimado, acciones ya tomadas, qué necesitas. Canal: teléfono/Teams/Slack dedicado (no email si comprometido), buzón security@empresa.com. 2) Externo (plazos legales): AEPD (RGPD art. 33): <72h desde que la organización tuvo conocimiento, si riesgo para derechos y libertades. Formulario sede electrónica AEPD. Contenido: naturaleza, categorías/volumen afectados, contacto DPO, consecuencias probables, medidas adoptadas/propuestas. INCIBE-CERT / CCN-CERT: voluntario pero recomendado para soporte técnico, coordinación, alertas sectoriales. NIS2 (entidades esenciales/importantes): notificación inicial <24h (alerta temprana), informe completo <72h, informe final <1 mes. ENS (Esquema Nacional Seguridad): notificación a CCN-CERT según nivel. Clientes/usuarios afectados: si alto riesgo (RGPD art. 34), comunicación individual clara y honesta (qué pasó, qué datos, qué riesgos, qué hacemos, qué pueden hacer ellos). Proveedores/partes interesadas: según contrato (cláusula notificación). Prensa/redes: solo portavoz autorizado, mensaje coordinado con Jurídico/Comunicación. NO: ocultar, minimizar, especular, culpar a empleado, dar detalles técnicos que ayuden al atacante. PRESERVA EVIDENCIAS: no borres logs, no reinstales sin imagen forense, no pagues rescate sin asesoramiento legal/policial.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Tiempo es dinero en un incidente. Notificar pronto y bien limita daños, cumple obligaciones legales y protege la reputación. Silencio o notificación tardía agrava sanciones y daño.</p></div>
+  <h2 id="senales">Situaciones que OBLIGAN a notificar</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Fuga de datos personales (RGPD art. 33/34)</strong><p>Acceso/exfiltración de nombres, emails, DNI, bancarios, salud, credenciales, datos empleados/clientes. Notifica AEPD <72h si hay riesgo. Comunica a afectados si alto riesgo (art. 34).</p></div>
+   <div><b>02</b><strong>Ransomware / cifrado / extorsión</strong><p>Sistemas cifrados, nota de rescato, datos robados (double extortion). Notifica: AEPD (datos personales), INCIBE/CCN-CERT, Policía/Guardia Civil, NIS2 si aplica. NO pagues sin asesoramiento.</p></div>
+   <div><b>03</b><strong>Compromiso de credenciales / acceso no autorizado a sistemas</strong><p>Cuenta admin/VPN/email/SaaS usada por tercero. Cambia credenciales, revoca tokens, revisa logs, notifica si accedió a datos personales. NIS2: <24h alerta temprana.</p></div>
+   <div><b>04</b><strong>Brecha en proveedor que afecta a tus datos (supply chain)</strong><p>Proveedor SaaS/MSP/desarrollo notifica brecha. Evalúa impacto en tus datos, notifica AEPD si corresponsable/encargado, revisa contrato cláusula notificación.</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: reporte interno de incidente</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">E</span><div><strong>Empleado</strong><small>Posible phishing - credenciales comprometidas</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Canal: #security-alerts (Slack/Teams) o security@empresa.com. Asunto: [INCIDENTE] Phishing - credenciales Office 365 - Juan Pérez - 14:32. Cuerpo: 1) Qué: Click en enlace phishing simulado (real) → introdujo user/pass en web falsa. 2) Cuándo: hoy 14:28. 3) Cómo detectado: usuario reportó / MFA push denegado / alerta Defender for Identity. 4) Afectado: cuenta juan.perez@empresa.com (licencia E3, MFA activado). 5) Acciones: contraseña cambiada 14:30, sesiones revocadas 14:31, MFA re-registrado 14:35, escaneo Defender en portátil. 6) Necesito: revisar logs acceso SharePoint/OneDrive/Teams últimas 24h. 7) Impacto estimado: BAJO (MFA bloqueó acceso, credenciales rotadas rápido).</p><div class="fake-button">Enviar</div><small class="fake-foot">EJEMPLO FICTICIO. Formato: qué, cuándo, cómo, afectado, acciones, necesidad, impacto. Corto, factual, accionable.</small></div>
+  <p>¿Por qué no email normal? Si el atacante ya tiene acceso al correo, ve la alerta y borra huellas. Usa canal fuera de banda: Teams/Slack dedicado, teléfono, buzón security@ en dominio distinto.</p>
+  <h2 id="aprende">15 MIN · Tu hoja de ruta de notificación (tenla a mano)</h2>
+  <p>Pégala en tu monitor / guárdela en favoritos / compártela con tu equipo:</p>
+  <ol class="steps-list">
+<li><strong>1. DETECTA / RECIBE → Inmediato (<15 min)</strong><p>Canal interno: security@empresa.com / Teams #security / teléfono IT 24/7. Qué reportar: QUÉ (tipo), CUÁNDO, CÓMO detectado, QUÉ sistemas/datos, ACCIONES ya tomadas, NECESIDADES. Quien reporta: cualquiera (empleado, proveedor, sistema automático).</p></li>
+<li><strong>2. TRIAGE IT/SEGURIDAD → <1h</strong><p>Clasifica: Crítico (datos sensibles + acceso confirmado + propagación), Alto (credenciales comprometidas, malware activo), Medio (phishing clickado sin MFA bypass, dispositivo perdido cifrado), Bajo (spam, escaneo puerto). Asigna responsable, abre ticket, inicia cronómetro plazos legales.</p></li>
+<li><strong>3. CONTENCIÓN Y EVIDENCIAS → Paralelo</strong><p>Aísla: revoca sesión/token, cambia contraseña, bloquea IP, desconecta red, apaga servidor (si ransomware). PRESERVA: imagen disco (dd/FTK), logs (SIEM, firewall, AV, VPN, MFA, Azure AD, M365), capturas pantalla, cadena de custodia. NO borres, NO reinstales sin imagen.</p></li>
+<li><strong>4. NOTIFICACIÓN EXTERNA → Plazos legales</strong><p>AEPD (RGPD art. 33): <72h desde CONOCIMIENTO organización (no desde suceso). Formulario sede electrónica. INCIBE-CERT/CCN-CERT: voluntario, recomendado (soporte, alertas). NIS2 (esenciales/importantes): alerta temprana <24h, informe <72h, final <1mes. ENS: según nivel. Afectados (art. 34): si ALTO riesgo, comunicación individual clara. Proveedores: según contrato. Policía/G. Civil: denuncia si delito (ransomware, fraude, acceso ilícito).</p></li>
+<li><strong>5. COMUNICACIÓN PÚBLICA / CLIENTES → Coordinada</strong><p>Solo portavoz autorizado (DirCom + Jurídico + Seguridad). Mensaje: qué pasó, qué datos, qué riesgos, qué hacemos, qué pueden hacer ellos, contacto dudas. NO: detalles técnicos, culpas, especulaciones, promesas imposibles. Coordina con proveedores afectados (mensaje conjunto).</p></li>
+<li><strong>6. RECUPERACIÓN Y LECCIONES → Post-incidente</strong><p>Restaura desde backup verificado (3-2-1). Valida integridad. Rotación completa credenciales/tokens/certificados. Análisis causa raíz (5 porqués). Actualiza: políticas, controles, formación, plan respuesta. Simulacro en 90 días. Informe final: timeline, impacto real, coste, mejoras.</p></li>
+  </ol>
+  <div class="callout callout-warn"><strong>Error frecuente: «esperamos a tener toda la información antes de notificar»</strong><p>RGPD art. 33: notificación <72h desde que la ORGANIZACIÓN tuvo conocimiento (no desde que IT terminó investigación). 'Conocimiento' = cualquier empleado razonablemente formado sabe que hay brecha. Esperar a 'tener todo claro' = incumplimiento seguro. Notifica lo que sabes, di que investigación en curso, actualiza en 24-48h. Más vale notificación incompleta a tiempo que completa tarde.</p></div>
+
+  <h2 id="que-hacer">¿Y si ya notifiqué tarde o mal?</h2>
+  <p>Notifica YA lo que sepas (indica 'investigación en curso'), documenta por qué hubo retraso, coopera con AEPD/autoridades, implementa mejoras inmediatas. La transparencia tardía es mejor que el silencio.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">Guía: notificación tardía →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Un empleado reporta a las 10:00 que introdujo credenciales Office 365 en web phishing a las 09:45. IT cambia pass y revoca sesiones a las 10:15. MFA bloqueó acceso. ¿Cuándo empieza el reloj de 72h RGPD?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>A las 10:00 (cuando la organización -el empleado- tuvo conocimiento). No a las 10:15 (cuando IT contuvo). Tienes hasta 10:00 + 72h = 10:00 tres días después para notificar a AEPD si hay riesgo. Investiga en paralelo: ¿accedió a datos personales? ¿Exfiltración? Si SÍ → notifica. Si NO (MFA bloqueó, sin acceso datos) → documenta por qué no notificas (art. 33.1: 'salvo que sea poco probable que entrañe riesgo').</strong></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tu proveedor SaaS de nómina te notifica brecha: accedieron a base de datos con nóminas, DNI, cuentas bancarias de tus empleados. ¿Qué haces TÚ?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>1) Eres RESPONSABLE del tratamiento (tus datos, tus empleados). Proveedor es ENCARGADO. 2) Notifica AEPD <72h desde que TÚ sabes (art. 33). 3) Comunica a empleados afectados (art. 34: alto riesgo = datos bancarios + DNI + nómina). 4) Exige a proveedor: informe técnico, evidencias, medidas contención, certificado borrado/aislamiento. 5) Revisa contrato: cláusula notificación, responsabilidad, indemnización. 6) Evalúa cambio de proveedor.</strong></div></details></div>
+
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Notifico a AEPD aunque no esté seguro de que haya riesgo?</h3>
+  <p>Sí, mejor notificar 'por si acaso' (indica 'bajo investigación, riesgo bajo estimado') que no notificar y arriesgar sanción por omisión (hasta 10M€ o 2% facturación). AEPD valora la diligencia. Usa formulario: 'Notificación de brecha de seguridad - Art. 33 RGPD'. Marca 'Investigación en curso'. Actualiza en 24-48h con hallazgos.</p>
+  <h3>¿Debo pagar el rescate en ransomware para recuperar datos?</h3>
+  <p>NO (recomendación unánime: INCIBE, CCN-CERT, Policía, Guardia Civil, Europol, FBI, CISA). Pagar: no garantiza recuperación (30% no recuperan), financia crimen, te marca como 'pagador' para futuros ataques, puede ser ilegal (financiación terrorismo/sanciones OFAC). Alternativas: backups 3-2-1 verificados, No More Ransom (claves públicas), asistencia INCIBE/CCN-CERT/Policía. Si pagas: asesoramiento legal OBLIGATORIO, notifica a autoridades.</p>
+  <h3>¿Qué pasa si no notifico a tiempo a AEPD?</h3>
+  <p>Sanción RGPD art. 83: hasta 10.000.000€ o 2% facturación global anual (lo que sea mayor) por incumplimiento art. 33 (notificación). Agravantes: intencionalidad, negligencia, categorías especiales de datos, volumen afectados, reincidencia. Además: daño reputacional, pérdida confianza clientes, demandas civiles, obligación notificar a afectados (art. 34) con coste adicional. Notificar a tiempo es siempre más barato.</p>
+
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI u otras fuentes oficiales. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links">
+  <li><a href="https://www.aepd.es/es/areas-actuacion/brechas-seguridad" target="_blank" rel="noopener">AEPD — Guía de notificación de brechas de seguridad</a></li>
+  <li><a href="https://www.incibe.es/protege-tu-empresa/gestion-incidentes" target="_blank" rel="noopener">INCIBE — Gestión de incidentes de seguridad</a></li>
+  <li><a href="https://www.ccn-cert.cni.es/guías-y-estudios/guía-notificación-incidentes" target="_blank" rel="noopener">CCN-CERT — Guía de notificación de incidentes</a></li>
+  <li><a href="https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L2555" target="_blank" rel="noopener">Directiva NIS2 — Notificación de incidentes</a></li>
+  </ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Señales de alerta</a><a href="#aprende">Cómo comprobar</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">¿Y si notifiqué tarde?</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/ciberseguridad-en-el-trabajo/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si necesitas actuar ya, empieza por esta guía práctica.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p>
+  <a href="/aprende/ciberseguridad-en-el-trabajo/proveedores/">Proveedores: riesgo de terceros</a>
+  <a href="/aprende/ciberseguridad-en-el-trabajo/teletrabajo/">Teletrabajo</a>
+</div></aside>
+</section></main>

@@ -1,0 +1,84 @@
+---
+title: Dispositivos personales (BYOD) | EDUCA CIBER
+description: Política BYOD (Bring Your Own Device): riesgos, requisitos técnicos (MDM/MAM, contenedores, cifrado) y responsabilidades de empleado y empresa.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Dispositivos personales (BYOD) | EDUCA CIBER",
+  "description": "Política BYOD (Bring Your Own Device): riesgos, requisitos técnicos (MDM/MAM, contenedores, cifrado) y responsabilidades de empleado y empresa.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/ciberseguridad-en-el-trabajo/">Ciberseguridad en el trabajo</a><span>/</span><span>Dispositivos personales (BYOD)</span></nav>
+ <p class="eyebrow">Ciberseguridad en el trabajo · Contenido piloto</p><h1>Dispositivos personales (BYOD) <span class="text-blue"></span></h1>
+ <p class="lead"></p>
+ <div class="meta-row"><span class="meta-pill">intermedio</span><span class="meta-pill">empresas</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>BYOD sin gestión formal = filtración de datos corporativos en dispositivo sin control. Solo permitido con MDM/MAM, contenedor cifrado, borrado remoto selectivo y separación de datos personales.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Bring Your Own Device (BYOD) permite usar móvil/tablet/portátil personal para trabajo. Sin gestión formal, es un agujero de seguridad: datos corporativos en disco sin cifrar gestionado, sin EDR, sin actualizaciones forzadas, apps personales con permisos excesivos, backup en nube personal (iCloud/Google Drive) sincronizando docs corporativos. Marco mínimo para BYOD seguro: 1) Política escrita y firmada: qué dispositivos, qué datos, qué apps, responsabilidades, consentimiento borrado remoto. 2) MDM (Mobile Device Management) o MAM (Mobile Application Management): inscripción del dispositivo/app en consola corporativa (Intune, Jamf, VMware Workspace ONE, Google Endpoint, Microsoft 365). 3) Contenedor cifrado / perfil de trabajo: Android Work Profile / iOS Managed Apps / Windows Enterprise State Roaming. Datos corporativos (correo, Teams, SharePoint, OneDrive, apps LOB) viven en contenedor cifrado con clave gestionada por MDM. Separación: contactos, calendario, archivos, portapapeles, capturas de pantalla aislados del lado personal. 4) Políticas aplicadas por MDM: cifrado obligatorio (FileVault/BitLocker/LUKS/Android FBE/iOS Data Protection), bloqueo automático (5 min), contraseña compleja / biometría, actualizaciones OS obligatorias (parches seguridad <30 días), apps permitidas/denegadas (lista blanca/negra), certificado corporativo para Wi-Fi/VPN. 5) Borrado remoto selectivo (wipe corporativo): elimina solo contenedor/datos gestionados, deja fotos/apps personales. Activado al: offboarding, pérdida/robo, incumplimiento política, fin vida útil dispositivo. 6) Responsabilidad empleado: no root/jailbreak, no apps de fuentes desconocidas, no compartir dispositivo con familiares para uso corporativo, reportar pérdida/robo <1h, mantener OS actualizado. 7) Fin de vida BYOD: al salir de la empresa o cambiar dispositivo → wipe corporativo automático + revocar certificados/tokens.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>BYOD sin gestión formal = filtración de datos corporativos en dispositivo sin control. Solo permitido con MDM/MAM, contenedor cifrado, borrado remoto selectivo y separación de datos personales.</p></div>
+  <h2 id="senales">Riesgos de BYOD sin gestión</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Datos corporativos en backup personal (iCloud/Google Drive/OneDrive personal)</strong><p>Fotos de pizarra, capturas de pantalla, exports de Excel, PDFs adjuntos se suben a nube personal no controlada. Fuga silenciosa.</p></div>
+   <div><b>02</b><strong>Portapapeles compartido entre apps personales y corporativas</strong><p>Copias en app personal (WhatsApp, Notes, Gmail) pegan datos corporativos. MDM/MAM debe bloquear portapapeles cross-perfil.</p></div>
+   <div><b>03</b><strong>OS sin parchear (Android 2 años sin updates, iOS 1 versión antigua)</strong><p>Vulnerabilidades conocidas (CVE) explotables. MDM debe exigir versión mínima y bloquear acceso si no cumple.</p></div>
+   <div><b>04</b><strong>Root / Jailbreak para 'personalizar' el dispositivo</strong><p>Rompe modelo de seguridad (sandbox, keystore, Secure Enclave). MDM debe detectar (SafetyNet/Play Integrity / DeviceCheck) y bloquear acceso.</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: inscripción BYOD en Intune</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">E</span><div><strong>Portal de empresa</strong><small>Configuración dispositivo personal</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>1) Descarga 'Portal de empresa' / 'Microsoft Intune' / 'Jamf Self Service'. 2) Inicia sesión con cuenta corporativa (MFA). 3) Acepta política: 'La empresa puede borrar datos corporativos, ver inventario apps, exigir cifrado/bloqueo'. 4) Se crea 'Perfil de trabajo' (Android) / 'Apps gestionadas' (iOS) / 'Área Windows Hello for Business'. 5) Correo/Teams/OneDrive/SharePoint se instalan en contenedor (icono con maletín). 6) Datos personales (fotos, WhatsApp, Gmail personal) NO visibles para empresa. 7) Si pierdes móvil: portal → 'Borrar datos de la empresa' → solo contenedor eliminado.</p><div class="fake-button">Inscribir</div><small class="fake-foot">EJEMPLO FICTICIO. Flujo típico MDM/MAM. La empresa NO ve fotos, SMS, ubicación personal, apps personales.</small></div>
+  <p>¿Qué ve la empresa? Inventario apps gestionadas, estado cifrado/bloqueo/OS, cumplimiento políticas, último check-in. NO ve: fotos, contactos personales, historial navegación personal, apps no gestionadas, ubicación GPS (salvo si app corporativa lo requiere y usuario consiente).</p>
+  <h2 id="aprende">15 MIN · Checklist BYOD para empleado (antes de usar personal para trabajo)</h2>
+  <p>Verifica cada punto con tu IT / responsable seguridad:</p>
+  <ol class="steps-list">
+<li><strong>1. Política BYOD firmada y entendida</strong><p>Documento: qué dispositivos permitidos, qué datos/apps, borrado remoto selectivo (qué se borra, qué no), responsabilidad pérdida/robo, fin de relación laboral. Firmado = consentimiento informado.</p></li>
+<li><strong>2. Inscripción en MDM/MAM corporativo (Intune, Jamf, WS1, Google EP)</strong><p>Instala app 'Portal de empresa' / 'Hub' / 'Self Service'. Login corporativo + MFA. Acepta perfiles de configuración. Verifica: aparece 'Perfil de trabajo' / 'Gestionado por tu organización'.</p></li>
+<li><strong>3. Contenedor cifrado activo para apps corporativas</strong><p>Correo, Teams, OneDrive, SharePoint, apps LOB → icono con maletín / etiqueta 'Gestionado'. Datos en almacenamiento cifrado con clave MDM. Portapapeles bloqueado cross-perfil (Android: settings → Perfil de trabajo → Portapapeles).</p></li>
+<li><strong>4. Cifrado disco + bloqueo automático + OS actualizado</strong><p>Android: Ajustes → Seguridad → Cifrado (ON por defecto 10+). iOS: Data Protection (ON por defecto 8+). Windows: BitLocker. macOS: FileVault. Bloqueo: 5 min, PIN/biometría. Updates: auto ON, parches seguridad <30 días.</p></li>
+<li><strong>5. Sin root/jailbreak, apps solo tienda oficial</strong><p>Play Store / App Store / Microsoft Store / tienda corporativa. No APKs externos, no Cydia, no Magisk. MDM verifica SafetyNet/Play Integrity / DeviceCheck.</p></li>
+<li><strong>6. Backup personal EXCLUYE contenedor corporativo</strong><p>iCloud/Google Drive/OneDrive personal → no sincroniza carpeta 'Trabajo' / apps gestionadas. Verifica: en iCloud → Gestionar almacenamiento → no hay apps corporativas. Android: Google One → Copia de seguridad → apps gestionadas excluidas.</p></li>
+<li><strong>7. Procedimiento pérdida/robo / offboarding conocido</strong><p>Tienes guardado: teléfono IT, portal MDM (self-service wipe), correo seguridad. Si pierdes: reportas <1h → IT lanza wipe corporativo remoto. Al irte: IT revoca acceso + wipe corporativo automático.</p></li>
+  </ol>
+  <div class="callout callout-warn"><strong>Error frecuente: «uso mi móvil personal para correo de trabajo sin más»</strong><p>Añades cuenta Exchange/Outlook en app nativa de correo → emails, contactos, adjuntos se mezclan con personales. Sin MDM: sin cifrado gestionado, sin borrado selectivo, sin control de versiones OS, sin bloqueo portapapeles. Un familiar usa tu móvil → ve email confidencial. Pierdes móvil → IT no puede borrar solo lo corporativo → wipe total o nada. SIEMPRE inscripción MDM/MAM antes de añadir cuenta corporativa.</p></div>
+
+  <h2 id="que-hacer">¿Y si ya ha pasado?</h2>
+  <p>Qué hacer si el usuario ya ha interactuado con la amenaza. Enlaza al recurso correspondiente.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">He pulsado un enlace sospechoso: ¿qué hago? →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tu empresa usa Intune. Inscribes tu iPhone personal. ¿Qué puede ver el administrador de Intune?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>Verá: modelo, OS versión, número serie, apps gestionadas (Outlook, Teams, OneDrive, apps LOB), estado cifrado/bloqueo/actualizaciones, cumplimiento políticas, último check-in, IP de registro. NO verá: fotos, contactos personales, SMS, historial Safari, apps personales (WhatsApp, Instagram, Gmail personal), ubicación GPS, contraseñas, claves iCloud.</strong></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Pierdes tu móvil personal inscrito en BYOD. ¿Qué pasa con tus fotos y WhatsApp personal?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>IT lanza 'Borrado selectivo / Retiro corporativo' (Intune: 'Wipe corporativo' / 'Retire'). Se elimina: contenedor cifrado, apps gestionadas, perfiles VPN/Wi-Fi/certificados, datos de apps corporativas (correo, archivos OneDrive/SharePoint cache). Tus fotos, WhatsApp, contactos personales, apps personales, configuraciones personales → INTACTOS. El dispositivo sigue funcionando para uso personal.</strong></div></details></div>
+
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Puedo negarme a inscribir mi móvil personal en MDM?</h3>
+  <p>Sí, pero entonces NO debes usarlo para acceder a datos/apps corporativas. La empresa debe darte alternativa: portátil corporativo, móvil corporativo, o acceso solo desde red corporativa/VDI. Usar personal sin MDM para trabajo = incumplimiento política = riesgo de sanción / despido si hay fuga.</p>
+  <h3>Mi empresa no tiene MDM/MAM. ¿Puedo usar mi portátil personal de forma segura?</h3>
+  <p>No de forma gestionada. Opciones seguras sin MDM: 1) VDI / Escritorio remoto (Azure Virtual Desktop, Citrix, VMware Horizon, RDP sobre VPN): todo se ejecuta en servidor, solo pixels viajan. 2) Navegador aislado (Isla, Talon, Chrome Enterprise con perfil gestionado): sesión corporativa en contenedor navegador. 3) Máquina virtual local (VMware, VirtualBox, UTM) cifrada + VPN: aislamiento a nivel SO. Sin estas: NO uses personal para datos corporativos sensibles.</p>
+  <h3>Al irme de la empresa, ¿qué pasa con mi móvil personal inscrito?</h3>
+  <p>IT lanza 'Retiro / Wipe corporativo' (Intune: Retire / Wipe). Se elimina todo lo corporativo: contenedor, apps, perfiles, certificados, tokens, cachés. Tu dispositivo queda limpio de datos de la empresa. Tus datos personales intactos. Revoca también: acceso VPN, Git, nube, 2FA corporativo. Cambia contraseñas personales si usaste gestor corporativo.</p>
+
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI u otras fuentes oficiales. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links">
+  <li><a href="https://www.incibe.es/protege-tu-empresa/byod" target="_blank" rel="noopener">INCIBE — BYOD: uso de dispositivos personales en la empresa</a></li>
+  <li><a href="https://csrc.nist.gov/publications/detail/sp/800-124/rev-1/final" target="_blank" rel="noopener">NIST — Guide to Enterprise Mobile Device Management (SP 800-124)</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/mem/intune/" target="_blank" rel="noopener">Microsoft — Intune documentation / Apple — Deployment Reference / Google — Android Enterprise</a></li>
+  </ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Señales de alerta</a><a href="#aprende">Cómo comprobar</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">Qué hacer si ya ha pasado</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/ciberseguridad-en-el-trabajo/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si necesitas actuar ya, empieza por esta guía práctica.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p>
+  <a href="/aprende/ciberseguridad-en-el-trabajo/teletrabajo/">Teletrabajo</a>
+  <a href="/aprende/ciberseguridad-en-el-trabajo/wifi-fuera-oficina/">Wi-Fi fuera de la oficina</a>
+</div></aside>
+</section></main>

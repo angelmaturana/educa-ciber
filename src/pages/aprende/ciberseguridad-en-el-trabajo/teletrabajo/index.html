@@ -1,0 +1,83 @@
+---
+title: Teletrabajo | EDUCA CIBER
+description: Protege tu conexión, dispositivos y datos cuando trabajas desde casa o en movilidad: red, VPN, separación de entornos y bucles de verificación.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Teletrabajo | EDUCA CIBER",
+  "description": "Protege tu conexión, dispositivos y datos cuando trabajas desde casa o en movilidad: red, VPN, separación de entornos y bucles de verificación.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/ciberseguridad-en-el-trabajo/">Ciberseguridad en el trabajo</a><span>/</span><span>Teletrabajo</span></nav>
+ <p class="eyebrow">Ciberseguridad en el trabajo · Contenido piloto</p><h1>Teletrabajo <span class="text-blue">Tu casa, tu oficina, tu seguridad</span></h1>
+ <p class="lead">Tu red doméstica no es la corporativa. Aprende a separar entornos, usar VPN y verificar identidad antes de acceder a sistemas sensibles.</p>
+ <div class="meta-row"><span class="meta-pill">básico</span><span class="meta-pill">empresas</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Tu red doméstica no es la red corporativa. Separa entornos, usa VPN corporativa, cifra el disco y verifica la identidad antes de acceder a sistemas sensibles.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>El teletrabajo expandió la superficie de ataque: tu router, tu Wi-Fi, tu portátil personal, tu impresora, tus altavoces inteligentes están en la misma red que tu equipo de trabajo. Medidas esenciales: 1) Red: usa la VPN corporativa *siempre* para acceder a intranet, bases de datos, Git, SharePoint. No uses VPN comercial (NordVPN, etc.) para trabajo; no protege recursos internos. 2) Wi-Fi: WPA3 o WPA2-AES, contraseña larga (20+ chars), desactiva WPS, oculta SSID opcional, red de invitados para IoT/visitas. 3) Dispositivo: portátil corporativo gestionado (MDM, BitLocker/FileVault/LUKS, antivirus EDR, actualizaciones forzadas). Si usas BYOD (ver lección específica): contenedor cifrado, apps gestionadas, sin datos corporativos en almacenamiento personal. 4) Separación física/lógica: espacio de trabajo dedicado, pantalla bloqueada (Win+L / Ctrl+Cmd+Q) al ausentarte, micrófono/cámara tapados cuando no uses videollamada. 5) Verificación de identidad: MFA en todo acceso (VPN, correo, Git, nube). Nunca apruebes push MFA que no hayas iniciado tú (fatiga MFA). 6) Comunicación: canal verificado para cambios bancarios, credenciales, decisiones críticas (llama al compañero, usa canal oficial). 7) Incidentes: sabe a quién avisar y cómo (equipo IT, CISO, buzón phishing) si ves algo raro.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Tu red doméstica no es la red corporativa. Separa entornos, usa VPN corporativa, cifra el disco y verifica la identidad antes de acceder a sistemas sensibles.</p></div>
+  <h2 id="senales">Riesgos específicos del teletrabajo</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>Router doméstico sin actualizar / contraseña por defecto</strong><p>Punto de entrada a tu red. Actualiza firmware mensual, cambia admin/password, desactiva administración remota.</p></div>
+   <div><b>02</b><strong>Wi-Fi compartida con IoT (cámaras, bombillas, TV, altavoces)</strong><p>Dispositivos IoT suelen tener vulnerabilidades sin parchear. Aísla en red de invitados (VLAN/Guest Wi-Fi).</p></div>
+   <div><b>03</b><strong>Uso de VPN comercial en lugar de corporativa</strong><p>VPN comercial cifra tu tráfico a Internet, NO te da acceso seguro a recursos internos de la empresa. Usa la VPN que te dé IT.</p></div>
+   <div><b>04</b><strong>Fatiga MFA: apruebas notificaciones push sin mirar</strong><p>Atacantes inundan con peticiones MFA hasta que aceptas por cansancio. Solo aprueba si TÚ iniciaste el login.</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: configuración segura de teletrabajo</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">E</span><div><strong>Empleado</strong><small>Mi setup diario</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>1) Enchufo portátil corporativo → BitLocker activo → MDM gestiona actualizaciones. 2) Conecto a Wi-Fi casa (WPA3, pass 24 chars, red invitados para IoT). 3) Abro VPN corporativa (certificado + MFA push) → accedo a intranet/Git/Jira. 4) Correo/Teams/SharePoint solo dentro de VPN. 5) Pantalla bloqueada al ir al baño/café (Win+L). 6) Cambio de cuenta bancaria proveedor: llamo por teléfono verificado, no respondo al email. 7) Fin jornada: desconecto VPN, apago portátil.</p><div class="fake-button">Iniciar jornada</div><small class="fake-foot">EJEMPLO FICTICIO. Rutina que minimiza superficie de ataque.</small></div>
+  <p>¿Por qué apagar el portátil y no solo suspender? Suspender mantiene claves en RAM (ataque cold boot). Apagar + BitLocker = claves fuera de RAM.</p>
+  <h2 id="aprende">15 MIN · Checklist teletrabajo seguro (revisa semanal)</h2>
+  <p>Verifica cada punto antes de empezar la jornada:</p>
+  <ol class="steps-list">
+<li><strong>VPN corporativa activa y MFA funcionando</strong><p>Prueba acceso a recurso interno (intranet, GitLab, BD). Si falla, avisa a IT antes de trabajar en local.</p></li>
+<li><strong>Red Wi-Fi: WPA3/WPA2-AES, pass larga, WPS off, Guest para IoT</strong><p>Entra en router (192.168.1.1) → Wireless → Seguridad. Cambia pass si hace >6 meses. Reinicia router mensual.</p></li>
+<li><strong>Portátil: BitLocker/FileVault/LUKS ON, actualizaciones al día, EDR activo</strong><p>Windows: Configuración → Privacidad y seguridad → BitLocker. Mac: Preferencias → FileVault. Linux: lsblk → cryptsetup status. Reinicia si hay updates pendientes.</p></li>
+<li><strong>Espacio de trabajo: pantalla bloqueada al ausentarte, mic/cam tapados</strong><p>Win+L / Ctrl+Cmd+Q automático tras 5 min inactividad. Tapa webcam (pegatina/slider). Micrófono muteado por defecto en OS.</p></li>
+<li><strong>Canal verificado para operaciones sensibles</strong><p>Cambio IBAN, credenciales, aprobación gasto >X€: llama al compañero (número conocido) o usa canal oficial (Teams/Slack verificado). No confíes en email solo.</p></li>
+<li><strong>Sabe a quién reportar incidente (phishing, dispositivo perdido, comportamiento raro)</strong><p>Guarda en contactos: IT Helpdesk, CISO/Responsable seguridad, buzón phishing@empresa.com. Tiempo de reporte <1h marca la diferencia.</p></li>
+  </ol>
+  <div class="callout callout-warn"><strong>Error frecuente: «trabajo desde la cafetería con su Wi-Fi público»</strong><p>Wi-Fi público = cualquiera puede sniffear tráfico (incluso con HTTPS, ven metadatos, SNI, DNS). Si no hay VPN corporativa activa, no accedas a nada corporativo. Usa datos móviles (tethering) + VPN corporativa. Mejor: trabaja desde sitio controlado (casa, oficina, coworking con red segura).</p></div>
+
+  <h2 id="que-hacer">¿Y si trabajé desde una red insegura?</h2>
+  <p>Si accediste a recursos corporativos desde Wi-Fi pública sin VPN: desconecta, avisa a IT, cambia credenciales (VPN, correo, Git, nube), solicita revisión de logs de acceso anómalo.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">Guía: accedí desde red insegura →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Estás en un hotel y necesitas acceder al Git corporativo. El Wi-Fi del hotel pide aceptación en portal cautivo. ¿Qué haces?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>No te conectes al Wi-Fi del hotel para trabajo. Usa tethering de tu móvil (datos 4G/5G) + VPN corporativa. Si es imprescindible Wi-Fi en hotel; conecta → portal cautivo → VPN corporativa INMEDIATAMENTE → verifica acceso a recurso interno. Nunca trabajes en corporativo sin VPN activa.</strong></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Recibes una notificación MFA push en tu móvil a las 22:00, pero no estás logueando nada. ¿Qué haces?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>NO la apruebes. Es probable ataque de fatiga MFA (atacante tiene tu contraseña y bombardea push). Deniega, cambia contraseña inmediatamente, avisa a IT. Revisa dispositivos de confianza en tu cuenta.</strong></div></details></div>
+
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Puedo usar mi portátil personal para trabajar (BYOD)?</h3>
+  <p>Solo si tu empresa tiene política BYOD formal con MDM/MAM (gestión de apps/datos corporativos en contenedor cifrado, borrado remoto selectivo, separación de datos personales). Sin eso: NO. Usa el portátil corporativo. Si usas personal sin gestión: datos corporativos en disco sin cifrar gestionado, sin EDR, sin actualizaciones forzadas = riesgo inaceptable.</p>
+  <h3>¿La VPN corporativa me protege también en navegación personal (YouTube, banco)?</h3>
+  <p>Depende de la configuración (split tunneling vs full tunnel). Full tunnel: todo el tráfico pasa por la red corporativa (incluye tu banco, Netflix). Split tunnel: solo tráfico corporativo va por VPN. Pregunta a IT cuál usa tu empresa. En full tunnel, tu navegación personal es visible para la empresa (política de uso).</p>
+  <h3>Mi router es del proveedor (Movistar, Orange, Vodafone, Digi) y no puedo cambiar DNS ni poner WPA3. ¿Qué hago?</h3>
+  <p>Pide al proveedor que ponga el router en modo bridge (solo ONT) y pon tu propio router neutro (ASUS, GL.iNet, Ubiquiti, MikroTik, OPNsense). Control total: WPA3, VLANs, DNS cifrado (DoH/DoT), VPN servidor, actualizaciones tú decides. Coste: 50-150€, tranquilidad: incalculable.</p>
+
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI u otras fuentes oficiales. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links">
+  <li><a href="https://www.incibe.es/protege-tu-empresa/teletrabajo" target="_blank" rel="noopener">INCIBE — Teletrabajo seguro</a></li>
+  <li><a href="https://www.ccn-cert.cni.es/guías-y-estudios/guía-teletrabajo-seguro" target="_blank" rel="noopener">CCN-CERT — Guía de teletrabajo seguro</a></li>
+  <li><a href="https://csrc.nist.gov/publications/detail/sp/800-46/rev-1/final" target="_blank" rel="noopener">NIST — Guide to Enterprise Telework Security (SP 800-46)</a></li>
+  </ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Señales de alerta</a><a href="#aprende">Cómo comprobar</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">¿Y si trabajé desde red insegura?</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/ciberseguridad-en-el-trabajo/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si necesitas actuar ya, empieza por esta guía práctica.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p>
+  <a href="/aprende/ciberseguridad-en-el-trabajo/wifi-fuera-oficina/">Wi-Fi fuera de la oficina</a>
+  <a href="/aprende/ciberseguridad-en-el-trabajo/dispositivos-personales-byod/">Dispositivos personales (BYOD)</a>
+</div></aside>
+</section></main>

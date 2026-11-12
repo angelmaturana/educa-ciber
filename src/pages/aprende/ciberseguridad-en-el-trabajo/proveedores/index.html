@@ -1,0 +1,84 @@
+---
+title: Proveedores | EDUCA CIBER
+description: Gestión de riesgo de terceros (TPRM): evalúa la seguridad de proveedores con acceso a tus datos/sistemas, cláusulas contractuales y monitorización continua.
+updated: 2026-11-12
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{page_url}}#webpage",
+  "url": "{{page_url}}",
+  "name": "Proveedores | EDUCA CIBER",
+  "description": "Gestión de riesgo de terceros (TPRM): evalúa la seguridad de proveedores con acceso a tus datos/sistemas, cláusulas contractuales y monitorización continua.",
+  "inLanguage": "{{in_language}}",
+  "isPartOf": {"@id": "{{site_url}}/#website"},
+  "about": {"@id": "{{site_url}}/#business"},
+  "dateModified": "{{page_updated}}"
+}
+</script>
+<main id="main">
+<section class="inner-hero page-width">
+ <nav class="breadcrumbs breadcrumb" aria-label="Ruta de navegación"><a href="/">Inicio</a><span>/</span><a href="/aprende/">Aprende</a><span>/</span><a href="/aprende/ciberseguridad-en-el-trabajo/">Ciberseguridad en el trabajo</a><span>/</span><span>Proveedores</span></nav>
+ <p class="eyebrow">Ciberseguridad en el trabajo · Contenido piloto</p><h1>Proveedores <span class="text-blue">Riesgo compartido, control propio</span></h1>
+ <p class="lead">Tus proveedores acceden a tus datos y sistemas. Gestiona el riesgo de terceros (TPRM) para que el eslabón más débil no rompa tu seguridad.</p>
+ <div class="meta-row"><span class="meta-pill">intermedio</span><span class="meta-pill">empresas</span><span class="meta-pill">5 min · Lo esencial</span></div>
+</section>
+<section class="section page-width content-layout">
+ <article class="content-main">
+  <div class="key-takeaway"><span class="eyebrow">Qué debes recordar</span><strong>Tu seguridad es la del eslabón más débil de tu cadena de suministro. Un proveedor comprometido es una puerta trasera a tu organización. Gestiona el riesgo de terceros (TPRM) como proceso continuo, no trámite único.</strong></div>
+  <h2 id="lo-esencial">5 MIN · Lo esencial</h2>
+  <p>Proveedores (SaaS, cloud, MSP, desarrollo, RRHH, contabilidad, mantenimiento, limpieza, catering) acceden a tus datos, sistemas, red, oficinas. Un fallo en su seguridad te afecta: brecha de datos, ransomware vía VPN proveedor, credenciales robadas, código malicioso en actualización (supply chain attack). Gestión de Riesgo de Terceros (TPRM - Third Party Risk Management) en 4 fases: 1) Inventario y clasificación: lista TODOS los proveedores con acceso a datos/sistemas/red/físico. Clasifica: Crítico (acceso a datos sensibles, sistemas core, red admin), Alto (acceso a datos personales, sistemas importantes), Medio (acceso limitado, datos no sensibles), Bajo (sin acceso técnico, servicios genéricos). 2) Due diligence (evaluación inicial): cuestionario de seguridad (CAIQ, SIG, Shared Assessments, propio), certificaciones (ISO 27001, SOC 2, ENS, PCI DSS), pruebas (pentest, escaneo vulnerabilidades), referencias, seguro cibernético. Cláusulas contractuales obligatorias: notificación brecha <24-72h, derecho a auditoría, borrado/retorno datos fin contrato, nivel seguridad mínimo, subcontratación solo con aprobación, responsabilidad civil. 3) Monitorización continua: alertas de brechas públicas (Have I Been Pwned, CVE, avisos CERT), escaneos periódicos superficie ataque (ASM), revisiones anuales (re-evaluación cuestionario, certificación vigente), KPIs (tiempo parcheo crítico, incidentes, disponibilidad). 4) Offboarding seguro: revocación inmediata accesos (VPN, cuentas, API keys, VPN, llaves físicas), borrado/retorno datos certificado, revisión accesos residuales (cuentas servicio, webhooks, tokens). Principio: confianza cero (Zero Trust) aplicada a proveedores: acceso mínimo necesario (least privilege), just-in-time, monitorizado, revocable.</p>
+  <div class="callout callout-blue"><strong>La idea clave</strong><p>Tu seguridad es la del eslabón más débil de tu cadena de suministro. Un proveedor comprometido es una puerta trasera a tu organización. Gestiona el riesgo de terceros (TPRM) como proceso continuo, no trámite único.</p></div>
+  <h2 id="senales">Señales de riesgo en proveedor actual</h2>
+  <div class="signal-grid">
+   <div><b>01</b><strong>No tiene certificaciones ni auditorías recientes (ISO 27001, SOC 2, ENS)</strong><p>Sin validación externa, no hay evidencia de controles. Pide informe SOC 2 Type II o certificado ISO 27001 vigente.</p></div>
+   <div><b>02</b><strong>Tarda semanas en parchear vulnerabilidades críticas (CVE 9-10)</strong><p>SLA de parcheo crítico >30 días = riesgo inaceptable. Exige <72h para crítico, <7d para alto en contrato.</p></div>
+   <div><b>03</b><strong>Acceso VPN/cuentas compartidas / sin MFA / sin expiración</strong><p>Credenciales genéricas (admin/admin, proveedor123), sin MFA, sin rotación. Exige cuentas nominales, MFA, PAM (Privileged Access Management).</p></div>
+   <div><b>04</b><strong>Subcontrata sin informar / no notifica brechas</strong><p>Cadena de suministro oculta (n-ésimo nivel). Cláusula: subcontratación solo con aprobación escrita y mismos requisitos seguridad.</p></div>
+  </div>
+  <h2 id="ejemplo">Un ejemplo: cláusulas contractuales mínimas</h2>
+  <div class="fake-message"><div class="fake-top"><span class="fake-avatar">J</span><div><strong>Jurídico / Compras</strong><small>Anexo seguridad proveedor SaaS crítico</small></div><span class="fake-label">EJEMPLO FICTICIO</span></div><p>Cláusulas obligatorias en contrato: 1) Nivel seguridad: ISO 27001 / SOC 2 Type II / ENS Categoría Alta. 2) Notificación brecha: <24h tras detección, canal dedicado (security@proveedor.com + teléfono 24/7). 3) Derecho auditoría: anual + tras incidente, in-situ o remoto, bajo NDA. 4) Datos fin contrato: borrado certificado (NIST 800-88) o retorno formato estándar (JSON/CSV/PDF) en 30 días. 4) Subcontratación: prohibida sin aprobación escrita previa + mismos requisitos. 5) Responsabilidad: ilimitada por brecha datos personales / multas RGPD. 6) Seguro cibernético: cobertura mínima 5M€. 7) Accesos: cuentas nominales, MFA obligatorio, PAM para admin, revisión trimestral accesos. 8) SLA parcheo: crítico <72h, alto <7d, medio <30d. 9) Pruebas: pentest anual externo + escaneo mensual, resultados compartidos.</p><div class="fake-button">Firmar</div><small class="fake-foot">EJEMPLO FICTICIO. Adapta a criticidad y jurisdicción. Legal debe revisar.</small></div>
+  <p>¿Por qué notificación <24h? RGPD art. 33 exige notificación a AEPD en 72h. Si proveedor tarda 48h en avisarte, te quedan 24h para evaluar, contener y notificar. Margen cero.</p>
+  <h2 id="aprende">15 MIN · Checklist TPRM (revisa trimestral)</h2>
+  <p>Para cada proveedor Crítico/Alto, verifica:</p>
+  <ol class="steps-list">
+<li><strong>1. Inventario actualizado y clasificado</strong><p>Lista en CMDB/registro: nombre, servicio, datos a los que accede (tipología, volumen), sistemas/red a los que accede, contactos seguridad (nombre, email, teléfono 24/7), criticidad (Crítico/Alto/Medio/Bajo), fecha última revisión.</p></li>
+<li><strong>2. Evidencia de controles vigente</strong><p>Certificaciones: ISO 27001 (vigente, alcance cubre servicio), SOC 2 Type II (último informe <12 meses, excepciones revisadas), ENS (categoría según clasificación). Sin certificaciones: cuestionario CAIQ/SIG completado <12 meses + evidencias (políticas, procedimientos, logs).</p></li>
+<li><strong>3. Cláusulas contractuales activas y vigentes</strong><p>Contrato/DPAs firmados: notificación brecha <24-72h, derecho auditoría, borrado/retorno datos, subcontratación aprobada, responsabilidad, seguro cyber, SLA parcheo, accesos nominales+MFA+PAM. Fecha revisión contractual <2 años.</p></li>
+<li><strong>4. Monitorización continua activa</strong><p>Alertas configuradas: Have I Been Pwned (dominio proveedor), CVE (productos que usan), feeds CERT (INCIBE, CCN-CERT, CISA), noticias negativas. ASM (Attack Surface Management) escanea superficie expuesta mensual. KPIs: tiempo parcheo crítico, incidentes notificados, disponibilidad SLA.</p></li>
+<li><strong>5. Revisión anual documentada</strong><p>Reunión/escrito: re-evaluación cuestionario, certificaciones vigentes, incidentes año, cambios servicio/organización proveedor, nuevos riesgos, plan acción hallazgos. Decisión: continuar / condicionar / buscar alternativa / offboarding.</p></li>
+<li><strong>6. Offboarding probado</strong><p>Simulacro anual: revocación accesos (VPN, cuentas, API keys, tokens, llaves físicas) en <1h. Borrado/retorno datos certificado en 30d. Verificación: no quedan accesos residuales (cuentas servicio, webhooks, Git deploy keys, DNS, SAML/OIDC trust).</p></li>
+  </ol>
+  <div class="callout callout-warn"><strong>Error frecuente: «el proveedor tiene ISO 27001, ya está todo cubierto»</strong><p>ISO 27001 certifica que TIENE un SGSI (Sistema de Gestión de Seguridad de la Información), no que TU servicio concreto esté bien configurado. El alcance del certificado puede no cubrir el servicio que te dan. Pide: 1) Alcance del certificado (¿cubre tu SaaS/infraestructura?). 2) Declaración de aplicabilidad (SoA) - qué controles A.5-A.18 aplican. 3) Informe auditoría interna reciente. 4) Tratamiento de riesgos residuales. 5) Excepciones en SOC 2. Confía pero verifica (trust but verify).</p></div>
+
+  <h2 id="que-hacer">¿Y si un proveedor crítico sufre una brecha?</h2>
+  <p>Activa tu plan de respuesta: contiene impacto (revoca tokens/API keys, revisa logs), notifica a AEPD si afecta datos personales (<72h), registra incumplimiento contractual, evalúa continuidad y alternativas.</p>
+  <a class="button primary" href="/recursos/he-pulsado-un-enlace-sospechoso/">Guía: brecha en proveedor →</a>
+  <h2 id="ponte-a-prueba">Ponte a prueba</h2>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Un proveedor SaaS crítico sufre una brecha y te notifica a las 72h (límite RGPD). Tu contrato exige <24h. ¿Qué haces?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>1) Activa plan de respuesta: contiene impacto en tu org (revoca tokens/API keys, revisa logs acceso). 2) Notifica a AEPD si afecta datos personales (tienes 72h totales desde que TÚ supiste). 3) Registra incumplimiento contractual. 4) Revisa continuidad: ¿tienes alternativa? 5) Decide: exigir plan acción vinculante / penalización / iniciar migración / resolver contrato. Documenta todo.</strong></div></details></div>
+  <div class="quiz-card"><p class="eyebrow">Caso práctico</p><h3>Tu proveedor de mantenimiento IT tiene acceso VPN admin a tus servidores. Usan cuenta compartida 'mantenimiento' sin MFA. ¿Qué exiges YA?</h3><details><summary>¿Qué opción es la más prudente?</summary><div class="answer"><strong>1) Cuentas nominales por técnico (juan.perez@proveedor.com). 2) MFA obligatorio (hardware token / app autenticadora). 3) PAM (Privileged Access Management) / JIT (Just-In-Time): acceso solo ventana acordada, aprobado por tu admin, sesión grabada. 4) Rotación contraseña/service account cada 90d. 5) Logs de sesión centralizados (SIEM). 6) Cláusula contractual con penalización si no cumplen en 30d.</strong></div></details></div>
+
+  <h2 id="faq">Preguntas frecuentes</h2>
+  <h3>¿Cuántos proveedores debo clasificar como Críticos?</h3>
+  <p>Pocos. Criterio: acceso a datos sensibles (personales, financieros, salud, PI), sistemas core (ERP, CRM, AD, correo, nube), red admin (VPN admin, firewall, switches), capacidad de impacto masivo (ransomware, borrado, fuga). Típico: 5-15 proveedores Críticos en PYME, 20-50 en gran empresa. La mayoría son Medio/Bajo. No inflar la lista: cada Crítico requiere revisión anual profunda.</p>
+  <h3>¿Qué hago con proveedores de bajo riesgo (limpieza, catering, papelería)?</h3>
+  <p>Registro básico en inventario (nombre, servicio, contacto). Sin cuestionario profundo. Cláusulas estándar en contrato: confidencialidad básica, notificación incidente físico (ej. encuentran documento en papelera), cumplimiento normativa laboral. Revisión: cada 2-3 años o al renovar. Enfoque: proporcionalidad.</p>
+  <h3>¿Cómo evalúo seguridad de un proveedor SaaS que no tiene ISO 27001 ni SOC 2?</h3>
+  <p>1) Cuestionario estandarizado (CAIQ-Lite de Cloud Security Alliance, SIG-Lite de Shared Assessments, o propio basado en NIST 800-53/ISO 27002). 2) Evidencias: políticas (seguridad, privacidad, respuesta incidentes, continuidad), organigrama seguridad (CISO/Responsable), logs de accesos admin, cifrado en tránsito/reposo, MFA, backups probados, pentest externo <12 meses. 3) Si no entregan: riesgo Alto → busca alternativa o exige plan remediación con hitos contractuales.</p>
+
+  <h2 id="fuentes">Fuentes y revisión</h2><p>Contenido elaborado a partir de documentación de referencia de INCIBE, OSI u otras fuentes oficiales. Las recomendaciones concretas deben revisarse cuando cambien los servicios, las interfaces o las amenazas.</p>
+  <ul class="source-links">
+  <li><a href="https://www.incibe.es/protege-tu-empresa/gestion-riesgos-terceros" target="_blank" rel="noopener">INCIBE — Gestión de riesgos de terceros (TPRM)</a></li>
+  <li><a href="https://sharedassessments.org/tools/sig/" target="_blank" rel="noopener">Shared Assessments — Standardized Information Gathering (SIG) Questionnaire</a></li>
+  <li><a href="https://cloudsecurityalliance.org/artifacts/caiq/" target="_blank" rel="noopener">CSA — Consensus Assessments Initiative Questionnaire (CAIQ)</a></li>
+  <li><a href="https://csrc.nist.gov/publications/detail/sp/800-161/rev-1/final" target="_blank" rel="noopener">NIST — Supply Chain Risk Management (SP 800-161)</a></li>
+  </ul>
+  <p class="page-note">Última revisión editorial: 12/11/2026. Revisión técnica y editorial pendiente antes de publicación definitiva.</p>
+ </article>
+ <aside class="content-aside"><div class="aside-card"><p class="eyebrow">En esta página</p><a href="#lo-esencial">Lo esencial</a><a href="#senales">Señales de alerta</a><a href="#aprende">Cómo comprobar</a><a href="#ejemplo">Ejemplo</a><a href="#que-hacer">¿Y si un proveedor sufre brecha?</a><a href="#ponte-a-prueba">Ponte a prueba</a><a href="#faq">Preguntas frecuentes</a><a href="/aprende/ciberseguridad-en-el-trabajo/">Volver al hub</a></div><div class="aside-card aside-highlight"><strong>¿Tienes un problema ahora?</strong><p>Si necesitas actuar ya, empieza por esta guía práctica.</p><a href="/recursos/he-pulsado-un-enlace-sospechoso/">Ver qué hacer →</a></div><div class="aside-card"><p class="eyebrow">Lecciones relacionadas</p>
+  <a href="/aprende/ciberseguridad-en-el-trabajo/teletrabajo/">Teletrabajo</a>
+  <a href="/aprende/ciberseguridad-en-el-trabajo/como-comunicar-incidente/">Cómo comunicar un incidente</a>
+</div></aside>
+</section></main>
