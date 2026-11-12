@@ -113,4 +113,13 @@
 
 ---
 
-## FASE 8 · Redes sociales y mensajería I (4 lecciones)
+## FASE 8 · Redes sociales y mensajería I (4 lecciones) (COMPLETADA)
+
+- [x] 1. `que-no-publicar` — qué datos evitar compartir (ubicación, documentos, rutinas, menores, metadatos)
+- [x] 2. `configuracion-privacidad` — revisar y ajustar visibilidad, etiquetado, apps conectadas, buscadores, mensajería
+- [x] 3. `geolocalizacion` — permisos GPS, ubicación precisa vs aproximada, historial, metadatos EXIF, etiquetas de lugar
+- [x] 4. `perfiles-falsos` — detectar clonación, reducir exposición, verificar contactos, denunciar suplantación
+
+**Hecho cuando:** 4 lecciones reales, tests OK, build sin avisos, prelaunch OK.
+
+---
